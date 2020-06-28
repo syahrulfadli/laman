@@ -1,5 +1,5 @@
 +++
-title = "Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu"
+title = "Cara Perbaiki Flashdisk Read-Only di Linux Ubuntu"
 date = 2020-02-29T23:04:00Z
 updated = 2020-03-01T19:36:25Z
 tags = ["Linux", "Tutorial"]
