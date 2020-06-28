@@ -2,7 +2,7 @@ baseURL = "https://syahrulfadli.netlify.app"
 languageCode = "en-us"
 title = "Syahrul Fadli"
 
-theme = "twenty-twenty-hugo"
+theme = "hugo-theme-novela"
 
 paginate = "6"
 # post excerpt
