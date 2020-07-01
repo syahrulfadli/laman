@@ -5,9 +5,55 @@ updated = 2020-03-01T19:36:25Z
 tags = ["Linux", "Tutorial"]
 blogimport = true 
 hero = "https://1.bp.blogspot.com/-svb2TAzVLSE/XlqgvYJduTI/AAAAAAAABEc/NovWej_2M747ylgyteb7j7n-AJ3GRuQAwCLcBGAsYHQ/s1600/thumbnail-fix-usb-read-only.jpg"
-[author]
-	name = "Syahrul Fadli"
-	uri = "https://www.blogger.com/profile/04450857998543211448"
+authors = ["Syahrul Fadli"]
 +++
 
-<p><a href="https://www.syahrulfadli.com/search/label/Tutorial" title='Tutorial' target='_blank'>Tutorial</a> memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro <a href="https://www.syahrulfadli.com/search/label/Linux" title='linux' target='_blank'>Linux</a> lainnya.</p><p>Gejala dari flashdisk yang file sistemnya permission read-only adalah pengguna tidak bisa mem-paste file dari komputer ke flashdisk.</p><h3>Solusi</h3><ol><li>Buka terminal dan masuk sebagai root dengan ketik perintah:<br/><pre>$ sudo su</pre></li><li>Pilih partisi flashdisk yang akan diperbaiki, untuk melihat list partisi yang terhubung dengan komputer gunakan perintah <code>fdisk -l</code> dalam mode root, berikut contoh output dari perintah tersebut di komputer saya.</br><pre>root@syahrul-pc:/home/syahrul# fdisk -l<br />Disk /dev/sda: 465,8 GiB, 500107862016 bytes, 976773168 sectors<br />Units: sectors of 1 * 512 = 512 bytes<br />Sector size (logical/physical): 512 bytes / 4096 bytes<br />I/O size (minimum/optimal): 4096 bytes / 4096 bytes<br />Disklabel type: gpt<br />Disk identifier: 430EDA3F-C12E-4688-B031-17ED4AF15788<br /><br />Device         Start       End   Sectors   Size Type<br />/dev/sda1       2048    923647    921600   450M Windows recovery environment<br />/dev/sda2    1128448   1161215     32768    16M Microsoft reserved<br />/dev/sda3    1161216 121239551 120078336  57,3G Microsoft basic data<br />/dev/sda4  121239552 122879999   1640448   801M Windows recovery environment<br />/dev/sda5  122882048 448102398 325220351 155,1G Microsoft basic data<br />/dev/sda6  448102400 464486399  16384000   7,8G Linux swap<br />/dev/sda7  464486400 465534975   1048576   512M EFI System<br />/dev/sda8  465534976 552962047  87427072  41,7G Linux filesystem<br />/dev/sda9  552962048 892884990 339922943 162,1G Microsoft basic data<br />/dev/sda10 892884992 913854463  20969472    10G Microsoft basic data<br />/dev/sda11 913856512 934828031  20971520    10G Linux filesystem<br />/dev/sda12 934828032 976773119  41945088    20G Linux filesystem<br /><br /><br /><br /><br />Disk /dev/sdb: 28,9 GiB, 31001149440 bytes, 60549120 sectors<br />Units: sectors of 1 * 512 = 512 bytes<br />Sector size (logical/physical): 512 bytes / 512 bytes<br />I/O size (minimum/optimal): 512 bytes / 512 bytes<br />Disklabel type: dos<br />Disk identifier: 0x00000000<br /><br /></pre><br/>Pada hasil output diatas, flashdisk saya (yang akan kita perbaiki) ada pada partisi disk <code>/dev/sdb</code>.</li><li>Selanjutnya, ketik perintah berikut <code>fsck -a /dev/sdX</code>,  dimana <code>X</code> adalah partisi disk flashdisk, misalnya pada kasus saya partisinya adalah <code>/dev/sdb</code>. Sehingga perintah yang saya gunakan untuk kasus saya adalah sebagai berikut: <br/><pre># fsck -a /dev/sdb</pre></li></ol><p>Untuk permasalahan yang saya hadapi perintah <code>fsck</code> menjadi solusinya. <code>fsck</code> adalah perintah untuk memperbaiki file sistem di linux sedang parameter <code>-a</code> adalah opsi <i>auto-repair</i> untuk perintah <code>fsck</code>. Cara ini tidak akan men-format flashdisk Anda.</p><p>Sekian tutorial <a href='https://www.syahrulfadli.com/2020/02/cara-perbaiki-flashdisk-read-only.html' title='Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu' target='_blank'>Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu</a> semoga bermanfaat.</p>
+<a href="https://www.syahrulfadli.com/search/label/Tutorial" title='Tutorial' target='_blank'>Tutorial</a> memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro <a href="https://www.syahrulfadli.com/search/label/Linux" title='linux' target='_blank'>Linux</a> lainnya.
+
+Gejala dari flashdisk yang file sistemnya permission read-only adalah pengguna tidak bisa mem-paste file dari komputer ke flashdisk.
+## Solusi
+1. Buka terminal dan masuk sebagai root dengan ketik perintah:
+{{<highlight bash>}}
+	$ sudo su
+{{</highlight>}}
+
+2. Pilih partisi flashdisk yang akan diperbaiki, untuk melihat list partisi yang terhubung dengan komputer gunakan perintah <code>fdisk -l</code> dalam mode root, berikut contoh output dari perintah tersebut di komputer saya.
+{{<highlight bash>}}
+root@syahrul-pc:/home/syahrul# fdisk -l
+	Disk /dev/sda: 465,8 GiB, 500107862016 bytes, 976773168 sectors
+	Units: sectors of 1 * 512 = 512 bytes
+	Sector size (logical/physical): 512 bytes / 4096 bytes
+	I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+	Disklabel type: gpt
+	Disk identifier: 430EDA3F-C12E-4688-B031-17ED4AF15788
+	Device         Start       End   Sectors   Size Type
+	/dev/sda1       2048    923647    921600   450M Windows recovery environment
+	/dev/sda2    1128448   1161215     32768    16M Microsoft reserved
+	/dev/sda3    1161216 121239551 120078336  57,3G Microsoft basic data
+	/dev/sda4  121239552 122879999   1640448   801M Windows recovery environment
+	/dev/sda5  122882048 448102398 325220351 155,1G Microsoft basic data
+	/dev/sda6  448102400 464486399  16384000   7,8G Linux swap
+	/dev/sda7  464486400 465534975   1048576   512M EFI System
+	/dev/sda8  465534976 552962047  87427072  41,7G Linux filesystem
+	/dev/sda9  552962048 892884990 339922943 162,1G Microsoft basic data
+	/dev/sda10 892884992 913854463  20969472    10G Microsoft basic data
+	/dev/sda11 913856512 934828031  20971520    10G Linux filesystem<br />/dev/sda12 934828032 976773119  41945088    20G Linux filesystem
+	
+	
+	Disk /dev/sdb: 28,9 GiB, 31001149440 bytes, 60549120 sectors
+	Units: sectors of 1 * 512 = 512 bytes
+	Sector size (logical/physical): 512 bytes / 512 bytes
+	I/O size (minimum/optimal): 512 bytes / 512 bytes
+	Disklabel type: dos
+	Disk identifier: 0x00000000
+	{{</highlight>}}
+Pada hasil output diatas, flashdisk saya (yang akan kita perbaiki) ada pada partisi disk `/dev/sdb`.
+
+3. Selanjutnya, ketik perintah berikut `fsck -a /dev/sdX`,  dimana `X` adalah partisi disk flashdisk, misalnya pada kasus saya partisinya adalah `/dev/sdb`. Sehingga perintah yang saya gunakan untuk kasus saya adalah sebagai berikut: 
+{{<highlight bash>}}
+	# fsck -a /dev/sdb
+{{</highlight>}}
+
+Untuk permasalahan yang saya hadapi perintah `fsck` menjadi solusinya. `fsck` adalah perintah untuk memperbaiki file sistem di linux sedang parameter `-a` adalah opsi *auto-repair* untuk perintah `fsck`. Cara ini tidak akan men-format flashdisk Anda.
+
+Sekian tutorial <a href='https://www.syahrulfadli.com/2020/02/cara-perbaiki-flashdisk-read-only.html' title='Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu' target='_blank'>Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu</a> semoga bermanfaat.

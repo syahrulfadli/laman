@@ -1,0 +1,26 @@
+<div class="picture">
+  {{ if .Get "caption"}}
+  <figure>
+  {{ end }}
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-original-set="{{ .Get "src" }},
+                {{ .Get "src" }}2x.{{ .Get "type" }}">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-original-set="{{ .Get "src" }}-sm,
+                {{ .Get "src" }}-sm2x.{{ .Get "type" }}">
+      <!-- Fallback -->
+      <img
+        data-original="{{ .Get "src" }}."
+        data-original-set="{{ .Get "src" }}2x.{{ .Get "type" }}"
+        alt="{{ .Get "alt" }}"{{ if .Get "caption"}} class="img-fluid figure-img"{{ end }}>
+    </picture>
+  {{ if .Get "caption"}}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  </figure>
+  {{ end }}
+</div>
