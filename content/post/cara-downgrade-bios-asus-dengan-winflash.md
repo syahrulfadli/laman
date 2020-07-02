@@ -35,7 +35,6 @@ Kenapa tidak langsung lewat BIOS? Karena sebenarnya pengguna sangat tidak diperk
 1. Install software Asus WinFlash.
 2. Setelah instalasi selesai. Buka direktori program dari Asus WinFlash, contoh:<i>C:\Program Files (x86)\ASUS\WinFlash<i></i></i>
 3. Tekan sekali pada aplikasi WinFlash lalu tekan tombol <code>shift+klik kanan</code>, pilih "Copy as path" (gambar dibawah menggunakan Windows versi Bahasa Indonesia)
-{{< img src="/images/1.jpg" type="jpg" alt="" caption="Ascendia - ProgPower 2016" >}}
 4. Buka aplikasi CMD (Command Prompt)
 <img alt="Command Prompt" height="768" layout="responsive" lightbox src="https://2.bp.blogspot.com/-1MGX6g1RVlc/W-0xCkxETnI/AAAAAAAAAtA/BSrqfIis-gg-zFlLTMHR2zJZJO7Wy79_ACLcBGAs/s1600/2.jpg" tabindex="0" width="1366"/>
 5. Paste, <code>ctrl+v</code>, pada Windows 10 cukup klik kanan. maka akan muncul alamat direktori instalasi dari WinFlash.
