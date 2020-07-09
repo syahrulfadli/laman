@@ -37,7 +37,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 
 2. Upload sketch program di bawah ini ke arduino.
 	
-	{{ < highlight arduino >}}
+	{{< highlight arduino >}}
 	int sensorPin = A0;    // pin A0 diinisialisasi sebagai variable "sensorPin"
 	int ledPin = 13;      // pin 13 dinisialisasi sebagai variable "ledPin"
 	int dataInput = 0;   // variable untuk menyimpan data dari pembacaan nilai analog
@@ -72,7 +72,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 	// delay perintah selama [analogDelay] milliseconds:
 	delay(analogDelay);
 	}
-	{{ </highlight>}}
+	{{</highlight>}}
 
 3. Compile/Verify sketch program.
 4. Upload sketch program.
