@@ -78,11 +78,11 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 4. Upload sketch program.
 5. Buka Serial Monitor pada Arduino IDE.
 	
-	![Konfigurasi](https://4.bp.blogspot.com/-FtL5pkX0rFU/XEXNaYJolPI/AAAAAAAAAMo/ZL4ZWkVNBTMecXcs7hLNxYfqkZ_PY9YdACLcBGAs/s1600/Klik%2BSerial%2BMonitor.jpg]
+	![Konfigurasi](https://4.bp.blogspot.com/-FtL5pkX0rFU/XEXNaYJolPI/AAAAAAAAAMo/ZL4ZWkVNBTMecXcs7hLNxYfqkZ_PY9YdACLcBGAs/s1600/Klik%2BSerial%2BMonitor.jpg)
 
 6. Putar ke kanan dan ke kiri potensio yang anda gunakan, lihat perubahan pada nilai pada serial monitor dan LED pada board Arduino.
 
-	![Konfigurasi](https://1.bp.blogspot.com/-osQLn8gkY3g/XEXNkynzq6I/AAAAAAAAAMs/-wszqV281iwiwAV2dJWkf6hEOxTO2_nCwCLcBGAs/s1600/Hasil%2Bserial%2Bmonitor.jpg0
+	![Konfigurasi](https://1.bp.blogspot.com/-osQLn8gkY3g/XEXNkynzq6I/AAAAAAAAAMs/-wszqV281iwiwAV2dJWkf6hEOxTO2_nCwCLcBGAs/s1600/Hasil%2Bserial%2Bmonitor.jpg)
 	
 Baca juga: <a href='/2016/11/sensor-cahaya-ldr.html' target='_blank' title='Rangkaian Sensor Cahaya DC dengan LDR'>Rangkaian Sensor Cahaya DC dengan LDR</a>
 
