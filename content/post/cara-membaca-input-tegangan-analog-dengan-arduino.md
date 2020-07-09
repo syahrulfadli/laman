@@ -33,11 +33,11 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 
 1. Susun rangkaian arduino antara potensio dengan projectboard seperti gambar di bawah ini.
 
-	<!---gambar---> ![Skema hubungan potensio dengan arduino](https://3.bp.blogspot.com/-9v_au-DJffs/XEXXFS0KPqI/AAAAAAAAAM4/-2qDZIO41U4TLjACfX25SzMF7mUSn0kBwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino.jpg)
+	![Skema hubungan potensio dengan arduino](https://3.bp.blogspot.com/-9v_au-DJffs/XEXXFS0KPqI/AAAAAAAAAM4/-2qDZIO41U4TLjACfX25SzMF7mUSn0kBwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino.jpg)
 
 2. Upload sketch program di bawah ini ke arduino.
 	
-	``` arduino
+	{{ < highlight arduino >}}
 	int sensorPin = A0;    // pin A0 diinisialisasi sebagai variable "sensorPin"
 	int ledPin = 13;      // pin 13 dinisialisasi sebagai variable "ledPin"
 	int dataInput = 0;   // variable untuk menyimpan data dari pembacaan nilai analog
@@ -72,7 +72,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 	// delay perintah selama [analogDelay] milliseconds:
 	delay(analogDelay);
 	}
-	```
+	{{ </highlight>}}
 
 3. Compile/Verify sketch program.
 4. Upload sketch program.
