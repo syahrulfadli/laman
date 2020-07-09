@@ -4,7 +4,7 @@ date = 2019-01-21T22:26:00Z
 updated = 2019-10-27T22:53:14Z
 tags = ["Tutorial", "Arduino"]
 blogimport = true 
-hero = "ttps://1.bp.blogspot.com/--_pkfDrnzQY/XEXNHWvhCwI/AAAAAAAAAMg/JWzQd3OCW5sKHjCPXCksf3Zy27-HjeEUwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino..jpg"
+hero = "https://1.bp.blogspot.com/--_pkfDrnzQY/XEXNHWvhCwI/AAAAAAAAAMg/JWzQd3OCW5sKHjCPXCksf3Zy27-HjeEUwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino..jpg"
 authors = ["Syahrul Fadli"]
 +++
 
@@ -34,6 +34,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 1. Susun rangkaian arduino antara potensio dengan projectboard seperti gambar di bawah ini.
 
 	<!---gambar---> ![Skema hubungan potensio dengan arduino](https://3.bp.blogspot.com/-9v_au-DJffs/XEXXFS0KPqI/AAAAAAAAAM4/-2qDZIO41U4TLjACfX25SzMF7mUSn0kBwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino.jpg)
+
 2. Upload sketch program di bawah ini ke arduino.
 	
 	``` arduino
