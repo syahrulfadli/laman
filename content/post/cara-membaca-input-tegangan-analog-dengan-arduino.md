@@ -8,7 +8,7 @@ hero = "https://1.bp.blogspot.com/--_pkfDrnzQY/XEXNHWvhCwI/AAAAAAAAAMg/JWzQd3OCW
 authors = ["Syahrul Fadli"]
 +++
 
-Fungsi membaca tegangan analog dapat dilakukan dengan menggunakan pin `A0`, `A1`, `A2`, `A3`, `A4`, `A5` pada arduino. Input yang masuk pada pin analog arduino akan dikonversi menjadi data digital dengan panjang 10 bit sehingga nilai input tegangan 0 volt sampai 5 volt(tegangan maksimal input Arduino) pada pin analog arduino mempunyai 1024(2<sup>10</sup>) keadaan dengan rentang 0 sampai 1023.
+Fungsi membaca tegangan analog dapat dilakukan dengan menggunakan pin `A0`, `A1`, `A2`, `A3`, `A4`, `A5` pada arduino. Input yang masuk pada pin analog arduino akan dikonversi menjadi data digital dengan panjang 10 bit sehingga nilai input tegangan 0 volt sampai 5 volt(tegangan maksimal input Arduino) pada pin analog arduino mempunyai 1024 (di dapat dari 2<sup>10</sup>) keadaan dengan rentang 0 sampai 1023.
 
 Jadi pada rentang nilai 0 volt sampai 5 volt dipecah sehingga terdapat 1023 data digital. Proses konversi tegangan analog menjadi data digital disebut ADC (Analog to Digital Converter). Berikut cara untuk menghitung konversi tegangan 5 volt dari data digital 10 bit:
 
@@ -91,9 +91,6 @@ Sekian artikel ini semoga bermanfaat.
 ## Pustaka
 
 <a href='https://rpprastio.wordpress.com/2013/02/09/membaca-tegangan-analog-dengan-arduino/' rel='nofollow' title='MEMBACA TEGANGAN ANALOG DENGAN ARDUINO' target='_blank'>MEMBACA TEGANGAN ANALOG DENGAN ARDUINO - Amateur Physicist</a>
-
 <a href='http://robotika.unit.itb.ac.id/main/943-arduino.html' rel='nofollow' title='Arduino | Unit Robotika ITB' target='_blank'>Arduino | Unit Robotika ITB</a>
-
 <a href='https://www.arduino.cc/en/Tutorial/AnalogInput' rel='nofollow' title='Arduino - AnalogInput' target='_blank'>Arduino - AnalogInput</a>
-
 <a href='https://www.arduino.cc/en/Tutorial/AnalogInOutSerial' rel='nofollow' title='Arduino - AnalogInOutSerial' target='_blank'>Arduino - AnalogInOutSerial</a>
