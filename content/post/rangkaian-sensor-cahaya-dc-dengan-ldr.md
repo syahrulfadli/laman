@@ -12,7 +12,8 @@ Sensor cahaya ini pada dasarnya tugas Kelompok dari guru saya dan skema rangkaia
 
 ![Skematik di Eagle](https://1.bp.blogspot.com/-KY4jmp8mYj4/WSd_YPNPtwI/AAAAAAAAAfM/YejWRYmP0fQJlFbIs2MWNYcXIjc3ptP3ACLcB/s1600/sensor%2Bcahaya.png)
 
-Baca Juga: <a href='/2017/12/rangkaian-sensor-gerak-pir.html' rel='nofollow' target='_blank' title='Rangkaian Sensor Gerak PIR sebagai Saklar Lampu Otomatis'>Rangkaian Sensor Gerak PIR sebagai Saklar Lampu Otomatis</a>
+Baca Juga: [Rangkaian Sensor Gerak PIR sebagai Saklar Lampu Otomatis](/post/rangkaian-sensor-gerak-pir)
+
 ## Komponen yang diperlukan
 1. LDR x1
 2. Transistor NPN tipe BD139 x2
@@ -21,24 +22,26 @@ Baca Juga: <a href='/2017/12/rangkaian-sensor-gerak-pir.html' rel='nofollow' tar
 5. Relay 9vdc x1
 6. Pinhead x2
 . Terminal/Connector x2
+
 ## Bagaimana ini bekerja?
 Perhatikan dua gambar berikut (1=vcc, 0=ground).
-1. Kondisi LDR terkena cahaya (Terang) - <b>Klik untuk memperbesar</b>
+1. Kondisi LDR terkena cahaya (Terang) - **Klik untuk memperbesar**
 	
 	![Kondisi Terang](https://1.bp.blogspot.com/-BlRp2yLHark/WBcpurkTaoI/AAAAAAAAAX8/dEAnM4XwSBk-696gAVaXOPit-Z6E6l-wwCLcB/s1600/SimulasiLDRkondisiAwal.PNG)
 
-2. Kondisi LDR tidak terkena cahaya (Gelap) - <b>Klik untuk memperbesar</b>
+2. Kondisi LDR tidak terkena cahaya (Gelap) - **Klik untuk memperbesar**
 	
 	![Kondisi gelap](https://2.bp.blogspot.com/-mM4aYmgZeLE/WBcpvMhuB4I/AAAAAAAAAYA/Qvcgfcf0LeAWpbi1z4jlrSIVu-hQA70MQCLcB/s1600/SimulasiLDRkondisiGelap.PNG)
 
 ### Hal yang Mungkin Penting
-<b>Pertama</b>, Kita pahami dulu prinsip kerja dari LDR (light dependent resistance. Dasarnya LDR ini adalah sebuah resistor namun nilai tahanannya dapat berubah tergantung dengan kondisi cahaya. Ketika LDR terkena cahaya maka resistan/tahanan pada LDR akan mengecil dan sebaliknya ketika keadaan gelap resistan akan meningkat.
+**Pertama**, Kita pahami dulu prinsip kerja dari LDR (light dependent resistance. Dasarnya LDR ini adalah sebuah resistor namun nilai tahanannya dapat berubah tergantung dengan kondisi cahaya. Ketika LDR terkena cahaya maka resistan/tahanan pada LDR akan mengecil dan sebaliknya ketika keadaan gelap resistan akan meningkat.
 
-<b>Kedua</b>, Potensio berfungsi sebagai pengatur sensitivitas dari LDR.
+**Kedua**, Potensio berfungsi sebagai pengatur sensitivitas dari LDR.
 
-<b>Jadi cara kerjanya</b> adalah ketika LDR dalam kondisi terkena cahaya (<b>Terang</b>) maka resistan LDR akan mengecil jadi arus akan melewati LDR tidak melewati <b>R2</b> dan tidak mengaktifkan transistor Q(2), relay tidak mendapat ground jadi relay tidak aktif. Ketika LDR dalam kondisi cahaya redup (<b>Gelap</b>), maka resistan LDR akan meningkat, arus tidak melewati LDR melainkan melewati <b>R2</b> lalu mengaktifkan transistor relay menjadi aktif karena mendapat ground dan menyaklar Lampu AC.  
+**Jadi cara kerjanya** adalah ketika LDR dalam kondisi terkena cahaya (**Terang**) maka resistan LDR akan mengecil jadi arus akan melewati LDR tidak melewati **R2** dan tidak mengaktifkan transistor Q(2), relay tidak mendapat ground jadi relay tidak aktif. Ketika LDR dalam kondisi cahaya redup (**Gelap**), maka resistan LDR akan meningkat, arus tidak melewati LDR melainkan melewati **R2** lalu mengaktifkan transistor relay menjadi aktif karena mendapat ground dan menyaklar Lampu AC.  
 
 ## Download file Skematik - Eagle
-<a class='donlot' href='https://www.dropbox.com/s/hp849z08znc3h4w/sensor%20cahaya.sch?dl=0' rel='nofollow' title='Download' target='_blank'>Download(.sch)</a>
 
-Sekian, Jika ada kesalahan dalam artikel ini, silahkan langsung di koreksi lewat Kolom Komentar atau <b>Halaman Kontak</b> kami.
+[Download Skema (.sch)](https://www.dropbox.com/s/hp849z08znc3h4w/sensor%20cahaya.sch?dl=0)
+
+Sekian, Jika ada kesalahan dalam artikel ini, silahkan langsung di koreksi lewat Kolom Komentar atau **Halaman Kontak** kami.

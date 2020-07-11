@@ -5,7 +5,7 @@ updated = 2020-04-06T10:57:16Z
 tags = ["Tutorial", "Windows"]
 hero = "https://4.bp.blogspot.com/-TZ8vaJN-buI/XoqoOj49FzI/AAAAAAAAAU4/HSG8iyMXjpspJUe3zImYab6cRcn00PdqQCLcBGAsYHQ/s1600/bios%2Basus.webp"
 blogimport = true 
-authors = ["Syahrul Fadli"]
+authors = ['Syahrul Fadli']
 +++
 
 Kenapa <i>Downgrade</i> BIOS? Banyak alasan yang mendasari kenapa seorang pengguna melakukan <i>Downgrade</i> setelah sebelumnya pengguna melakukan <i>Upgrade</i>. Dari isu komsumsi baterai, fitur-fitur pada Operasi sistem tidak berjalan semestinya setelah melakukan <i>Upgrade</i> dan masalah-masalah Hardware lainnya yang muncul setelah melakukan <i>Upgrade</i> BIOS.

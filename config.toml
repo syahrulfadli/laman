@@ -24,8 +24,7 @@ unsafe = true
 category = "categories"
 tag = "tags"
 author = "authors"
+series = "series"
 
 [social]
-facebook = "#"
-twitter = "#"
-instagram = "#"
+github = "#"

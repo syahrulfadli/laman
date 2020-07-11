@@ -3,6 +3,7 @@ title = "Membuat PCB Project dengan Altium Designer: Membuat Layout Desain PCB"
 date = 2019-01-16T11:14:00Z
 updated = 2019-10-27T22:53:46Z
 tags = ["Tutorial", "Altium Designer"]
+series = ["Belajar Altium Designer"]
 blogimport = true 
 [author]
 	name = "Carl Johnson"

@@ -8,9 +8,10 @@ hero = "https://1.bp.blogspot.com/-svb2TAzVLSE/XlqgvYJduTI/AAAAAAAABEc/NovWej_2M
 authors = ["Syahrul Fadli"]
 +++
 
-<a href="https://www.syahrulfadli.com/search/label/Tutorial" title='Tutorial' target='_blank'>Tutorial</a> memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro <a href="https://www.syahrulfadli.com/search/label/Linux" title='linux' target='_blank'>Linux</a> lainnya.
+[Tutorial](/tags/Tutorial) memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro [Linux](/tags/Linux) lainnya.
 
 Gejala dari flashdisk yang file sistemnya permission read-only adalah pengguna tidak bisa mem-paste file dari komputer ke flashdisk.
+
 ## Solusi
 1. Buka terminal dan masuk sebagai root dengan ketik perintah:
 {{<highlight bash>}}
@@ -50,10 +51,11 @@ root@syahrul-pc:/home/syahrul# fdisk -l
 Pada hasil output diatas, flashdisk saya (yang akan kita perbaiki) ada pada partisi disk `/dev/sdb`.
 
 3. Selanjutnya, ketik perintah berikut `fsck -a /dev/sdX`,  dimana `X` adalah partisi disk flashdisk, misalnya pada kasus saya partisinya adalah `/dev/sdb`. Sehingga perintah yang saya gunakan untuk kasus saya adalah sebagai berikut: 
-{{<highlight bash>}}
+
+	{{<highlight bash>}}
 	# fsck -a /dev/sdb
-{{</highlight>}}
+	{{</highlight>}}
 
 Untuk permasalahan yang saya hadapi perintah `fsck` menjadi solusinya. `fsck` adalah perintah untuk memperbaiki file sistem di linux sedang parameter `-a` adalah opsi *auto-repair* untuk perintah `fsck`. Cara ini tidak akan men-format flashdisk Anda.
 
-Sekian tutorial <a href='https://www.syahrulfadli.com/2020/02/cara-perbaiki-flashdisk-read-only.html' title='Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu' target='_blank'>Cara Perbaiki Flashdisk "Read-Only" di Linux Ubuntu</a> semoga bermanfaat.
+Sekian tutorial [Cara Perbaiki Flashdisk Read-Only di Linux Ubuntu](/post/cara-perbaiki-flashdisk-read-only) semoga bermanfaat.
