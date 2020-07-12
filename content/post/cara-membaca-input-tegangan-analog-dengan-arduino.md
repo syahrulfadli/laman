@@ -71,8 +71,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 	digitalWrite(ledPin, LOW);
 	// delay perintah selama [analogDelay] milliseconds:
 	delay(analogDelay);
-	}
-	{{</highlight>}}
+	}	{{</highlight>}}
 
 3. Compile/Verify sketch program.
 4. Upload sketch program.

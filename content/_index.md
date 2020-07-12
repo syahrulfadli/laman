@@ -1,7 +1,7 @@
 ---
 hero:
-  heading: Syahrul Fadli
+  heading: Blognya Syahrul Fadli.
   maxWidthPX: 652
 seo:
-  image: /images/hero-2.jpg
+  image: /images/favicon.svg
 ---

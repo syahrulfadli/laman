@@ -1,5 +1,5 @@
 baseURL = "https://syahrulfadli.netlify.app"
-languageCode = "en-us"
+languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
 
@@ -8,17 +8,18 @@ pygmentsstyle = "monokai"
 # post pagination
 paginate = "6"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "jurusanakelektro"
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "UA-86900381-1"
 
 
 [outputs]
 home = ["HTML", "RSS"]
 
-# unsafe html
-[markup.goldmark.renderer]
-unsafe = true
+[params]
+  description = "Blog pribadi yang membahas topik elektronika dan internet."
+  images = ["images/favicon.svg"]
+  title = "Syahrul Fadli"
 
 [taxonomies]
 category = "categories"

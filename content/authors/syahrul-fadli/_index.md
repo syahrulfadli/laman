@@ -5,10 +5,16 @@ excerpt:
 draft: false
 bio: |
   Buwung ape tu man?
-avatar: /images/favicon.svg
+avatar: /images/kucing-kontrakan.jpg
 featured: true
 social:
   - title: github
     url: https://github.com/syahrulfadli
+  - title: instagram
+    url: #
+  - title: twitter
+    url: #
+  - title: facebook
+    url: #
 ---
 
