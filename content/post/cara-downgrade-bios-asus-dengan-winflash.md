@@ -29,7 +29,6 @@ Kenapa tidak langsung lewat BIOS? Karena sebenarnya pengguna sangat tidak diperk
 3. Pengguna menyadari bahaya dan konsekuensi dari tindakan yang akan dilakukan, 
 4. Mungkin tidak semua versi BIOS dan atau Motherboard kompatibel dengan tutorial ini,
 5. Pada tutorial ini saya menganggap Anda sebagai pengguna tingkat lanjut yang sudah paham mengenai dasar-dasar pengoperasian sistem Windows.
-
 ## Langkah-langkah Downgrade BIOS Asus dengan WinFlash
 
 1. Install software Asus WinFlash.

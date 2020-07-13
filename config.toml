@@ -25,7 +25,26 @@ home = ["HTML", "RSS"]
 category = "categories"
 tag = "tags"
 author = "authors"
-series = "series"
+series = "series"   
 
-[social]
-github = "#"
+[menu]
+  [[menu.main]]
+    identifier = "tentang"
+    name = "Tentang"
+    url = "/about/"
+    weight = 1
+    [[menu.main]]
+    identifier = "sitemap"
+    name = "Daftar Isi"
+    url = "/sitemap/"
+    weight = 2
+    [[menu.main]]
+    identifier = "privasi"
+    name = "Privasi"
+    url = "/privacy/"
+    weight = 3
+    [[menu.main]]
+    identifier = "penolakan"
+    name = "Penolakan"
+    url = "/disclaimer/"
+    weight = 4
