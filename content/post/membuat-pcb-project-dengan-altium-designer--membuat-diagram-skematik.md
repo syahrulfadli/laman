@@ -96,6 +96,7 @@ Untuk me-rotasi komponen caranya klik satu kalo pada komponen yang akan di rotas
 Untuk melakukan <i>mirror</i> caranya adalah dengan klik satu kali pada komponen lalu tahan kemudian tekan tombol <kbd>X</kbd>.
 
 <h3 id="designator">Designator pada Altium</h3>
+
 Apa itu <i>Designator</i> pada Altium? <i>Designator</i> adalah paramater pada sebuah komponen yang berfungsi untuk mengidentifikasi dan membedakan simbol komponen tersebut, karena fungsinya untuk membedakan maka nama designator pada tiap komponen harus berbeda. <i>Desginator</i> juga berguna saat pembuatan Layout PCB. Untuk contoh yang dimaksud <i>Designator</i> bisa melihat gambar dibawah ini.
 
 ![Contoh Nama Designator (Klik untuk memperbesar)](https://1.bp.blogspot.com/-Vwv0Iu62joI/XAPvbS3G2qI/AAAAAAAAADI/snx7U5wF1wI5CzBGtCesOO8tnOI719jSQCLcBGAs/s1600/24da.jpg)

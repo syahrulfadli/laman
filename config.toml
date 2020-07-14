@@ -16,6 +16,9 @@ googleAnalytics = "UA-86900381-1"
 [outputs]
 home = ["HTML", "RSS"]
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
   description = "Blog pribadi yang membahas topik elektronika dan internet."
   images = ["images/favicon.svg"]
@@ -42,9 +45,14 @@ series = "series"
     identifier = "privasi"
     name = "Privasi"
     url = "/privacy/"
-    weight = 3
+    weight = 4
     [[menu.main]]
     identifier = "penolakan"
     name = "Penolakan"
     url = "/disclaimer/"
-    weight = 4
+    weight = 5
+    [[menu.main]]
+    identifier = "kontak"
+    name = "Kontak"
+    url = "/contact/"
+    weight = 3

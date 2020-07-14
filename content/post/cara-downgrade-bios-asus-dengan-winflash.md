@@ -20,7 +20,9 @@ Alasan penulis sendiri untuk *Downgrade* adalah masalah *Overheating* CPU setela
 
 Dari spesifikasi diatas tercantum versi BIOS 304 yang merupakan kondisi setelah penulis melakukan *Upgrade* dari versi BIOS 302. Pada tutorial ini saya akan melakukan *Downgrade* dari versi BIOS 304 ke 302. Software bantuan yang akan kita gunakan untuk mem-flash firmware BIOS adalah Asus WinFlash. Tentunya pastikan Anda mempunyai Firmware BIOS yang tepat sesuai model perangkat Anda. Firmware BIOS, driver dan software pendukung dari Asus dapat Anda download langsung dari website resmi <a href='http://www.asus.com/support/download-center' title='Asus Download Center' target="_blank" rel="nofollow">Asus Download Center</a>.
 
-<a title="Download" class="donlot" href="https://www.dropbox.com/s/hwd33768rfjluep/Winflash_Win10_64_VER325.zip?dl=0" target="_blank" rel="nofollow">Asus WinFlash Version 325 x64 (.zip)</a>
+
+
+{{< download href="https://www.dropbox.com/s/hwd33768rfjluep/Winflash_Win10_64_VER325.zip?dl=0" title="Asus WinFlash Version 325 x64 (.zip)" >}}
 
 Kenapa tidak langsung lewat BIOS? Karena sebenarnya pengguna sangat tidak diperkenankan untuk melakukan <i>Downgrade </i> BIOS sehingga ketika proses Flash via BIOS, ketika kita telah memilih versi yang lebih lawas dari versi yang telah ter-install maka akan muncul pemberitahuan bahwa kita tidak dapat melakukan flashing BIOS karena versi yang akan di flash lebih lawas dari versi BIOS yang sudah ter-instal sebelumnya. Sebelum melakukan langkah-langkah selanjutnya tolong pahami beberapa poin dibawah ini. 
 
@@ -33,35 +35,35 @@ Kenapa tidak langsung lewat BIOS? Karena sebenarnya pengguna sangat tidak diperk
 
 1. Install software Asus WinFlash.
 2. Setelah instalasi selesai. Buka direktori program dari Asus WinFlash, contoh: *C:\Program Files (x86)\ASUS\WinFlash*
-3. Tekan sekali pada aplikasi WinFlash lalu tekan tombol <kbd>shift+klik kanan</kbd>, pilih "Copy as path" (gambar dibawah menggunakan Windows versi Bahasa Indonesia)
+3. Tekan sekali pada aplikasi WinFlash lalu tekan tombol <kbd><kbd>shift</kbd>+<kbd>klik kanan</kbd></kbd>, pilih "Copy as path" (gambar dibawah menggunakan Indonesia)
+
+    {{< img src="/upload/1" type="jpg" alt="copy as path" caption="" >}}
+
 4. Buka aplikasi CMD (Command Prompt)
+5. Paste, <kbd><kbd>ctrl</kbd>+<kbd>v</kbd></kbd>, pada Windows 10 cukup klik kanan. maka akan muncul alamat direktori instalasi dari WinFlash.
 
-    ![Copy as path](https://2.bp.blogspot.com/-1MGX6g1RVlc/W-0xCkxETnI/AAAAAAAAAtA/BSrqfIis-gg-zFlLTMHR2zJZJO7Wy79_ACLcBGAs/s1600/2.jpg)
-
-5. Paste, `ctrl+v`, pada Windows 10 cukup klik kanan. maka akan muncul alamat direktori instalasi dari WinFlash.
-
-    ![ctrl v](https://1.bp.blogspot.com/-L2XZEjBb1R8/W-0xR4BO4wI/AAAAAAAAAtE/D6fdg1AqaKAIX_zsOU72iytuwIaVCkCvACLcBGAs/s1600/3.jpg)
+    {{< img src="/upload/3" type="jpg" alt="ctrl + v" caption="" >}}
 
 6. Tambahkan perintah `/nodate`, lalu tekan enter maka akan terbuka aplikasi WinFlash.
 
-    ![perintah nodate](https://1.bp.blogspot.com/-0XjGG-2hSFQ/W-0zCJn4IfI/AAAAAAAAAtk/3Rp4FCk9M1wQnqiEhJH39yphD9o_DmOMgCLcBGAs/s1600/4.jpg)
+    {{< img src="/upload/4" type="jpg" alt="ketik /nodate" caption="" >}}
 
 7. Pastikan laptop Anda dalam kondisi *charging* selama proses <i>flashing </i>BIOS.
 8. Setelah Aplikasi WinFlash Terbuka Klik "Next".
 
-    ![Aplikasi winflash](https://2.bp.blogspot.com/-OOPyG5NmpVU/W-0zh_tyFuI/AAAAAAAAAt4/YopXbD6cMZM7ddFf7NqqdCxWfdOI_mBwgCLcBGAs/s1600/5.jpg)
+    {{< img src="/upload/5" type="jpg" alt="klik next" caption="" >}}
 
 9. Klik "Get BIOS from Device.
 
-    ![Pilih Get BIOS from Device](https://3.bp.blogspot.com/-r4Gp2zPvOcQ/W-0z0foOi8I/AAAAAAAAAuA/431MNOkMMDwZ3QYU7OBhyHTAQXNcbNpsQCLcBGAs/s1600/6.jpg)
+    {{< img src="/upload/6" type="jpg" alt="klik get bios from device" caption="" >}}
     
 10. Pilih file BIOS yang sudah Anda download dari website Asus. Pada tutorial ini file yang digunakan adalah "E203MAH-AS.302".
 
-    ![Pilih Firmware BIOS](https://3.bp.blogspot.com/-QYnPb1jkaD0/W-00C-UGkyI/AAAAAAAAAuE/CaP7hn7RLjAO3sTFHnz8tYiU-SWwSOKLgCLcBGAs/s1600/7.jpg)
+    {{< img src="/upload/7" type="jpg" alt="pilih file driver bios" caption="" >}}
 
 11. Klik "Update". Tunggu hingga proses selesai lalu tekan "Exit". Komputer akan <i>Restart </i>dan akan melanjutkan proses flash BIOS via BIOS mode.
     
-    ![Update BIOS](https://4.bp.blogspot.com/-aTB1AvqZCm4/W-00iYT878I/AAAAAAAAAuQ/5zfw5eN-rZUicXdpBd4qOu_g55rPWNJPQCLcBGAs/s1600/8.jpg)
+    {{< img src="/upload/8" type="jpg" alt="klik update bios" caption="" >}}
 
 12. Tunggu hingga proses <i>flashing </i>selesai. Komputer akan <i>restart </i>beberapa kali usai proses <i>flashing </i>BIOS selesai.
 
