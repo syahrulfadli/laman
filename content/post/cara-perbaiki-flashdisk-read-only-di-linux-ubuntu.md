@@ -4,7 +4,7 @@ date = 2020-02-29T23:04:00Z
 updated = 2020-03-01T19:36:25Z
 tags = ["Linux", "Tutorial"]
 blogimport = true 
-hero = "https://1.bp.blogspot.com/-svb2TAzVLSE/XlqgvYJduTI/AAAAAAAABEc/NovWej_2M747ylgyteb7j7n-AJ3GRuQAwCLcBGAsYHQ/s1600/thumbnail-fix-usb-read-only.jpg"
+hero = "/upload/cover-usb.jpg"
 authors = ["Syahrul Fadli"]
 +++
 

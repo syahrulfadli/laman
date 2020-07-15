@@ -4,7 +4,7 @@ date = 2019-01-21T22:26:00Z
 updated = 2019-10-27T22:53:14Z
 tags = ["Tutorial", "Arduino"]
 blogimport = true 
-hero = "https://1.bp.blogspot.com/--_pkfDrnzQY/XEXNHWvhCwI/AAAAAAAAAMg/JWzQd3OCW5sKHjCPXCksf3Zy27-HjeEUwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino..jpg"
+hero = "/upload/cover-arduino.jpg"
 authors = ["Syahrul Fadli"]
 +++
 

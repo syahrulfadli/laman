@@ -3,7 +3,7 @@ title = "Pengertian Atom dan Perkembangan Teori Model-model Atom"
 date = 2019-11-10T19:07:00Z
 updated = 2020-04-25T07:18:41Z
 tags = ["Elektronika Dasar", "Kimia"]
-hero = "https://4.bp.blogspot.com/-bGYkMwJfuds/XcfdGaorTGI/AAAAAAAAA5s/rxlPFSITtTgO4iMyzbMubbg7QB1Yq8KGACLcBGAsYHQ/s1600/thumbnail-atom.jpg"
+hero = "/upload/cover-atom.jpg"
 blogimport = true 
 authors = ["Syahrul Fadli"]
 +++

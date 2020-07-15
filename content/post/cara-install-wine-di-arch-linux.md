@@ -4,7 +4,7 @@ date = 2020-04-05T18:04:00Z
 updated = 2020-04-25T16:58:19Z
 tags = ["Linux", "Tutorial", "Arch"]
 blogimport = true
-hero = "https://2.bp.blogspot.com/-pFX63Kh3b50/Xom26PgNbwI/AAAAAAAABIo/WiBO3EwXIUwR6TrehVVJpq00m2t8E4J_ACLcBGAsYHQ/s1600/cara%2Binstall%2Bwine%2Bdi%2Barch%2Blinux.webp"
+hero = "/upload/cover-arch-linux.jpg"
 authors = ["Syahrul Fadli"]
 +++
 
