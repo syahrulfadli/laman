@@ -1,8 +1,7 @@
 <img
-    class='post-content-img'
-    max-width='100%'
     height='auto'
     src='{{ .Destination | safeURL }}'
     alt='{{ .Text }}'
     {{ with .Title}} title="{{ . }}"{{ end }}
+    loading="lazy"
  />

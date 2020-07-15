@@ -1,15 +1,18 @@
-<div class="picture">
+<div class="picture" style="height: {{ .Get "height"}};">
+  <p style="text-align: center;">
   {{ if .Get "caption"}}
   <figure>
   {{ end }}
-    <picture>
+  <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
       <img
+        loading = "lazy"
         data-original="{{ .Get "src" }}.{{ .Get "type" }}"
         data-original-set="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
-        alt="{{ .Get "alt" }}" src="{{ .Get "src" }}.{{ .Get "type" }}" width="100%" class="img-fluid figure-img">
-    </picture>
+        alt="{{ .Get "alt" }}" src="{{ .Get "src" }}.{{ .Get "type" }}" style="width:100%;max-width:{{ .Get "width" }};height:auto" height="auto"/>
+        </span>
   {{ if .Get "caption"}}
     <figcaption>{{ .Get "caption" }}</figcaption>
   </figure>
   {{ end }}
+  </p>
 </div>

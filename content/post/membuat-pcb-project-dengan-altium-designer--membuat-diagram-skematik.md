@@ -38,21 +38,21 @@ authors = ["Syahrul Fadli"]
         
         {{< img alt="Meletakan Komponen (Klik untuk memperbesar)" src="https://1.bp.blogspot.com/-c6OZ5RdzEEM/XAPgM68Js9I/AAAAAAAAABE/ldYcutFo7VIU-MZ0COKftBcOYgK_hlmsACLcBGAs/s1600/9a.jpg" >}}
         
-    * Jika komponen yang diinginkan tidak ada, Anda dapat *download* file *library* tambahan pada website-website berikut. 
+        * Jika komponen yang diinginkan tidak ada, Anda dapat *download* file *library* tambahan pada website-website berikut. 
         
-    * <a href="https://www.snapeda.com/" rel="nofollow" title="Download library altium">SnapEDA</a>Website untuk mencari <i>Library</i> dan <i>Datasheet</i> komponen. Libary yang tersedia dalam format PCAD(.lia) untuk itu pengguna harus melakukan import terlebih dahulu. Klik disini untuk cara import PCAD (.lia) ke format yang didukung Altium Designer
+            * <a href="https://www.snapeda.com/" rel="nofollow" title="Download library altium">SnapEDA</a> - Website untuk mencari <i>Library</i> dan <i>Datasheet</i> komponen. Libary yang tersedia dalam format PCAD(.lia) untuk itu pengguna harus melakukan import terlebih dahulu. Klik disini untuk cara import PCAD (.lia) ke format yang didukung Altium Designer
         
-    * <a href="https://techdocs.altium.com/display/ADOH/Download+Libraries" rel="nofollow" target="_blank" title="Download library altium">Download Libraries - Online Documentation Altium</a>Website resmi dokumentasi Altium namun sudah lama dan tidak  lagi mendapat pembaruan lebih lanjut.
+            * <a href="https://techdocs.altium.com/display/ADOH/Download+Libraries" rel="nofollow" target="_blank" title="Download library altium">Download Libraries - Online Documentation Altium</a> - Website resmi dokumentasi Altium namun sudah lama dan tidak  lagi mendapat pembaruan lebih lanjut.
         
-    * <a href="https://designcontent.live.altium.com/" rel="nofollow" title="Download library altium">Altium Deisgn Content</a>Bentuk pembaruan dari halaman Download Libraries - Online Documentation Altium.
+            * <a href="https://designcontent.live.altium.com/" rel="nofollow" title="Download library altium">Altium Deisgn Content</a> - Bentuk pembaruan dari halaman Download Libraries - Online Documentation Altium.
             
-    Baca Juga: <a href='/2018/12/cara-menambahkan-library-di-altium.html' rel='nofollow' target='_blank' title='  Cara Menambahkan/Install Library di Altium Designer'>Cara Menambahkan/Install Library di Altium Designer</a>
+    {{< bacajuga href="https://www.syahrulfadli.com/2018/12/cara-menambahkan-library-di-altium.html" title="Cara Menambahkan/Install Library di Altium Designer" >}}
         
-    * Letakan juga <i>Power Port</i> simbol seperti <i>Ground</i> dan <i>VCC</i>. Klik ikon GND {{< img alt="Power port" src="https://4.bp.blogspot.com/-WISwiET2FVE/XAPkqfIwkLI/AAAAAAAAABw/S1CWVZdgscIKNLD11BCz52zt80RslRucwCLcBGAs/s1600/GND.jpg" >}} untuk menambahkan ground. Klik ikon VCC {{< img alt="VCC" src="https://2.bp.blogspot.com/-R3XH-cUrjpg/XAPkujmnOEI/AAAAAAAAAB0/IohDJMt13ZQvgzg0NuTtNnNDxTAPQIogQCLcBGAs/s1600/VCC.jpg" >}} untuk menambahkan simbol VCC
+    * Letakan juga <i>Power Port</i> simbol seperti <i>Ground</i> dan <i>VCC</i>. Klik ikon GND ![Power port](https://4.bp.blogspot.com/-WISwiET2FVE/XAPkqfIwkLI/AAAAAAAAABw/S1CWVZdgscIKNLD11BCz52zt80RslRucwCLcBGAs/s1600/GND.jpg) untuk menambahkan ground. Klik ikon VCC ![VCC](https://2.bp.blogspot.com/-R3XH-cUrjpg/XAPkujmnOEI/AAAAAAAAAB0/IohDJMt13ZQvgzg0NuTtNnNDxTAPQIogQCLcBGAs/s1600/VCC.jpg) untuk menambahkan simbol VCC
         
         {{< img alt="VCC dan Ground (Klik untuk memperbesar)" src="https://4.bp.blogspot.com/-5KnBR78DUk8/XAPpx1e3rLI/AAAAAAAAAC8/HesZSkTwXuQcf6aafvb3bBsRt0hpt1l7wCLcBGAs/s1600/14.jpg" >}}
         
-5. Setelah semua komponen diletakan tahap selanjutnya adalah menghubungkan setiap pin/kaki komponen dengan **Wire** {{< img alt="Wire" src="https://3.bp.blogspot.com/-0jFLoF0-YsY/XAPkujh8n-I/AAAAAAAAAB4/u1veqYdknDIoUOQKSR9kFY7cD9sOlp9hQCLcBGAs/s1600/WIRE.jpg" >}}.
+5. Setelah semua komponen diletakan tahap selanjutnya adalah menghubungkan setiap pin/kaki komponen dengan **Wire** ![Wire](https://3.bp.blogspot.com/-0jFLoF0-YsY/XAPkujh8n-I/AAAAAAAAAB4/u1veqYdknDIoUOQKSR9kFY7cD9sOlp9hQCLcBGAs/s1600/WIRE.jpg).
 
     {{< img alt="Menggunakan Wire (Klik untuk memperbesar)" src="https://2.bp.blogspot.com/-RoseLMhLpic/XAPgL99gmdI/AAAAAAAAAA4/2fRFFGAOa7coYXT1RdtK-oYJofYRdHo8wCLcBGAs/s1600/16a.jpg" >}}
     
