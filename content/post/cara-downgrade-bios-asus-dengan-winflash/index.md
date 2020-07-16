@@ -3,7 +3,7 @@ title = "Cara Downgrade BIOS Asus dengan Winflash"
 date = 2018-11-15T16:38:00Z
 updated = 2020-04-06T10:57:16Z
 tags = ["Tutorial", "Windows"]
-hero = "https://4.bp.blogspot.com/-TZ8vaJN-buI/XoqoOj49FzI/AAAAAAAAAU4/HSG8iyMXjpspJUe3zImYab6cRcn00PdqQCLcBGAsYHQ/s1600/bios%2Basus.webp"
+hero = "cover-bios.jpg"
 blogimport = true 
 authors = ['Syahrul Fadli']
 +++
@@ -37,33 +37,33 @@ Kenapa tidak langsung lewat BIOS? Karena sebenarnya pengguna sangat tidak diperk
 2. Setelah instalasi selesai. Buka direktori program dari Asus WinFlash, contoh: *C:\Program Files (x86)\ASUS\WinFlash*
 3. Tekan sekali pada aplikasi WinFlash lalu tekan tombol <kbd><kbd>shift</kbd>+<kbd>klik kanan</kbd></kbd>, pilih "Copy as path" (gambar dibawah menggunakan Indonesia)
 
-    {{< img src="/upload/1" type="jpg" alt="copy as path" caption="" >}}
+    {{< img src="1.jpg" alt="copy as path" caption="" >}}
 
 4. Buka aplikasi CMD (Command Prompt)
 5. Paste, <kbd><kbd>ctrl</kbd>+<kbd>v</kbd></kbd>, pada Windows 10 cukup klik kanan. maka akan muncul alamat direktori instalasi dari WinFlash.
 
-    {{< img src="/upload/3" type="jpg" alt="ctrl + v" caption="" >}}
+    {{< img src="3.jpg" alt="ctrl + v" caption="" >}}
 
 6. Tambahkan perintah `/nodate`, lalu tekan enter maka akan terbuka aplikasi WinFlash.
 
-    {{< img src="/upload/4" type="jpg" alt="ketik /nodate" caption="" >}}
+    {{< img src="4.jpg" alt="ketik /nodate" caption="" >}}
 
 7. Pastikan laptop Anda dalam kondisi *charging* selama proses <i>flashing </i>BIOS.
 8. Setelah Aplikasi WinFlash Terbuka Klik "Next".
 
-    {{< img src="/upload/5" type="jpg" alt="klik next" caption="" >}}
+    {{< img src="5.jpg" alt="klik next" caption="" >}}
 
 9. Klik "Get BIOS from Device.
 
-    {{< img src="/upload/6" type="jpg" alt="klik get bios from device" caption="" >}}
+    {{< img src="6.jpg" alt="klik get bios from device" caption="" >}}
     
 10. Pilih file BIOS yang sudah Anda download dari website Asus. Pada tutorial ini file yang digunakan adalah "E203MAH-AS.302".
 
-    {{< img src="/upload/7" type="jpg" alt="pilih file driver bios" caption="" >}}
+    {{< img src="7.jpg" alt="pilih file driver bios" caption="" >}}
 
 11. Klik "Update". Tunggu hingga proses selesai lalu tekan "Exit". Komputer akan <i>Restart </i>dan akan melanjutkan proses flash BIOS via BIOS mode.
     
-    {{< img src="/upload/8" type="jpg" alt="klik update bios" caption="" >}}
+    {{< img src="8.jpg" alt="klik update bios" caption="" >}}
 
 12. Tunggu hingga proses <i>flashing </i>selesai. Komputer akan <i>restart </i>beberapa kali usai proses <i>flashing </i>BIOS selesai.
 

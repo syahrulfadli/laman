@@ -4,7 +4,7 @@ date = 2020-02-29T23:04:00Z
 updated = 2020-03-01T19:36:25Z
 tags = ["Linux", "Tutorial"]
 blogimport = true 
-hero = "/upload/cover-usb.jpg"
+hero = "cover-usb.jpg"
 authors = ["Syahrul Fadli"]
 +++
 

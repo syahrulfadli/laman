@@ -12,6 +12,8 @@ disqusShortname = "jurusanakelektro"
 # google analytics
 googleAnalytics = "UA-86900381-1"
 
+[permalinks]
+  post = "/:filename/"
 
 [outputs]
 home = ["HTML", "RSS"]
@@ -20,7 +22,7 @@ home = ["HTML", "RSS"]
 unsafe= true
 
 [params]
-  description = "Blog pribadi yang membahas topik elektronika dan internet."
+  description = "Blog pribadi yang membahas topik seputar elektronika, komputer dan internet."
   images = ["images/favicon.svg"]
   title = "Syahrul Fadli"
 

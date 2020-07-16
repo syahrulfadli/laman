@@ -4,7 +4,7 @@ date = 2019-01-21T22:26:00Z
 updated = 2019-10-27T22:53:14Z
 tags = ["Tutorial", "Arduino"]
 blogimport = true 
-hero = "/upload/cover-arduino.jpg"
+hero = "cover-arduino.jpg"
 authors = ["Syahrul Fadli"]
 +++
 

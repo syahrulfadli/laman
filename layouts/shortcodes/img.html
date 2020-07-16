@@ -8,7 +8,7 @@
         loading = "lazy"
         data-original="{{ .Get "src" }}.{{ .Get "type" }}"
         data-original-set="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
-        alt="{{ .Get "alt" }}" src="{{ .Get "src" }}.{{ .Get "type" }}" style="width:100%;max-width:{{ .Get "width" }};height:auto"/>
+        alt="{{ .Get "alt" }}" src="{{ .Get "src" }}" style="width:100%;max-width:{{ .Get "width" }};height:auto"/>
         </span>
   {{ if .Get "caption"}}
     <figcaption>{{ .Get "caption" }}</figcaption>

@@ -1,10 +1,13 @@
 ---
-title: "About"
-date: 2020-07-13T02:41:27+08:00
-hero: /images/favicon.svg
+title: "Tentang"
+date: 2020-07-16T13:03:41+08:00
+hero: /images/hero-3.jpg
 excerpt:
 draft: false
-
 ---
 
-buwung ape tu man?
+Hai! Selamat datang di blog pribadi penulis.
+
+Blog ini akan membahas topik seputaran elektronika, pemograman, komputer, dan internet.
+
+Jika ingin menghubungi penulis bisa lewat email (callsyahrul@outlook.com).

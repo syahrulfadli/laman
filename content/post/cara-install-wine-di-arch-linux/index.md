@@ -4,7 +4,7 @@ date = 2020-04-05T18:04:00Z
 updated = 2020-04-25T16:58:19Z
 tags = ["Linux", "Tutorial", "Arch"]
 blogimport = true
-hero = "/upload/cover-arch-linux.jpg"
+hero = "cover-arch-linux.jpg"
 authors = ["Syahrul Fadli"]
 +++
 

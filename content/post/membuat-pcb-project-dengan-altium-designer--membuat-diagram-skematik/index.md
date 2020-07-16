@@ -90,10 +90,10 @@ authors = ["Syahrul Fadli"]
 
 ## Tambahan
 ### Rotasi komponen
-Untuk me-rotasi komponen caranya klik satu kalo pada komponen yang akan di rotasi lalu tekan <kbd>SPASI</kbd>.
+Untuk me-rotasi komponen caranya klik satu kalo pada komponen yang akan di rotasi lalu tekan <kbd><kbd>SPASI</kbd></kbd>.
 
 ### *Mirror* Komponen
-Untuk melakukan <i>mirror</i> caranya adalah dengan klik satu kali pada komponen lalu tahan kemudian tekan tombol <kbd>X</kbd>.
+Untuk melakukan <i>mirror</i> caranya adalah dengan klik satu kali pada komponen lalu tahan kemudian tekan tombol <kbd><kbd>X</kbd></kbd>.
 
 <h3 id="designator">Designator pada Altium</h3>
 
