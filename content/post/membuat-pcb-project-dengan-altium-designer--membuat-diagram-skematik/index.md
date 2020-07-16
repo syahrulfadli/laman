@@ -4,7 +4,7 @@ date = 2018-12-06T12:58:00Z
 updated = 2019-10-27T22:54:48Z
 tags = ["Tutorial", "Altium Designer"]
 series = ["Belajar Altium Designer"]
-hero = "https://2.bp.blogspot.com/-N9kAmOPupbY/XCDZRK23g4I/AAAAAAAAAFo/0vpFbhHPoikH0H8NQ8jliDkYPASFn1oQACLcBGAs/s1600/Skematik.jpg"
+hero = "cover-schematic.jpg"
 blogimport = true 
 authors = ["Syahrul Fadli"]
 +++
