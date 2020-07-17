@@ -28,7 +28,7 @@ unsafe= true
 
 [taxonomies]
 category = "categories"
-tag = " "
+tag = "tags"
 author = "authors"
 series = "series" 
 
@@ -37,7 +37,7 @@ series = "series"
   filename = "sitemap.xml"
   priority = 0.5
 
-enableRobotsTXT = true
+enableRobotsTXT = "true"
 
 [menu]
   [[menu.main]]
