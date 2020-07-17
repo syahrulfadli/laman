@@ -28,7 +28,7 @@ unsafe= true
 
 [taxonomies]
 category = "categories"
-tag = "tags"
+tag = " "
 author = "authors"
 series = "series" 
 

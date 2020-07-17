@@ -2,9 +2,7 @@ User-agent: *
 Disallow: /about/
 Disallow: /disclaimer/
 Disallow: /contact/
+Disallow: /tags/
+Allow: /
 
-{{ range where .Data.Pages "Params.robotsdisallow" true }}
-Disallow: {{ .RelPermalink }}
-{{ end }}
-
-Sitemap: {{ "sitemap.xml" | absLangURL }}
+Sitemap: https://www.syahrulfadli.com/sitemap.xml
