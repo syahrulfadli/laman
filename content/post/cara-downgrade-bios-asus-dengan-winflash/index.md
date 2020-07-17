@@ -3,9 +3,13 @@ title = "Cara Downgrade BIOS Asus dengan Winflash"
 date = 2018-11-15T16:38:00Z
 updated = 2020-04-06T10:57:16Z
 tags = ["Tutorial", "Windows"]
-hero = "cover-bios.jpg"
+hero = "/upload/cover-bios.jpg"
 blogimport = true 
 authors = ['Syahrul Fadli']
+aliases = [
+    "/cara-downgrade-bios-asus-dengan-winflash/",
+    "/2018/11/cara-downgrade-bios-asus-dengan-winflash.html"
+]
 +++
 
 Kenapa *Downgrade* BIOS? Banyak alasan yang mendasari kenapa seorang pengguna melakukan *Downgrade* setelah sebelumnya pengguna melakukan *Upgrade*. Dari isu komsumsi baterai, fitur-fitur pada Operasi sistem tidak berjalan semestinya setelah melakukan *Upgrade* dan masalah-masalah Hardware lainnya yang muncul setelah melakukan *Upgrade* BIOS.

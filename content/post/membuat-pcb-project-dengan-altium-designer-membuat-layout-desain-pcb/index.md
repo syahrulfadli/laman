@@ -4,9 +4,13 @@ date = 2019-01-16T11:14:00Z
 updated = 2019-10-27T22:53:46Z
 tags = ["Tutorial", "Altium Designer"]
 series = ["Belajar Altium Designer"]
-hero = "cover-pcb.jpg"
+hero = "/upload/cover-pcb.jpg"
 blogimport = true 
 authors = ["Syahrul Fadli"]
+aliases = [
+    "/membuat-pcb-project-dengan-altium-designer-membuat-layout-desain-pcb/",
+    "/2019/01/membuat-layout-pcb-di-altium.html/"
+]
 +++
 
 Artikel ini merupakan lanjutan dari artikel dengan judul "Membuat Project PCB dengan Altium Designer: Membuat Diagram Skematik". Jadi sebelum melakukan tutorial di bawah ini diharapakan Anda untuk membaca artikel tersebut.

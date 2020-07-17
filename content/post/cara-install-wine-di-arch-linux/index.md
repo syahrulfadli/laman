@@ -4,8 +4,12 @@ date = 2020-04-05T18:04:00Z
 updated = 2020-04-25T16:58:19Z
 tags = ["Linux", "Tutorial", "Arch"]
 blogimport = true
-hero = "cover-arch-linux.jpg"
+hero = "/upload/cover-arch-linux.jpg"
 authors = ["Syahrul Fadli"]
+aliases = [
+    "/cara-install-wine-di-arch-linux/",
+    "/2020/04/cara-install-wine-di-arch-linux.html"
+]
 +++
 
 Nama Wine diambil dari akronim "*Wine Is Not an Emulator*". Ya! ini bukan emulator yang **menjalankan OS Windows di Linux** melainkan sebuah program yang mempunyai kompatibilitas untuk menjalankan **program Windows di Linux**.

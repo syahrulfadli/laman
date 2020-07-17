@@ -5,8 +5,11 @@ updated = 2019-01-11T10:14:18Z
 tags = ["Tutorial", "Arduino", "Pemograman"]
 blogimport = true 
 authors = ["Syahrul Fadli"]
-hero = "cover-cara-upload-program-di-arduino-pro-mini-dengan-usb-to-ttl.jpg"
-
+hero = "/upload/cover-cara-upload-program-di-arduino-pro-mini-dengan-usb-to-ttl.jpg"
+aliases = [
+    "/membuat-pcb-project-dengan-altium-designer--membuat-diagram-skematik/",
+    "/2018/12/membuat-diagram-skematik.html/"
+]
 +++
 
 Berikut adalah tutorial cara Upload program ke Arduino Pro Mini 168 5V 16MHz, Arduino Pro Mini 168 3,3V 8MHz, Arduino Pro Mini 328 5V 16MHz, dan  Arduino Pro Mini 328 3,3V 8MHz. Perangkat yang saya gunakan adalah Arduino Pro Mini 168 5V 16MHz dengan PC Laptop Windows 10 x64.

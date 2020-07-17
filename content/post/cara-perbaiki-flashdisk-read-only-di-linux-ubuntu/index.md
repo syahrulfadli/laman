@@ -4,8 +4,12 @@ date = 2020-02-29T23:04:00Z
 updated = 2020-03-01T19:36:25Z
 tags = ["Linux", "Tutorial"]
 blogimport = true 
-hero = "cover-usb.jpg"
+hero = "/upload/cover-usb.jpg"
 authors = ["Syahrul Fadli"]
+aliases = [
+    "/cara-upload-program-ke-arduino-pro-mini-dengan-usb-to-ttl-pl2303/",
+    "/2017/05/upload-program-ke-arduino-pro-mini.html/"
+]
 +++
 
 [Tutorial](/tags/Tutorial) memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro [Linux](/tags/Linux) lainnya.

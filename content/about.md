@@ -1,7 +1,7 @@
 ---
 title: "Tentang"
 date: 2020-07-16T13:03:41+08:00
-hero: /images/hero-3.jpg
+hero: /upload/default.jpg
 excerpt:
 draft: false
 ---

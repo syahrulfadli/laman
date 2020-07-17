@@ -1,7 +1,7 @@
 <div class="picture">
   <p style="text-align: center;">
   {{ if .Get "caption"}}
-  <figure>
+  <figure style="text-align: center;color:var(--articleText)">
   {{ end }}
   <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
       <img
@@ -11,7 +11,7 @@
         alt="{{ .Get "alt" }}" src="{{ .Get "src" }}" style="width:100%;max-width:{{ .Get "width" }};height:auto"/>
         </span>
   {{ if .Get "caption"}}
-    <figcaption>{{ .Get "caption" }}</figcaption>
+    <figcaption style="margin-top: 10px;font-size:12px">{{ .Get "caption" }}</figcaption>
   </figure>
   {{ end }}
   </p>

@@ -3,9 +3,13 @@ title = "Pengertian Atom dan Perkembangan Teori Model-model Atom"
 date = 2019-11-10T19:07:00Z
 updated = 2020-04-25T07:18:41Z
 tags = ["Elektronika Dasar", "Kimia"]
-hero = "cover-atom.jpg"
+hero = "/upload/cover-atom.jpg"
 blogimport = true 
 authors = ["Syahrul Fadli"]
+aliases = [
+    "/teori-atom/",
+    "/2019/11/atom.html/"
+]
 +++
 
 ## Pengertian Atom
@@ -20,7 +24,7 @@ Beberapa teori yang menjelaskan tentang model-model atom adalah sebagai berikut 
 
 ### Teori Model Atom John Dalton
 
-{{< img alt="Teori Model Atom John Dalton" src="https://2.bp.blogspot.com/-CdCci_0j9RY/XcfeyahVYeI/AAAAAAAAA58/Je1WkRn_nvgY7mcX28KxhpSDfvNeeljqwCLcBGAsYHQ/s1600/Atom%2Bdalton.jpg" width="300" height="300" >}}
+{{< img alt="Teori Model Atom John Dalton" src="Atom-dalton.jpg" width="300" height="300" >}}
 
 John Dalton ilmuwan asal Inggris pada 1808 mengemukakan bahwa atom merupakan suatu zat inti yang tidak bisa dibagi lagi. Berdasarkan hasil penelitiannya Ia mengemukakan bahwa: 
 1. Suatu materi yang terdiri dari atom yang tidak bisa lagi,
@@ -36,7 +40,7 @@ Namun beberapa teori yang dikemukakan dalton tidak sepenuhnya benar karena dikem
 
 ### Teori Model Atom J.J. Thomson
 
-{{< img alt="Teori Model Atom John Dalton" src="https://2.bp.blogspot.com/-jKr-X73lYTk/XcfeyXYGHMI/AAAAAAAAA54/qvLHRSZg80kvb7xxCbGNZ5u-VGso5gw6QCLcBGAsYHQ/s1600/Atom%2Bthomson.jpg" width="300px" height="300px" >}}
+{{< img alt="Teori Model Atom John Dalton" src="Atom-thomson.jpg" width="300px" height="300px" >}}
 
 Pada 1897 Joseph John Thomson melaukan percobaan melewatkan arus melalui tabung sinar katoda, dari percobaan ini diketahui bahwa berkas sinar katoda bermuatan negatif yang ada pada setiap unsur materi. Dengan percobaan ini pada tahun 1898 J.J. Thomson menyimpulkan teori model atom:
 
@@ -60,7 +64,7 @@ Dari percobaan ini Rutherford menyimpulkan teori bahwa:
 
 Ia membangun model atom seperti sistem tata-surya dimana Inti atom dikelilingi oleh awan-awan elektron.
 
-{{< img alt="Teori Model Atom Rutherford" src="https://4.bp.blogspot.com/-VvNufWbe5f8/Xcfqe3B4i3I/AAAAAAAAA6k/Xxee4Ej-JEkNWvJ80IjKwn79AEZXbIUYwCLcBGAsYHQ/s1600/Atom%2Brutherford-fix.jpg" width="672px" height="394px">}}
+{{< img alt="Teori Model Atom Rutherford" src="Atom-rutherford-fix.jpg" width="672px" height="394px">}}
 
 Teori ini mendukung penelitian oleh Philipp Lenard sebelumnya yang menyatakan bahwa muatan positif pada atom tidak tersebar merata seperti daging pada buah jambu biji melainkan terdapat ruang-ruang hampa.
 
@@ -68,7 +72,7 @@ Kelemahan teori atom Rutherford adalah Ia tidak menjelaskan susunan elektron yan
 
 ### Teori Model Atom Niels Bohr
 
-{{< img alt="Teori Model Atom Niels Bohr" src="https://2.bp.blogspot.com/-EqvDz2aEuTg/XcfrhSCqhHI/AAAAAAAAA6s/T4FnPyfDveg1SIGGgjzRkUkF5AS1mFs_ACLcBGAsYHQ/s1600/Atom%2BBohr.jpg" width="350px" height="350px" >}}
+{{< img alt="Teori Model Atom Niels Bohr" src="Atom-Bohr.jpg" width="350px" height="350px" >}}
 
 Model Atom Niels Bohr merupakan modifikasi dari model atom yang dipresenstasikan oleh Rutherford. Model atom Bohr menggambarkan bahwa atom adalah inti kecil bermuatan positif yang dikelilingi muatan negatif (elektron) yang mempunyai orbit (disebut juga kulit elektron). Pada 1913 Niels Bohr mengusulkan dalil tentang teori atom, yaitu: 
 1. Elektron mengelilingi inti atom pada tingkat energi tertentu yang disebut kulit elektron, semakin besar lingkaran kulit semakin besar pula energi elektron pada orbit tersebut,
@@ -82,7 +86,7 @@ Kelebihan dari teori model atom Bohr adalah Bohr mampu menjawab kelemahan sekali
 Kelemahan pada teori atom bohr adalah  Ia hanya dapat menerangkan atom atau ion yang mengandung satu elektron, model atom ini tidak sesuai dengan atom atau ion yang berelektron banyak, belum mampu menjelaskan ikatan kimia atom sehingga menjadi molekul dan orbit/kulit elekron mengelilingi inti atom bukan berbentuk lingkaran melainkan berbentuk elips
 
 ### Teori Model Atom Modern (Mekanika Kuantum)
-{{< img alt="Teori Model Modern" src="https://3.bp.blogspot.com/-NJtwtYde1Is/Xcf8ESInjeI/AAAAAAAAA7c/GnDALDgNo9wUt_g05Zc2Qd3T5y1oSjx2wCLcBGAsYHQ/s1600/Atom%2Bmodern-fix.jpg" width="300px" height="300px">}}
+{{< img alt="Teori Model Modern" src="Atom-modern-fix.jpg" width="300px" height="300px">}}
 
 Teori model atom modern didasarkan pada teori mekanika kuantum yaitu: 
 1. Elektron bersifat gelombang dan partikel, oleh Louis de Broglie (1923),
