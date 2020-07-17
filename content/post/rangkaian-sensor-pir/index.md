@@ -19,7 +19,7 @@ Sensor PIR (Passive InfraDed) sebenarnya bukan sensor yang mendeteksi gejala per
 
 ## Skema Rangkaian
 
-{{< img alt="Teori Komparator" src="https://4.bp.blogspot.com/-RPT9j9getF8/WijHc-cwixI/AAAAAAAAAmA/HpFfADN01SAwcpzwc5nIMdZlgdJdKaonwCLcBGAs/s1600/pir.png" width="1382" >}}
+{{< img alt="Teori Komparator" src="pir.png" width="1382" >}}
 
 Download file skematik eagle(.sch) di akhir artikel. 
 

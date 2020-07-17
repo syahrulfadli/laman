@@ -24,7 +24,7 @@ Saya akan membagikan 2 Skema rangkaian untuk Ardutester, yaitu menggunakan Board
 
 ## Rangkaian dengan Board Arduino Uno
 
-{{< img alt="Skematik di Eagle" src="https://4.bp.blogspot.com/-aeeq1-eEZ3Q/Wid3EO3_WWI/AAAAAAAAAlo/ep_RJmatpZkhCDsxfGPr3xSpyfsZ9faQwCLcBGAs/s1600/esr-shield.png" width="1413" >}}
+{{< img alt="Skematik di Eagle" src="esr-shield.png" width="1413" >}}
 
 Untuk Aplikasi dari rangkaian, dapat dibuat sebagai Shield Arduino Uno untuk pengguna yang memiliki IC Atmega328 terbatas atau hanya untuk praktek saja. Untuk download file skematik Eagle lihat di akhir artikel. 
 
@@ -34,7 +34,7 @@ Untuk Aplikasi dari rangkaian, dapat dibuat sebagai Shield Arduino Uno untuk pen
 
 ## Rangkaian Menggunakan IC ATmega328
 
-{{< img alt="Skematik di Eagle" src="https://3.bp.blogspot.com/-q3FaeGVDDZs/Wid3rEN6n0I/AAAAAAAAAlw/2pZmEkJre10z3kx44y0twU94Q_Xf281AwCLcBGAs/s1600/esr%2Batmega.png" width="1600" >}}
+{{< img alt="Skematik di Eagle" src="esr-atmega.png" width="1600" >}}
 
 Saya merekomendasikan anda untuk membuat rangkaian yang satu ini, Karena lebih mudah penggunaannya bagi anda yang seorang Teknisi Servis Elektronik. Untuk download file skematik Eagle lihat di akhir artikel. 
 
@@ -43,17 +43,17 @@ Saya merekomendasikan anda untuk membuat rangkaian yang satu ini, Karena lebih m
 
 <blockquote><b>Tips</b><br />Untuk Resistor 680 ohm dan 470k ohm direkomendasikan resistor dengan toleransi 1%(coklat) untuk mendapatkan hasil nilai komponen yang lebih akurat</blockquote>
 
-<h4>Referensi Layout Board PCB Eagle</h4>{{< img alt="Board Ardutester" src="https://2.bp.blogspot.com/-R3FW8eTXuWg/WiuqpngU2KI/AAAAAAAAAms/o0Egfa6E59IZB5GfKHT-yayy7QxcbpIpgCLcBGAs/s1600/board%2BArdutester.png" width="1024" >}}
+<h4>Referensi Layout Board PCB Eagle</h4>{{< img alt="Board Ardutester" src="board-Ardutester.png" width="1024" >}}
 
 ## Hasil Uji Coba
 
-{{< img src="https://4.bp.blogspot.com/-eLHgFy35ujo/Wi42lzl-4oI/AAAAAAAAAnI/TTYnbU_WbGQ5gaBYa2XHajxT--1E4bIwgCLcBGAs/s1600/DSC_0008.JPG" width="400" alt="Komponen yang diuji MOSFET IRF540" caption="Komponen yang diuji MOSFET IRF540" >}}
+{{< img src="DSC_0008.JPG" width="400" alt="Komponen yang diuji MOSFET IRF540" caption="Komponen yang diuji MOSFET IRF540" >}}
 
-{{< img src="https://1.bp.blogspot.com/-nw5jQHFHD9Q/Wi42rnINOHI/AAAAAAAAAnM/nHDoSZROjVkfeDAeCAVDL6RSrJXwzTCpACLcBGAs/s1600/DSC_0005.JPG" width="400" alt="Komponen yang diuji Resistor 33K ohm" caption="Komponen yang diuji Resistor 33K ohm" >}}
+{{< img src="DSC_0005.JPG" width="400" alt="Komponen yang diuji Resistor 33K ohm" caption="Komponen yang diuji Resistor 33K ohm" >}}
 
-{{< img src="https://2.bp.blogspot.com/-mhzYUt5-kZ4/Wi42zdxhrvI/AAAAAAAAAnQ/5OcJJsgnriMQmvWWEySXsmvBqFCOFV2mQCLcBGAs/s1600/DSC_0014.JPG" width="400" alt="Komponen yang diuji Kapasitor 470μF" caption="Komponen yang diuji Kapasitor 470μF" >}}
+{{< img src="DSC_0014.JPG" width="400" alt="Komponen yang diuji Kapasitor 470μF" caption="Komponen yang diuji Kapasitor 470μF" >}}
 
-{{< img src="https://1.bp.blogspot.com/-40W9Pl8nZp4/Wi424Z1WeiI/AAAAAAAAAnU/yEqKeT6jK0MVnsaI3qiOPwi_ckxkXaV6wCLcBGAs/s1600/DSC_0012.JPG" width="400" alt="Komponen yang diuji LED" caption="Komponen yang diuji LED" >}}
+{{< img src="DSC_0012.JPG" width="400" alt="Komponen yang diuji LED" caption="Komponen yang diuji LED" >}}
 
 ## Download
 {{< download href="https://www.dropbox.com/s/i4z66idpf3sci4x/esr-shield.sch?dl=0" title="Download Skema dengan Board Arduino(.sch)" >}}
