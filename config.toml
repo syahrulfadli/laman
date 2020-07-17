@@ -3,14 +3,15 @@ languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
 
+# google analytics
+googleAnalytics = "UA-86900381-1"
+
 pygmentsstyle = "monokai"
 
 # post pagination
 paginate = "6"
 # disqus short name
 disqusShortname = "jurusanakelektro"
-# google analytics
-GoogleAnalytics = "UA-86900381-1"
 
 [permalinks]
   post = "/:filename/"
