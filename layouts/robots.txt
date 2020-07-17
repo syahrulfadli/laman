@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /about/
-Disallow: /disclaimer/
-Disallow: /contact/
-Disallow: /tags/
-Allow: /
-
-Sitemap: https://www.syahrulfadli.com/sitemap.xml

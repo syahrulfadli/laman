@@ -8,5 +8,4 @@ bio: |
 avatar: /images/kucing-kontrakan.jpg
 featured: true
 social:
-robotsdisallow: true
 ---
