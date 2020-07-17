@@ -43,14 +43,19 @@ series = "series"
     identifier = "privasi"
     name = "Privasi"
     url = "/privacy/"
-    weight = 4
+    weight = 2
     [[menu.main]]
     identifier = "penolakan"
     name = "Penolakan"
     url = "/disclaimer/"
-    weight = 5
+    weight = 3
     [[menu.main]]
     identifier = "kontak"
     name = "Kontak"
     url = "/contact/"
-    weight = 3
+    weight = 4
+    [[menu.main]]
+    identifier = "arsip"
+    name = "Arsip"
+    url = "/arsip/"
+    weight = 4

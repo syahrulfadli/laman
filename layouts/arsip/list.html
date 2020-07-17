@@ -1,0 +1,28 @@
+{{ define "main"}}
+
+{{ partial "page/hero.html" . }}
+
+<h2>Berdasarkan Tag</h2>
+<div class="list-arsip">
+  <p>
+<ul>
+  {{ range .Site.Taxonomies.tags }}
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><span>{{ .Count }}</span></li>
+  {{ end }}
+</ul>
+</p>
+</div>
+<br/> 
+<h2>Berdasarkan Series</h2>
+
+<div class="list-arsip">
+  <p>
+<ul>
+  {{ range .Site.Taxonomies.series }}
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><span>{{ .Count }}</span></li>
+  {{ end }}
+</ul>
+</p>
+</div>
+
+{{ end }}
