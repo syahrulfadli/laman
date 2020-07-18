@@ -5,7 +5,7 @@ excerpt:
 draft: false
 bio: |
   Buwung ape tu man?
-avatar: [/upload/kucing-kontrakan.jpg]
+avatar: ["/upload/kucing-kontrakan.jpg"]
 featured: true
 social:
 ---
