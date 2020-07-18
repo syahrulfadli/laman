@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /tags
+Disallow: /series
+Disallow: /about
+Disallow: /arsip
+Disallow: /privacy
+Disallow: /disclaimer
+Disallow: /contact
+Disallow: /authors
+
+{{ range where .Data.Pages "Params.robotsdisallow" true }}
+Disallow: {{ .RelPermalink }}
+{{ end }}

@@ -16,6 +16,8 @@ disqusShortname = "jurusanakelektro"
 [permalinks]
   post = "/:filename/"
 
+enableRobotsTXT = "true"
+
 [outputs]
 home = ["HTML", "RSS"]
 
@@ -28,7 +30,6 @@ unsafe= true
   title = "Syahrul Fadli"
 
 [taxonomies]
-category = "categories"
 tag = "tags"
 author = "authors"
 series = "series" 
