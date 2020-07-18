@@ -4,6 +4,7 @@ date = 2017-12-07T12:19:00Z
 updated = 2019-01-11T10:09:09Z
 tags = ["Skematik", "Sensor"]
 blogimport = true 
+hero = ["/upload/default.jpg"]
 authors = ["Syahrul Fadli"]
 aliases = [
     "/rangkaian-sensor-pir/",

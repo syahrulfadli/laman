@@ -5,7 +5,7 @@ updated = 2019-01-11T10:14:18Z
 tags = ["Tutorial", "Arduino", "Pemograman"]
 blogimport = true 
 authors = ["Syahrul Fadli"]
-hero = "/upload/cover-cara-upload-program-di-arduino-pro-mini-dengan-usb-to-ttl.jpg"
+hero = ["/upload/cover-cara-upload-program-di-arduino-pro-mini-dengan-usb-to-ttl.jpg"]
 aliases = [
     "/membuat-pcb-project-dengan-altium-designer--membuat-diagram-skematik/",
     "/2018/12/membuat-diagram-skematik.html/"

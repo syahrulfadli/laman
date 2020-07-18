@@ -5,7 +5,7 @@ updated = 2019-10-27T22:54:08Z
 tags = ["Tutorial", "Altium Designer"]
 series = ["Belajar Altium Designer"]
 blogimport = true 
-hero = "/upload/library.jpg"
+hero = ["/upload/library.jpg"]
 authors = ["Syahrul Fadli"]
 aliases = [
     "/cara-menambahkaninstall-library-di-alitum-designer",

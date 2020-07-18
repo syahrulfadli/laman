@@ -4,6 +4,7 @@ date = 2017-05-26T06:59:00Z
 updated = 2020-03-01T00:46:04Z
 tags = ["Tutorial", "Arduino", "Pemograman"]
 blogimport = true 
+hero = ["/upload/default.jpg"]
 authors = ["Syahrul Fadli"]
 aliases = [
     "/cara-burn-bootloader-ke-ic-atmega-dengan-arduino/",

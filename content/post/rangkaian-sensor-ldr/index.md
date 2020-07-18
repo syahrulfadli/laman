@@ -4,7 +4,7 @@ date = 2016-11-07T19:10:00Z
 updated = 2019-10-27T22:56:56Z
 tags = ["Skematik", "Sensor"]
 blogimport = true 
-hero = "/upload/cover-ldr.jpg"
+hero = ["/upload/cover-ldr.jpg"]
 authors = ["Syahrul Fadli"]
 aliases = [
     "/rangkaian-sensor-ldr/",
