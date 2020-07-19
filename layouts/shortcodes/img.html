@@ -4,10 +4,10 @@
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
-{{ $tinyw := default "475x" }}
-{{ $smallw := default "600x" }}
-{{ $mediumw := default "750x" }}
-{{ $largew := default "950x" }}
+{{ $tinyw := default "500x" }}
+{{ $smallw := default "800x" }}
+{{ $mediumw := default "1200x" }}
+{{ $largew := default "1500x" }}
 
 {{/* resize the src image to the given sizes */}}
 
@@ -24,23 +24,22 @@
 {{ $large := .Scratch.Get "large" }}
 
 
-{{ if .Get "src" }}
   <figure style="text-align: center;color:var(--articleText)" class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
     <p style="text-align: center;">
     <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
   srcset='
-  {{ if ge $src.Width "475" }}
-    {{ with $tiny.RelPermalink }}{{.}} 475w{{ end }}
+  {{ if ge $src.Width "500" }}
+    {{ with $tiny.RelPermalink }}, {{.}} 500w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "600" }}
-    {{ with $small.RelPermalink }}, {{.}} 600w{{ end }}
+  {{ if ge $src.Width "800" }}
+    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "750" }}
-    {{ with $medium.RelPermalink }}, {{.}} 750w{{ end }}
+  {{ if ge $src.Width "1200" }}
+    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "950" }}
-    {{ with $large.RelPermalink }}, {{.}} 950w {{ end }}
+  {{ if ge $src.Width "1500" }}
+    {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
   {{ end }}'
   {{ if .Get (print $medium) }}
     src="{{ $medium.RelPermalink }}"
@@ -57,4 +56,3 @@
     {{ end }}
     </p>
   </figure>
-{{ end }}
