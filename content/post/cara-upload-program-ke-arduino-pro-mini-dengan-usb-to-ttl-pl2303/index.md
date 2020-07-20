@@ -27,7 +27,8 @@ Berikut adalah tutorial cara Upload program ke Arduino Pro Mini 168 5V 16MHz, Ar
 
 	{{< img alt="Konfigurasi Port" src="konfigurasiarduinoide.png" width="1170" height="615px" >}}
 
-	<a class="donlot" href="https://www.arduino.cc/en/Main/Software" rel="nofollow" target="_blank" title="download arduino software">Arduino</a>
+	{{< download href="https://www.arduino.cc/en/Main/Software" title="Download Arduino IDE" >}}
+	<br/><br/>
 	Percobaan untuk <i>Upload</i> program silahkan buka menu <b>File</b>&gt;<b>Examples</b>&gt;<b>Basics</b>&gt;<b>Blink</b>. Edit sedikit kode dalam program Blink tersebut dengan mengecilkan nilai <code>delay</code> dari <code>1000</code> menjadi <code>100</code>, sehingga keseluruhan kode menjadi seperti berikut, lalu Compile/Verify Sketch. 
 
 	```arduino
@@ -44,6 +45,7 @@ Berikut adalah tutorial cara Upload program ke Arduino Pro Mini 168 5V 16MHz, Ar
 	delay(100);                       // wait for a second
 	}
 	```
+
 	{{< img alt="Konfigurasi" src="PORTDANCOMPILE.png" width="1010px" height="615px" >}}	
 
 5. Sebelum meng-upload berikut beberapa hal yang perlu anda perhatikan,<br/>
