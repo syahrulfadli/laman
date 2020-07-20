@@ -8,7 +8,7 @@ authors: ["Syahrul Fadli"]
 tags: [Hugo, Tutorial, Pemograman]
 ---
 
-*Shortcode* adalah fitur *content management* paling *powerfull* yang dimiliki oleh Hugo. Jadi kali ini saya akan share *shortcode* untuk membuat gambar agar ukuran responsive dan resolusi gambar menyesuaikan dengan ukuran layar.
+*Shortcode* adalah fitur *content management* paling *powerfull* yang dimiliki oleh Hugo. Dan kali saya akan share *shortcode* untuk membuat gambar agar ukuran responsive dan resolusi gambar menyesuaikan dengan ukuran layar.
 
 Kode dari tutorial ini saya comot dari blog Laura Kalbag[^1]. Jadi untuk Laura Kalbag terimakasih banyak atas kodenya ^_^ (For Laura Kalbag thank you so much for the code ^_^).
 
@@ -22,7 +22,7 @@ Alasan saya menulis ulang tutorial ini, yaa.. nambah tutorial Hugo berbahasa Ind
 
 Pertama-tama kita atur *page bundles* untuk halaman konten post kita.
 
-Intermezzo dikit: *Page bundles* adalah cara untuk untuk mengatur dan mengatur hirarki konten di Hugo[^2].
+Intermezzo dikit: *Page bundles* adalah cara untuk untuk mengatur hirarki konten dan sumber daya/*resource* (seperti gambar, video, pdf dll.) di Hugo[^2].
 
 [^2]: [Hugo: Leaf and Branch Bundles | A Scripter's Notes](https://scripter.co/hugo-leaf-and-branch-bundles/)
 
