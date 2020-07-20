@@ -37,7 +37,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 
 1. Susun rangkaian arduino antara potensio dengan projectboard seperti gambar di bawah ini.
 
-	![Skema hubungan potensio dengan arduino](https://3.bp.blogspot.com/-9v_au-DJffs/XEXXFS0KPqI/AAAAAAAAAM4/-2qDZIO41U4TLjACfX25SzMF7mUSn0kBwCLcBGAs/s1600/Cara%2BMembaca%2BInput%2BTegangan%2BAnalog%2Bdengan%2BArduino.jpg)
+	{{< img alt="Skema hubungan potensio dengan arduino" src="1.jpg" >}}
 
 2. Upload sketch program di bawah ini ke arduino.
 	
@@ -81,11 +81,11 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 4. Upload sketch program.
 5. Buka Serial Monitor pada Arduino IDE.
 	
-	![Konfigurasi](https://4.bp.blogspot.com/-FtL5pkX0rFU/XEXNaYJolPI/AAAAAAAAAMo/ZL4ZWkVNBTMecXcs7hLNxYfqkZ_PY9YdACLcBGAs/s1600/Klik%2BSerial%2BMonitor.jpg)
+	{{< img alt="Konfigurasi" src="2.jpg" width="486" >}}
 
 6. Putar ke kanan dan ke kiri potensio yang anda gunakan, lihat perubahan pada nilai pada serial monitor dan LED pada board Arduino.
 
-	![Konfigurasi](https://1.bp.blogspot.com/-osQLn8gkY3g/XEXNkynzq6I/AAAAAAAAAMs/-wszqV281iwiwAV2dJWkf6hEOxTO2_nCwCLcBGAs/s1600/Hasil%2Bserial%2Bmonitor.jpg)
+	{{< img alt="Konfigurasi" src="3.jpg")
 	
 Baca juga: <a href='/2016/11/sensor-cahaya-ldr.html' target='_blank' title='Rangkaian Sensor Cahaya DC dengan LDR'>Rangkaian Sensor Cahaya DC dengan LDR</a>
 
