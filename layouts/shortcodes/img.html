@@ -27,10 +27,11 @@
   <figure style="text-align: center;color:var(--articleText)" class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
     <p style="text-align: center;">
     <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
+      <a href="{{ $src.RelPermalink }}">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
   srcset='
   {{ if ge $src.Width "500" }}
-    {{ with $tiny.RelPermalink }}, {{.}} 500w{{ end }}
+    {{ with $tiny.RelPermalink }} {{.}} 500w{{ end }}
   {{ end }}
   {{ if ge $src.Width "800" }}
     {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
@@ -48,6 +49,7 @@
   {{ end }}
 
 {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+</a>
 </span>
 </p>
     {{ if .Get "caption" }}
