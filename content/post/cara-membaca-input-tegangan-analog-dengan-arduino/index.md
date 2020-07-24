@@ -85,7 +85,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 
 6. Putar ke kanan dan ke kiri potensio yang anda gunakan, lihat perubahan pada nilai pada serial monitor dan LED pada board Arduino.
 
-	{{< img alt="Konfigurasi" src="3.jpg")
+	{{< img alt="Konfigurasi" src="3.jpg" >}}
 	
 Baca juga: <a href='/2016/11/sensor-cahaya-ldr.html' target='_blank' title='Rangkaian Sensor Cahaya DC dengan LDR'>Rangkaian Sensor Cahaya DC dengan LDR</a>
 
