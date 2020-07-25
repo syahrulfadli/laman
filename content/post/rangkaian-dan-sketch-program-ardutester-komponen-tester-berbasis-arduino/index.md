@@ -56,8 +56,8 @@ Saya merekomendasikan anda untuk membuat rangkaian yang satu ini, Karena lebih m
 {{< img src="DSC_0012.JPG" width="400" alt="Komponen yang diuji LED" caption="Komponen yang diuji LED" >}}
 
 ## Download
-{{< download href="https://www.dropbox.com/s/i4z66idpf3sci4x/esr-shield.sch?dl=0" title="Download Skema dengan Board Arduino(.sch)" >}}
+{{< download href="https://www.dropbox.com/s/i4z66idpf3sci4x/esr-shield.sch?dl=0" title="Skema dengan Board Arduino(.sch)" >}}
 
-{{< download href="https://www.dropbox.com/s/axxi6lv3wd09dey/esr.sch?dl=0" title="Download Skema dengan IC Atmega328(.sch)" >}}
+{{< download href="https://www.dropbox.com/s/axxi6lv3wd09dey/esr.sch?dl=0" title="Skema dengan IC Atmega328(.sch)" >}}
 
-{{< download href="https://www.dropbox.com/s/678piawdk1o4vx2/ardutester.zip?dl=0" rel="nofollow" target="_blank" title="Download Sketch Program Ardutester(.zip)" >}}
+{{< download href="https://www.dropbox.com/s/678piawdk1o4vx2/ardutester.zip?dl=0" rel="nofollow" target="_blank" title="Sketch Program Ardutester(.zip)" >}}
