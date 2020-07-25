@@ -1,6 +1,8 @@
 
 {{ define "main" }}
-<h2>Artikel dengan Tag "{{ .Title }}"</h2>
+<div class="titlepage">
+<h1>Artikel dengan Tag "{{ .Title }}"</h1>
+</div>
 <section class="section nartrow author-alc-section">
     <div id="articlesList" class="articles-list-container show-details author-alc">
       {{ $articles := .Pages }}

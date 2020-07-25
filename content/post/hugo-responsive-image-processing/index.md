@@ -16,7 +16,7 @@ Kode dari tutorial ini saya comot dari blog Laura Kalbag[^1]. Jadi untuk Laura K
 
 Kodenya saya edit dikit biar gambarnya *responsive*.
 
-Alasan saya menulis ulang tutorial ini, yaa.. nambah tutorial Hugo berbahasa Indonesia.
+Alasan saya menulis ulang tutorial ini, yaa... hitung-hitung nambah tutorial Hugo berbahasa Indonesia.
 
 ## Page Bundles
 
@@ -81,7 +81,7 @@ Simpan shortcode untuk image processing dibawah ini di `layout/shortocde/img.htm
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
   srcset='
   {{ if ge $src.Width "500" }}
-    {{ with $tiny.RelPermalink }}, {{.}} 500w{{ end }}
+    {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
   {{ end }}
   {{ if ge $src.Width "800" }}
     {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
@@ -124,14 +124,14 @@ Ok, kode diatas dapat dipanggil dengan shortcode berikut.
 {{< /raw >}}
 ```
 
-output html kode diatas sebagai berikut.
+Output html kode diatas sebagai berikut.
 
 ```html
 <figure style="text-align: center;" class="left">
     <p style="text-align: center;">
     <img loading="lazy" style="width: 100%;max-width:1366px;height:auto" srcset="
   
-    , /nama-folder-artikel/namagambar_kodeacakpanjang_kodeacaklainnya_500x0_resize_q75_box.JPG 500w
+    /nama-folder-artikel/namagambar_kodeacakpanjang_kodeacaklainnya_500x0_resize_q75_box.JPG 500w
   
   
     , /nama-folder-artikel/namagambar_kodeacakpanjang_kodeacaklainnya_800x0_resize_q75_box.JPG 800w
@@ -146,7 +146,7 @@ output html kode diatas sebagai berikut.
     
     <p></p>
   </figure>
-  ```
+```
 
   Dari output kode diatas atribut `srcset` memiliki tiga sumber dari 500px hingga 1200px, sedangkan sumber dengan panjang 1500px dikecualikan karena gambar asli mempunyai panjang 1366px.
 

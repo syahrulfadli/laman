@@ -9,4 +9,6 @@ avatar: ["/upload/kucing-kontrakan.jpg"]
 featured: true
 robotsdisallow: true
 social:
+  - title: github
+    url: https://github.com/syahrulfadli
 ---

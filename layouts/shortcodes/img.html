@@ -4,8 +4,8 @@
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
-{{ $tinyw := default "300x" }}
-{{ $smallw := default "485x" }}
+{{ $tinyw := default "350x" }}
+{{ $smallw := default "650x" }}
 {{ $mediumw := default "750x" }}
 {{ $largew := default "944x" }}
 
@@ -30,18 +30,19 @@
       <a href="{{ $src.RelPermalink }}">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
   srcset='
-  {{ if ge $src.Width "300" }}
-    {{ with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+  {{ if ge $src.Width "350" }}
+    {{ with $tiny.RelPermalink }}{{.}} 375w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "485" }}
-    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+  {{ if ge $src.Width "650" }}
+    {{ with $small.RelPermalink }}, {{.}} 680w{{ end }}
   {{ end }}
   {{ if ge $src.Width "750" }}
-    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+    {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }}
   {{ end }}
   {{ if ge $src.Width "944" }}
-    {{ with $large.RelPermalink }}, {{.}} 1200w {{ end }}
-  {{ end }}'
+    {{ with $large.RelPermalink }}, {{.}} 1200w{{ end }}
+  {{ end }}
+  '
   {{ if .Get (print $medium) }}
     src="{{ $medium.RelPermalink }}"
   {{ else }}
