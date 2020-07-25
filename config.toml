@@ -6,7 +6,7 @@ theme = "hugo-theme-novela"
 # google analytics
 googleAnalytics = "UA-86900381-1"
 
-pygmentsstyle = "monokai"
+pygmentsstyle = "dracula"
 
 # post pagination
 paginate = "6"

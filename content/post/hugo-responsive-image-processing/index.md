@@ -119,11 +119,10 @@ Biar lebih optimal udah ditambah juga dengan `lazyload`.
 ## Shortcode
 Ok, kode diatas dapat dipanggil dengan shortcode berikut.
 
-<div class="code-toolbar">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4" class="language-html line-numbers"><code class="language-html" data-lang="html">{{&lt; img src=&quot;namagambar.jpg&quot; width=&quot;1366px&quot; alt=&quot;Deskripsi gambar&quot; caption=&quot;Caption Gambar&quot; &gt;}}
-</code>
-</pre>
-</div>
+```html
+{{< raw >}}{{&lt; img src=&quot;namagambar.jpg&quot; width=&quot;1366px&quot; alt=&quot;Deskripsi gambar&quot; caption=&quot;Caption Gambar&quot; &gt;}}
+{{< /raw >}}
+```
 
 output html kode diatas sebagai berikut.
 
