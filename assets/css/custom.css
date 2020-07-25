@@ -37,8 +37,8 @@ ol li ul li ul li::before {
     border-radius: 0;
   }
 
-  .narrow ol li ul li{
-    margin-left: 4.5rem;
+  .narrow ol li ul li,.narrow ul li ul li{
+    margin-left: 3rem;
   }
   .article-hero-image {
     position: relative;
@@ -405,7 +405,6 @@ ol li ul li ul li ul li::before {
 @media screen and (max-width:480px){
   .narrow ol li ul li,.narrow ul li ul li,.narrow ol li ol li,.narrow ol li ul li ul li{
     margin-left: .5rem;
-    margin-bottom: 25px;
   }
   .lazyload{
     min-height: 70px;
