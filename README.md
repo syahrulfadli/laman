@@ -17,5 +17,5 @@ Di-*build* dengan CMS [Hugo](//gohugo.io) versi 0.73.0 dan di-*deploy* dengan [N
 
 ### Tema
 
-Tema dilisensikan dibawah MIT License (https://github.com/syahrulfadli/hugo-theme-novela/blob/master/LICENSE)
+Tema Novela dari Forestry.io dilisensikan dibawah [MIT License](https://choosealicense.com/licenses/mit/) (https://github.com/syahrulfadli/hugo-theme-novela/blob/master/LICENSE)
 
