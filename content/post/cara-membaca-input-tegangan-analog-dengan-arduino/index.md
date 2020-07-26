@@ -4,6 +4,7 @@ date = 2019-01-21T22:26:00Z
 updated = 2019-10-27T22:53:14Z
 tags = ["Tutorial", "Arduino"]
 blogimport = true 
+math = "true"
 hero = ["/upload/cover-arduino.jpg"]
 authors = ["Syahrul Fadli"]
 aliases = [
@@ -16,11 +17,11 @@ Fungsi membaca tegangan analog dapat dilakukan dengan menggunakan pin `A0`, `A1`
 
 Jadi pada rentang nilai 0 volt sampai 5 volt dipecah sehingga terdapat 1023 data digital. Proses konversi tegangan analog menjadi data digital disebut ADC (Analog to Digital Converter). Berikut cara untuk menghitung konversi tegangan 5 volt dari data digital 10 bit:
 
-5/1023 = 0,0048875855327468 volt
+$${5\over 1023}=0,0048875855327468 volt$$
 
 Jadi, setiap **1** data digital sama dengan **0,0048875855327468 volt**. Sedangkan berapa nilai tegangan jika angka digital-nya adalah 512? Caranya adalah:
 
-512x5/1023 = 2,5024437927663734115347018572825 volt 
+$${512 * 5\over1023} = 2,5024437927663734115347018572825 volt$$
 
 Perintah yang akan kita gunakan pada pembaca input analog adalah `analogRead([nomorpinanalog]);`. Pada percobaan kali ini kita akan menggunakan pin `A0` dan hasil output berupa data serial dan blink LED pada pin 13 (*Built In*)arduino. LED akan berkedip dengan delay berdasarkan pada nilai analog yang sudah dipetakan menjadi 0-1000 dengan satuan milidetik. 
 
