@@ -21,7 +21,7 @@ $${5\over 1023}=0,0048875855327468 volt$$
 
 Jadi, setiap **1** data digital sama dengan **0,0048875855327468 volt**. Sedangkan berapa nilai tegangan jika angka digital-nya adalah 512? Caranya adalah:
 
-$${512 * 5\over1023} = 2,50244 \approx 2,5 volt$$
+$${512 * 5\over1023} = 2,50244... \approx 2,5 volt$$
 
 Perintah yang akan kita gunakan pada pembaca input analog adalah `analogRead([nomorpinanalog]);`. Pada percobaan kali ini kita akan menggunakan pin `A0` dan hasil output berupa data serial dan blink LED pada pin 13 (*Built In*)arduino. LED akan berkedip dengan delay berdasarkan pada nilai analog yang sudah dipetakan menjadi 0-1000 dengan satuan milidetik. 
 
