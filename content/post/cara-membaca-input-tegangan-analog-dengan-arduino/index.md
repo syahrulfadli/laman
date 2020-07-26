@@ -87,6 +87,7 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 
 	{{< img alt="Konfigurasi" src="3.jpg" >}}
 	
+
 Baca juga: <a href='/2016/11/sensor-cahaya-ldr.html' target='_blank' title='Rangkaian Sensor Cahaya DC dengan LDR'>Rangkaian Sensor Cahaya DC dengan LDR</a>
 
 Sekian artikel ini semoga bermanfaat.  
@@ -94,6 +95,9 @@ Sekian artikel ini semoga bermanfaat.
 ## Pustaka
 
 <a href='https://rpprastio.wordpress.com/2013/02/09/membaca-tegangan-analog-dengan-arduino/' rel='nofollow' title='MEMBACA TEGANGAN ANALOG DENGAN ARDUINO' target='_blank'>MEMBACA TEGANGAN ANALOG DENGAN ARDUINO - Amateur Physicist</a>
+
 <a href='http://robotika.unit.itb.ac.id/main/943-arduino.html' rel='nofollow' title='Arduino | Unit Robotika ITB' target='_blank'>Arduino | Unit Robotika ITB</a>
+
 <a href='https://www.arduino.cc/en/Tutorial/AnalogInput' rel='nofollow' title='Arduino - AnalogInput' target='_blank'>Arduino - AnalogInput</a>
+
 <a href='https://www.arduino.cc/en/Tutorial/AnalogInOutSerial' rel='nofollow' title='Arduino - AnalogInOutSerial' target='_blank'>Arduino - AnalogInOutSerial</a>
