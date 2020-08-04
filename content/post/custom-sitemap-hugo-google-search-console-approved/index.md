@@ -42,7 +42,7 @@ Cara agar URL-URL yang dikehendaki saja yang muncul pada sitemap dengan cara mem
 
 ## Membuat Custom Sitemap di Hugo
 
-Tutorial ini saya dapatkan dari thread di forum Hugo itu sendiri[^2].
+Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
 
 [^2]: Custom Robots.txt and sitemap.xml Templates - [discourse.gohugo.io](https://discourse.gohugo.io/t/custom-robots-txt-and-sitemap-xml-templates/11869/17)
 
