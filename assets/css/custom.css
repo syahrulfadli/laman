@@ -40,8 +40,8 @@ ol li ul li ul li::before {
   .narrow ol li ul li,.narrow ul li ul li{
     margin-left: 3rem;
   }
-  .narrow ul li, .narrow ol li p{
-    padding-bottom:0;
+  .narrow ul li > ul li, .narrow ol li > ul li{
+    padding-bottom:0px;
   }
   .narrow ul li p, .narrow ol li p{
     margin-bottom:0;
@@ -184,11 +184,11 @@ pre code{
 }
 
 .highlight pre {
-  padding: 45px;
+  padding: 25px;
   overflow: auto;
   width: 100%;
   max-width: 790px;
-  margin: 0px auto 35px;
+  margin: 10px auto 40px;
   border-radius: 5px;
   font-size: 12px;
 }

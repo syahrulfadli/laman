@@ -87,8 +87,10 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
 
    {{< img src="tags-hugo-index.jpg" width="450px" alt="contoh langkah kedua 2.3" >}}
    
-3. Atau bisa juga dengan menerapkan keseluruhan situs dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya bisa menambahkan `robotsdisallow: false`
-
+   
+   
+   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya bisa menambahkan `robotsdisallow: false`.
+   
 4. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`. 
 
     ```html
