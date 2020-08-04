@@ -86,6 +86,8 @@ Tutorial ini saya dapatkan dari thread di forum Hugo itu sendiri[^2].
    * Buat juga file `_index.md` untuk url turunan dari taxonomy "tags", contohnya saya punya tag dengan nama "Hugo, maka dalam saya akan membuat file di dalam folder `content/tags/hugo/_index.md` lalu tambahankan lagi `robotsdisallow: true`, contohnya seperti berikut.
 
    {{< img src="tags-hugo-index.jpg" width="450px" alt="contoh langkah kedua 2.3" >}}
+   
+3. Atau bisa juga dengan menerapkan keseluruhan situs dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya bisa menambahkan `robotsdisallow: false`.
 
 ## Submit ke Google Search Console
 
