@@ -25,7 +25,8 @@
 
 
   <figure style="text-align: center;color:var(--articleText)" class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
-    <p style="text-align: center;margin-top:20px">
+    <div class="img-container">
+    <p style="text-align: center">
     <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
       <a href="{{ $src.RelPermalink }}">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
@@ -55,7 +56,8 @@
 </p>
     {{ if .Get "caption" }}
     <p>
-      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" }}</figcaption>
+      <figcaption style="max-width:{{ .Get "width" }}" class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" }}</figcaption>
     {{ end }}
     </p>
+    </div>
   </figure>
