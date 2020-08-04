@@ -3,7 +3,7 @@ title: "Membuat Custom XML Sitemap di Hugo untuk Submit Google Search Console"
 date: 2020-08-04T07:24:36+08:00
 hero: ["/upload/sitemap-hugo.jpg"]
 excerpt: "Tutorial gimana cara sukses submit sitemap ke Google Search Console."
-draft: true
+draft: false
 authors: ["Syahrul Fadli"]
 tags: ["Hugo","Tutorial"]
 ---
