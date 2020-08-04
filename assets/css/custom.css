@@ -12,6 +12,44 @@ ol li::before {
 ul li::before {
   border-radius: 3px;
 }
+.search input{
+  border:none;
+  border-bottom: 2px solid var(--grey);
+  background: transparent;
+  color:var(--grey);
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding:10px 0;
+  font-size: 21px;
+}
+.narrow.search-wrapper {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.gsc-above-wrapper-area-container{
+  overflow: inherit;
+}
+#search-hide{
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  width: 100%;
+  top:55px;
+}
+.search input:focus{
+  border-color: var(--accent);
+  color: var(--articleText);
+}
+.search-toggle{
+  fill:var(--primary);
+  opacity: .7;
+  position: relative;
+  z-index: 2;
+}
+.search-toggle:hover{
+  opacity: 1;
+}
 ol li ul li::before {
     display: inline-block;
     content: "" !important;
@@ -366,6 +404,9 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (max-width:600px){
   .section{
     padding:1rem;
+  }
+  #search-hide{
+    top:0px
   }
   .nav-container{
     margin:0 15px;
