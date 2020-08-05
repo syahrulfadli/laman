@@ -47,8 +47,20 @@ ul li::before {
   position: relative;
   z-index: 2;
 }
-.search-toggle:hover{
+.close-search{
+  fill:var(--primary);
+  opacity: .7;
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+  transform: scale(0.1);
+  transition: all 300ms ease-in-out;
+}
+.search-toggle:hover,.close-search:hover{
   opacity: 1;
+}
+#search-toggle{
+  transition: all 300ms ease-in-out;
 }
 ol li ul li::before {
     display: inline-block;
