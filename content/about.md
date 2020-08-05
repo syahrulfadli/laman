@@ -18,7 +18,7 @@ Kenapa topik blog ini seputaran elektronika, pemograman, komputer, dan internet?
 
 Blog ini di-*hosting* di [Github](//github.com) lalu di-*deploy* menggunakan [Netlify](//netlify.com) dan dibangun dengan [Hugo](//gohugo.io).
 
-Blog ini saat awal dibuat, dibangun dengan [Blogger.com](//blogger.com) lalu migrasi menggunakan CMS (*Content Management System*) Hugo.
+Blog ini saat awal dibuat, dibangun dengan [Blogger.com](//blogger.com) lalu migrasi menggunakan SSG (*Static Site Generator*) Hugo.
 
 Arti logo blognya apasih? Gak ada khusus, itu cuman inisial nama aja.
 
