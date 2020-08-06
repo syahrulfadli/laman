@@ -21,7 +21,7 @@ Sitemap adalah cara *webmaster* untuk menginformasikan *search engines* tentang 
 [^0]: Definisi metadata: Data yang menyediakan informasi data lainnya - [Merriam-Webster.com](https://www.merriam-webster.com/dictionary/metadata) 
 [^1]: What are Sitemaps? - [sitemap.org](//www.sitemap.org)
 
-Dengan meengatahui apa itu sitemap sekarang kita udah punya alasan kenapa membuat sitemap yang di *approve* oleh **Google Search Console** dan tahu apa "tugas" dari sitemap ini.
+Dengan mengatahui apa itu sitemap sekarang kita udah punya alasan kenapa membuat sitemap yang di *approve* oleh **Google Search Console** dan tahu apa "tugas" dari sitemap ini.
 
 Membuat Sitemap tidak sekonyong-konyong membuat situs kita menjadi "SANGAT SEO" dan melesat ke peringkat pertama halaman pencarian. Tanpa membuat sitemap-pun dengan keniscayaan-nya Google dapat menemukan situs kita.
 
