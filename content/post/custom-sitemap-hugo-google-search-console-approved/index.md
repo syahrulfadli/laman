@@ -16,11 +16,11 @@ Kita awali dengan mengenal apa itu sitemap. Biar tau apa itu sitemap nggak cuman
 
 ### Apa itu Sitemap?
 
-Sitemap adalah cara untuk *webmaster* untuk menginformasikan *search engines* tentang halaman pada suatu situs yang tersedia untuk di-*crawling*. Penjelasan sederhananya, Sitemap adalah sebuah file XML yang mendaftarkan URL-URL untuk sebuah situs bersamaan dengan tambahan metadata masing-masing URL (seperti kapan terakhir halaman di-*update*, berapa sering perubahan pada halaman tersebut, seberapa penting halaman tersebut, dan URL-URL lain yang terkait dengan situs tersebut) jadi *search engine* bisa lebih mudah untuk *crawl* data sebuah situs[^1].
+Sitemap adalah cara *webmaster* untuk menginformasikan *search engines* tentang halaman pada suatu situs yang tersedia untuk di-*crawling*. Penjelasan sederhananya, Sitemap adalah sebuah file XML yang mendaftarkan URL-URL untuk sebuah situs bersamaan dengan tambahan metadata masing-masing URL (seperti kapan terakhir halaman di-*update*, berapa sering perubahan pada halaman tersebut, seberapa penting halaman tersebut, dan URL-URL lain yang terkait dengan situs tersebut) jadi *search engine* bisa lebih mudah untuk *crawl* data sebuah situs[^1].
 
 [^1]: What are Sitemaps? - [sitemap.org](//www.sitemap.org)
 
-Jadi sekarang kita udah punya alasan kenapa membuat sitemap yang di *approve* oleh **Google Search Console** dan tahu apa "tugas" dari sitemap ini.
+Dengan meengatahui apa itu sitemap sekarang kita udah punya alasan kenapa membuat sitemap yang di *approve* oleh **Google Search Console** dan tahu apa "tugas" dari sitemap ini.
 
 Membuat Sitemap tidak sekonyong-konyong membuat situs kita menjadi "SANGAT SEO" dan melesat ke peringkat pertama halaman pencarian. Tanpa membuat sitemap-pun dengan keniscayaan-nya Google dapat menemukan situs kita.
 
@@ -32,13 +32,11 @@ Banyak tahapan dan cara agar website lebih SEO, tapi saya gak akan bahas disini,
 
 Hugo sudah menyediakan template XML sitemap secara default, Namun template yang disediakan secara *default* oleh Hugo akan *error* jika kita *submit* ke Google Search Console.
 
-Karena di template sitemap yang disediakan oleh Hugo, sitemap me-*list* seluruh URL yang terkait dengan situs termasuk taxonomies seperti tag, series, dan category; URL direktori `content` lainnya juga ikut dalam sitemap seperti direktori post sehingga pada sitemap URL www.example.com/post/ juga ikut terdaftar pada sitemap.  
+Karena di template sitemap yang disediakan oleh Hugo, sitemap me-*list* seluruh URL yang terkait dengan situs termasuk taxonomy (seperti tag, series, dan category); URL direktori `content` lainnya juga ikut dalam sitemap seperti direktori post sehingga pada sitemap URL www.example.com/post/ juga ikut terdaftar pada sitemap.  
 
 URL-URL tersebut tidak dikehendaki untuk berada pada sitemap Google Search Console sehingga menyebabkan *error* saat *submit* sitemap.
 
 Cara agar URL-URL yang dikehendaki saja yang muncul pada sitemap dengan cara membuat *custom sitemap* sendiri.
-
-<!-- belum selesai -->
 
 ## Membuat Custom Sitemap di Hugo
 
@@ -73,13 +71,13 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
    </urlset>
    ```
 
-2. Tambahkan *parameter* `robotsdisallow: true` (untuk TOML disesuaikan saja) pada archetype halaman yang kita inginkan untuk tidak muncul di sitemap.xml.
+2. Tambahkan *parameter* `robotsdisallow: true` (untuk TOML disesuaikan saja) pada archetypes halaman yang kita inginkan untuk tidak muncul di sitemap.xml.
 
     Contoh, saya tidak ingin menampilkan halaman taxonomy "tags" dan segala URL turunannya. Caranya sebagai berikut,
 
    * Buat halaman `content/tags/_index.md`,
 
-   * Tambahkan `robotsdisallow: true` pada archetype file `_index.md` seperti berikut,
+   * Tambahkan `robotsdisallow: true` pada archetypes file `_index.md` seperti berikut,
 
    {{< img src="tags-index.jpg" width="450px" alt="contoh langkah 2.1" >}}
 
@@ -89,7 +87,7 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
    
    
    
-   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya bisa menambahkan `robotsdisallow: false`.
+   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
    
 4. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`. 
 
@@ -103,7 +101,7 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
 
 ## Submit ke Google Search Console
 
-Agar sitemap sukses saat di-*submit* ke Google Search Console, Saya sendiri memberi parameter tersebut di semua halaman taxonomies dan halaman-halaman tertentu lainnya (seperti halaman "Tentang", "Kontak", dll). Sehingga URL yang muncul pada file sitemap.xml hanya URL halaman artikel dan beranda saja.
+Agar sitemap sukses saat di-*submit* ke Google Search Console, Saya sendiri memberi parameter tersebut di semua halaman taxonomy dan halaman-halaman tertentu lainnya (seperti halaman "Tentang", "Kontak", dll). Sehingga URL yang muncul pada file sitemap.xml hanya URL halaman artikel dan beranda saja.
 
 Langkah terakhir tinggal *submit* sitemap Google Search Console.
 

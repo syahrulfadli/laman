@@ -30,7 +30,7 @@ ul li::before {
 }
 .gsc-above-wrapper-area-container{
   overflow: inherit;
-  margin:0 auto 20px
+  margin:0 auto 20px;
 }
 #search-hide{
   transition: all 500ms ease-in-out;
