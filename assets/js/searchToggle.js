@@ -10,6 +10,7 @@ function searchToggle() {
     z.style.visibility = "hidden";
     a.style.visibility = "visible";
     a.style.transform = "scale(1.4)";
+
   } else {
     x.style.left = "-100px";
     x.style.width= "100px";

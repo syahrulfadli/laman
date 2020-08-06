@@ -16,8 +16,9 @@ Kita awali dengan mengenal apa itu sitemap. Biar tau apa itu sitemap nggak cuman
 
 ### Apa itu Sitemap?
 
-Sitemap adalah cara *webmaster* untuk menginformasikan *search engines* tentang halaman pada suatu situs yang tersedia untuk di-*crawling*. Penjelasan sederhananya, Sitemap adalah sebuah file XML yang mendaftarkan URL-URL untuk sebuah situs bersamaan dengan tambahan metadata masing-masing URL (seperti kapan terakhir halaman di-*update*, berapa sering perubahan pada halaman tersebut, seberapa penting halaman tersebut, dan URL-URL lain yang terkait dengan situs tersebut) jadi *search engine* bisa lebih mudah untuk *crawl* data sebuah situs[^1].
+Sitemap adalah cara *webmaster* untuk menginformasikan *search engines* tentang halaman pada suatu situs yang tersedia untuk di-*crawling*. Penjelasan sederhananya, Sitemap adalah sebuah file XML yang mendaftarkan URL-URL untuk sebuah situs bersamaan dengan tambahan metadata[^0] masing-masing URL (seperti kapan terakhir halaman di-*update*, berapa sering perubahan pada halaman tersebut, seberapa penting halaman tersebut, dan URL-URL lain yang terkait dengan situs tersebut) jadi *search engine* bisa lebih mudah untuk *crawl* data sebuah situs[^1].
 
+[^0]: Definisi metadata: Data yang menyediakan informasi data lainnya - [Merriam-Webster.com](https://www.merriam-webster.com/dictionary/metadata) 
 [^1]: What are Sitemaps? - [sitemap.org](//www.sitemap.org)
 
 Dengan meengatahui apa itu sitemap sekarang kita udah punya alasan kenapa membuat sitemap yang di *approve* oleh **Google Search Console** dan tahu apa "tugas" dari sitemap ini.
