@@ -87,7 +87,7 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
    
    
    
-   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML); lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
+   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML, JSON) situs; lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
    
 4. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`. 
 
@@ -97,7 +97,7 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
     {{ end }}
     ```
 
-    Letakan di dalam tag `<head>`.
+    Letakan kode tersebut di dalam tag `<head>`.
 
 ## Submit ke Google Search Console
 
