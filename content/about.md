@@ -20,6 +20,4 @@ Blog ini di-*hosting* di [Github](//github.com) lalu di-*deploy* menggunakan [Ne
 
 Blog ini saat awal dibuat, dibangun dengan [Blogger.com](//blogger.com) lalu migrasi menggunakan SSG (*Static Site Generator*) Hugo.
 
-Arti logo blognya apasih? Gak ada khusus, itu cuman inisial nama aja.
-
 Jika ingin menghubungi penulis bisa lewat email (callsyahrul@outlook.com).

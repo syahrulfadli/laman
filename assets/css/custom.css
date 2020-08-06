@@ -30,6 +30,7 @@ ul li::before {
 }
 .gsc-above-wrapper-area-container{
   overflow: inherit;
+  margin:0 auto 20px
 }
 #search-hide{
   transition: all 500ms ease-in-out;
@@ -60,7 +61,7 @@ ul li::before {
   visibility: hidden;
   transform: scale(0.1);
   transition: all 300ms ease-in-out;
-  left:-9px;
+  left:-4px;
 }
 .search-toggle:hover,.close-search:hover{
   opacity: 1;
@@ -144,10 +145,6 @@ ol li ul li ul li::before {
   .navigation ul li a:hover{
     color: var(--primary);
   }
-.social-icon-outer{
-  width: inherit;
-  min-width: inherit;
-}
 .series-badge{
   font-weight: 700;
   font-size:110%;
@@ -263,6 +260,7 @@ button:focus{
 .logo-link:focus,.social-icon-container a:focus{
   outline: 1px solid var(--primary);
 }
+/*
 .nav-controls button::before ,#themeColorButton:focus::before{
   width: 0px;
   height: 2px;
@@ -276,9 +274,16 @@ button:focus{
 #themeColorButton:focus::before{
   left:4px;
 }
-.nav-controls button:focus::before,#themeColorButton:focus::before{
+.nav-controls button:focus::before{
   width: 100%;
 }
+.close-search:focus .search-toggle{
+  fill:var(--error);
+}
+.close-search:focus::before,.search-toggle:focus::before{
+  width: 0px !important;
+}
+*/
 .list-arsip {
   height: auto;
   position: relative;
@@ -355,15 +360,21 @@ button:focus{
   margin: 25px auto;
   opacity:.3;
 }
-.author-social{
-  width: auto;
-}
 .social-icon-image{
   width: 32px;
   height: 32px;
 }
+.social-icon-container{
+  width: auto;
+  max-width: inherit;
+  min-width: inherit;
+}
 .social-icon-container a{
-  margin: inherit;
+  margin:0 25px;
+  opacity: .5;
+}
+.social-icon-container a:hover{
+  opacity: 1;
 }
 .titlepage h1 {
   font-size: 42px;

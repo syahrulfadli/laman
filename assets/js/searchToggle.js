@@ -9,7 +9,7 @@ function searchToggle() {
     z.style.transform = "scale(0.1)";
     z.style.visibility = "hidden";
     a.style.visibility = "visible";
-    a.style.transform = "scale(1.1)";
+    a.style.transform = "scale(1.4)";
   } else {
     x.style.left = "-100px";
     x.style.width= "100px";
@@ -36,6 +36,6 @@ if (x.style.left === "0px" && x.style.width === "100%"){
     z.style.transform = "scale(0.1)";
     z.style.visibility = "hidden";
     a.style.visibility = "visible";
-    a.style.transform = "scale(1.1)";
+    a.style.transform = "scale(1.4)";
 }
 }
