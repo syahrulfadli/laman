@@ -224,10 +224,11 @@ blockquote{
   margin:0 120px 60px;
 }
 code {
-  background-color: #ddd;
+  background-color: #eee;
   color: #080808;
   padding: 2px 6px;
-  border-radius: 3px;
+  border-radius: 10px;
+  border:1px solid #ddd;
     
 }
 p code,li code {
@@ -237,6 +238,7 @@ p code,li code {
 pre code{
   background-color: transparent;
   color: inherit;
+  border:0;
 }
 
 .highlight pre {
@@ -485,7 +487,7 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 30px;
   }
   .narrow p{
-    padding:0 1rem;
+    padding:0 0;
     font-size:15px;
   }
   ol li,ul li, ol li::before,.footnotes,.footnotes ol li::before{
