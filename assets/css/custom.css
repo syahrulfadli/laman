@@ -644,10 +644,14 @@ ol li ul li ul li ul li::before {
   .lazyload{
     min-height: 70px;
   }
-  blockquote{
-    margin:0 20px 20px;
-    font-size: 14px;
-  }
+blockquote{
+  margin: 0 auto 35px;
+  max-width: 680px;
+  background: #CAE9FB;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+}
   .download{
     font-size: 10px;
   }
