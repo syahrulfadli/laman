@@ -1,0 +1,13 @@
+{{ $link := .Permalink }}
+<div class="sharebutton">
+    <div class="judul">Bagikan</div>
+    <div class="fb" title="Bagikan artikel ini ke Facebook" onclick="window.open('https://www.facebook.com/share.php?u={{ $link }}')">
+    {{ partial "sharebutton/Facebook.svg" . }}
+    </div>
+    <div class="twit" title="Bagikan artikel ini ke Twitter" onclick="window.open('https://twitter.com/home?status={{ $link }}')">
+    {{ partial "sharebutton/Twitter.svg" . }}
+    </div>
+    <div class="wa" title="Bagikan artikel ini ke WhatsApp" onclick="window.open('https://api.whatsapp.com/send?text={{ $link }}')">
+    {{ partial "sharebutton/WhatsApp.svg" . }}
+    </div>
+</div>
