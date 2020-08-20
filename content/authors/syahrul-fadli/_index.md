@@ -6,7 +6,7 @@ draft: false
 bio: |
   Buwung ape tu man?
 avatar: ["/upload/kucing-kontrakan.jpg"]
-featured: true
+featured: false
 robotsdisallow: true
 social:
   - title: github
