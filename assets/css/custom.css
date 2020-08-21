@@ -223,8 +223,12 @@ kbd > kbd {
   display: inline-block;
   overflow: hidden;
 }
-blockquote{
-  margin:0 120px 60px;
+blockquote {
+  margin: 0 auto 60px;
+  width: 100%;
+  max-width: 580px;
+  padding: 20px;
+  border-left: 2px solid var(--grey);
 }
 code {
   background-color: rgba(233, 233, 233, 0.7);
