@@ -21,7 +21,7 @@ Sedangkan dari versi Hugo 0.60.0 ke atas `markup` *default* dari Hugo sudah menj
 
 [^2]: [Content Format - List of content formats](https://gohugo.io/content-management/formats/)
 
-Karena kita orangnya *edgy* (ya gak?) kita ikutin aja sesuai "Aturan" baru.
+Karena kita orangnya *edgy* (ya gak?) kita ikutin aja sesuai "Aturan" baru, Yaitu pake MathJax. 
 
 Untuk memasang MathJax kita harus meletakan javascript MathJax dibawah ini di dalam tag `<head>`.
 
