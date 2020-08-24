@@ -521,6 +521,9 @@ h1, h2, h3, h4, h5, h6{
   font-size: 21px;
   top: 70px;
 }
+.article-header{
+  margin:50px auto;
+}
 .sharebutton{background:var(--background-color);width:50px;color:#6c6c6c;fill:#6c6c6c;position:fixed;right:0;top:30%;text-align:center;z-index:9;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15)}.sharebutton svg{width:32px;height:32px;margin:0 auto;padding:5px}.sharebutton .fb,.sharebutton .twit,.sharebutton .wa,.sharebutton .copy{cursor:pointer;display:flex;align-items:center;height:50px;transition:100ms all ease-in-out}@media screen and (max-width:600px){.sharebutton{bottom:0;top:inherit;width:100%;box-shadow:0 1px 10px 3px rgba(60,64,67,.3),2px 2px 6px 2px rgba(60,64,67,.15)}.sharebutton .fb,.sharebutton .twit,.sharebutton .wa,.sharebutton .copy{height:30px;float:left;width:33.3333%}.sharebutton .fb svg,.sharebutton .twit svg,.sharebutton .wa svg,.sharebutton .copy svg{width:24px}}.sharebutton .judul{font-size:10px;text-align:center;width:100%;height:100%}.copy input{opacity:0;position:absolute;width:0;height:0;left:-100px}.copy #copyTooltip{position:absolute;width:150px;right:70px;height:auto;padding:5px 10px;font-size:14px;background:#1a181fda;border-radius:5px;font-weight:500;display:none;color:#fff}@media screen and (max-width:600px){.copy #copyTooltip{top:-10px;right:0;left:inherit}}.copy:hover #copyTooltip{display:block}.fb:hover{background:#1877f2;fill:#fff}.wa:hover{fill:#fff;background:#25d366}.twit:hover{background:#1da1f2;fill:#fff}.copy:hover{color:#fff;background:#1a181f}
 /*media screen*/
 
