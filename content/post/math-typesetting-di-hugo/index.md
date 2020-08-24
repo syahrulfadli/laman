@@ -53,9 +53,9 @@ Hasilnya:
 
 $$ \bigg({1\over2}+{1\over2}\bigg)\times 2^2 = 4$$ 
 
-Jadi untuk penulisan ekspresi matematikanya harus diantara `$$`. Dan untuk formula dan notasi matematika lainnya bisa dilihat di dokumentasi http://docs.mathjax.org.
+Jadi untuk penulisan ekspresi matematikanya harus diantara `$$`. Dan untuk formula dan notasi matematika lainnya bisa dilihat di dokumentasi/tutorial yang terkait **Tex** atau **LaTex** **Mathematical Expression**, banyak kok internet .
 
-Selain support penulisan Tex &mdash; juga *support* AsciiMath[^3] dan MathML[^4].
+Selain *support* penulisan Tex &mdash; juga **support** AsciiMath[^3] dan MathML[^4].
 
 [^3]: [AsciiMath Support — MathJax 3.0 documentation](http://docs.mathjax.org/en/latest/input/asciimath.html#asciimath-support)
 
