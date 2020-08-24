@@ -1,18 +1,27 @@
 ---
-title: "Math Typesetting Di Hugo"
-date: 2020-07-29T21:24:52+08:00
-hero: ["/upload/hugo-cover.jpg"]
-excerpt:
-draft: true
+title: "Math Typesetting di Hugo"
+date: 2020-08-24T21:24:52+08:00
+hero: ["/upload/ODRAT50.jpg"]
+excerpt: Cara menggunakan Math Typesetting/Mathematical Notation (Matematika Notasi) di Hugo.
+draft: false
+math: true
 authors: ["Syahrul Fadli"]
 tags: ["Hugo","Tutorial"]
+imgattr: "Background photo created by bedneyimages - www.freepik.com"
+imgattrlink: https://www.freepik.com/photos/background
 ---
 
-Ada dua Javascript modul untuk mengolah formula matematika yang populer, MathJax dan KaTeX. Kedua modul ini juga ditulis dengan cara/format yang sama, yaitu **Tex mathematical expression** sehingga menghasilkan formula matematika.
+Ada dua Javascript untuk mengolah formula matematika yang populer, MathJax dan KaTeX. Kedua modul ini juga ditulis dengan cara/format yang sama, yaitu **Tex Mathematical Expression**.
 
-Khusus untuk Hugo, cara terbaik untuk implementasi *Math Typesetting* dengan menggunakan MathJax. Kenapa? Karena untuk saat ini (saat artikel dibuat), KaTeX hanya dapat dijalankan di *markup* **Blackfriday** di Hugo dengan format `.mmark` atau dengan *set* `mmark = true`. Sedangkan dari versi Hugo 0.60.0 ke atas `markup` *default* dari Hugo sudah menjadi **Goldmark** dan pengembang Hugo mengatakan bahwa `mmark`  fitur udah *depreciated* dan akan dihapus pada versi Hugo selanjutnya.
+Khusus untuk Hugo, cara terbaik menurut penulis untuk implementasi *Math Typesetting* dengan menggunakan MathJax. Kenapa? Karena untuk saat ini (saat artikel dibuat), KaTeX hanya dapat dijalankan di *markup* **Blackfriday** di Hugo dengan *content format* `.mmark` atau dengan *set* `mmark = true` pada *archetypes*.
 
-Jadi kalau mau pake KaTeX, *markup* Hugo harus diatur agar menggunakan **Blackfriday**. Tapi karena kita orangnya *edgy* kita ikutin aja sesuai "Aturan" baru.
+Sedangkan dari versi Hugo 0.60.0 ke atas `markup` *default* dari Hugo sudah menjadi **Goldmark** dan pengembang Hugo mengatakan bahwa `mmark`  fitur udah *depreciated*[^1] dan akan dihapus pada versi Hugo selanjutnya[^2].
+
+[^1]:[Definition - What does Deprecation mean?](https://www.techopedia.com/definition/28957/deprecation)
+
+[^2]: [Content Format - List of content formats](https://gohugo.io/content-management/formats/)
+
+Karena kita orangnya *edgy* (ya gak?) kita ikutin aja sesuai "Aturan" baru.
 
 Untuk memasang MathJax kita harus meletakan javascript MathJax dibawah ini di dalam tag `<head>`.
 
@@ -21,48 +30,36 @@ Untuk memasang MathJax kita harus meletakan javascript MathJax dibawah ini di da
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-Contoh cara penulisannya seperti berikut.
+Agar penggunaan  lebih maksimal, ada bagusnya untuk menggunakan tag conditional, agar Javascript hanya di-*load* saat MathJax dibutuhkan halaman.
+
+Sehingga seperti berikut.
+
+```html
+{{ if or .Page.Params.math .Site.Params.math }}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{{ end }}
+```
+
+Lalu jika halaman membutuhkan MathJax, tinggal beri parameter `math: true`(yaml) pada archetypes.
+
+Contoh cara penulisan seperti berikut.
 
 ```mathematica
-$$ 1\over2 $$
+$$\bigg({1\over2}+{1\over2}\bigg)\times 2^2 = 4$$
 ```
 
 Hasilnya:
 
-$$1\over2$$
+$$ \bigg({1\over2}+{1\over2}\bigg)\times 2^2 = 4$$ 
 
-Lainnya untuk contoh notasi matematika.
+Jadi untuk penulisan ekspresi matematikanya harus diantara `$$`. Dan untuk formula dan notasi matematika lainnya bisa dilihat di dokumentasi http://docs.mathjax.org.
 
-```mathematica
-$$ \beta \times \alpha $$
-```
+Selain support penulisan Tex &mdash; juga *support* AsciiMath[^3] dan MathML[^4].
 
-Hasilnya:
+[^3]: [AsciiMath Support — MathJax 3.0 documentation](http://docs.mathjax.org/en/latest/input/asciimath.html#asciimath-support)
 
-$$ \beta \times \alpha $$
-
-$$ {1\over2}+2 $$
-
-Lainnya lagi.
-
-```mathematica
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-```
-
-Hasilnya:
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-Jadi untuk penulisan ekspresi matematikanya harus diantara `$$` (Just like LaTeX). Dan untuk formula dan notasi matematika lainnya bisa dilihat di dokumentasi **Latex Mathematical Expression**.
+[^4]: [MathML Support — MathJax 3.0 documentation](http://docs.mathjax.org/en/latest/input/mathml.html)
 
 Sekian, semoga bermanfaat.
+
