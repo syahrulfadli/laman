@@ -1,6 +1,6 @@
 ---
 title: "Math Typesetting di Hugo"
-date: 2020-08-24T21:24:52+08:00
+date: 2020-08-24
 hero: ["/upload/ODRAT50.jpg"]
 excerpt: Cara menggunakan Math Typesetting/Mathematical Notation (Matematika Notasi) di Hugo.
 draft: false
