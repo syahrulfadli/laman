@@ -1,4 +1,4 @@
 ---
-title: "Belajar Altium Designer"
-robotsdisallow: true
+title: "Belajar Altium Designer - Tutorial Lengkap Altium Designer"
+robotsdisallow: false
 ---
