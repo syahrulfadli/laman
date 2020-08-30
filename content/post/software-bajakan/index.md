@@ -1,5 +1,5 @@
 ---
-title: "Bajak"
+title: "Software Bajakan Tugas Copy/Paste"
 date: 2020-08-29T09:20:47+08:00
 hero: ["/upload/pirates.jpg"]
 excerpt: Software bajakan, musik bajakan, gambar bajakan, gim bajakan, tugas copy/paste.
