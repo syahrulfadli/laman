@@ -5,6 +5,9 @@ html, body {
 .contact{
   margin:100px auto 0;
   width: 680px;
+  sup{
+    color:var(--error);
+  }
   .inline-form {
     display: grid;
     grid-template-columns: repeat(2,1fr);
