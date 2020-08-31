@@ -9,19 +9,22 @@ html, body {
   sup{
     color:var(--error);
   }
+  .contact-wrapper{
+    margin:0;
+    @media screen and (max-width:600px){
+      margin:0 20px;
+    }
+  }
   .inline-form {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 10px;
     @media screen and (max-width:600px){
-      column-gap: 0;
+      column-gap: 5px;
     }
   }
   .inline-form-child,.form-child{
     position: relative; 
-    @media screen and (max-width:600px){
-      margin:0 10px;
-    }
   }
   label{
     position: absolute;
