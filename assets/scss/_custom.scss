@@ -5,16 +5,23 @@ html, body {
 .contact{
   margin:100px auto 0;
   width: 680px;
+  max-width: 100%;
   sup{
     color:var(--error);
   }
   .inline-form {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 25px;
+    column-gap: 10px;
+    @media screen and (max-width:600px){
+      column-gap: 0;
+    }
   }
   .inline-form-child,.form-child{
-    position: relative;
+    position: relative; 
+    @media screen and (max-width:600px){
+      margin:0 10px;
+    }
   }
   label{
     position: absolute;
@@ -32,6 +39,7 @@ html, body {
     padding:10px 15px;
     color:var(--articleText);
     background:none;
+    box-sizing: border-box;
   }
   input:focus, textarea:focus{
     border-color: var(--accent);
