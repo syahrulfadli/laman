@@ -2,6 +2,50 @@ html, body {
   padding:0;
   margin:0;
 }
+.contact{
+  margin:100px auto 0;
+  width: 680px;
+  .inline-form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 25px;
+  }
+  .inline-form-child,.form-child{
+    position: relative;
+  }
+  label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--background-color);
+    color:var(--articleText);
+    padding:0 5px;
+  }
+  input, textarea{
+    border:2px solid var(--grey);
+    border-radius: 3px;
+    width: 100%;
+    padding:10px 15px;
+    color:var(--articleText);
+    background:none;
+  }
+  input:focus, textarea:focus{
+    border-color: var(--accent);
+  }
+  button{
+    background:transparent;
+    color:var(--accent);
+    opacity: 1;
+    padding:5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    border:2px solid var(--accent)
+  }
+  button:focus,button:hover{
+    background:var(--accent);
+    color:var(--background-color);
+  }
+}
 #logo-mobile{
 	display:none;
 	@media screen and (max-width:600px){
