@@ -20,6 +20,6 @@ Blog ini di-*hosting* di [Github](//github.com) lalu di-*deploy* menggunakan [Ne
 
 Saat awal dibuat, blog dibangun dengan [Blogger.com](//blogger.com) lalu migrasi menggunakan SSG (*Static Site Generator*) Hugo.
 
-Jika ingin menghubungi penulis bisa lewat email (callsyahrul@outlook.com).
+Jika ingin menghubungi penulis bisa lewat email (callsyahrul@outlook.com) atau formulir di halaman [kontak](/contact).
 
 Semoga artikel yang saya buat bisa bermanfaat.
