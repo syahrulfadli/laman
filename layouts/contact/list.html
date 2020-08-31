@@ -1,28 +1,31 @@
 {{ define "main" }}
-
-<form name="contact" class="contact" method="POST" data-netlify="true">
+<div class="contact">
+<h1>Nyapa</h1>
+<p>Hubungi saya tentang apa saja yang berkaitan dengan blog ini. Bebas, mulai dari kritik artikel atau sekadar menyapa saya.</p>
+<form name="contact" method="POST" data-netlify="true">
     <p>
     <div class="inline-form">
     <div class="inline-form-child">
       <label for="name">Nama</label><br/>
-      <input type="text" name="name" />
+      <input type="text" name="name" placeholder="Ex. Wahyu Agus"/>
       </div>
       <div class="inline-form-child">
       <label for="email">Email*</label><br/>
-      <input type="email" name="email" required />
+      <input type="email" placeholder="emailkamu@domain.com" name="email" required 
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
       </div>
       </div>
     </p>
     <p>
         <div class="form-child">
         <label for="subject">Subjek*</label><br/>
-        <input name="Subjek" required />
+        <input name="Subjek" placeholder="Perihal apa pesan ini?" required />
         </div>
       </p>
     <p>
         <div class="form-child">
       <label for="message">Pesan*</label><br/>
-      <textarea name="message" required></textarea>
+      <textarea name="message" required placeholder="isi pesan kamu..." rows="5"></textarea>
       </div>
     </p>
     <p>
@@ -30,6 +33,6 @@
     </p>
   </form>
   <p style="font-size:15px;color:var(--grey)">* Wajib diisi.</p>
-  
+  </div>
     
 {{ end }}
