@@ -73,32 +73,24 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
    ```
 
 2. Tambahkan *parameter* `robotsdisallow: true` (untuk TOML disesuaikan saja) pada archetypes halaman yang kita inginkan untuk tidak muncul di sitemap.xml.
-
-    Contoh, saya tidak ingin menampilkan halaman taxonomy "tags" dan segala URL turunannya. Caranya sebagai berikut,
+   Contoh, saya tidak ingin menampilkan halaman taxonomy "tags" dan segala URL turunannya. Caranya sebagai berikut,
 
    * Buat halaman `content/tags/_index.md`,
-
    * Tambahkan `robotsdisallow: true` pada archetypes file `_index.md` seperti berikut,
-
-   {{< img src="tags-index.jpg" width="450px" alt="contoh langkah 2.1" >}}
-
+     {{< img src="tags-index.jpg" width="450px" alt="contoh langkah 2.1" >}}
    * Buat juga file `_index.md` untuk url turunan dari taxonomy "tags", contohnya saya punya tag dengan nama "Hugo", maka dalam di dalam folder "tags" saya akan membuat file di dalam folder `content/tags/hugo/_index.md` lalu tambahkan lagi `robotsdisallow: true`, contohnya seperti berikut.
+     {{< img src="tags-hugo-index.jpg" width="450px" alt="contoh langkah kedua 2.3" >}}
+     Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML, JSON) situs; lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
 
-   {{< img src="tags-hugo-index.jpg" width="450px" alt="contoh langkah kedua 2.3" >}}
-   
-   
-   
-   Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML, JSON) situs; lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
-   
-4. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`. 
+3. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`.
 
-    ```html
-    {{ with .Params.robotsdisallow }}
-    <meta name="robots" content="noindex, nofollow, noarchive">
-    {{ end }}
-    ```
+```html
+{{ with .Params.robotsdisallow }}
+<meta name="robots" content="noindex, nofollow, noarchive">
+{{ end }}
+```
 
-    Letakan kode tersebut di dalam tag `<head>`.
+Letakan kode tersebut di dalam tag `<head>`.
 
 ## Submit ke Google Search Console
 
