@@ -4,8 +4,8 @@ date: 2020-08-29T09:20:47+08:00
 hero: ["/upload/pirates.jpg"]
 excerpt: Software bajakan, musik bajakan, gambar bajakan, gim bajakan, tugas copy/paste.
 authors: ["Syahrul Fadli"]
-tags: ["Editorial"]
-Series: ["Editorial"]
+tags: ["Jurnal"]
+Series: ["Jurnal"]
 draft: false
 imgattr: "Photo by Markus Spiske on Unsplash"
 imgattrlink: https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
