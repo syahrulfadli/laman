@@ -12,5 +12,5 @@ social:
   - title: github
     url: https://github.com/syahrulfadli
   - title: paypal
-    url: https://paypal.com/potus51
+    url: https://paypal.me/potus51
 ---
