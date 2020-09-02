@@ -26,7 +26,7 @@
 
   <figure style="text-align: center;color:var(--articleText)" class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
     <div class="img-container">
-    <p style="text-align: center">
+    <p style="text-align: center;line-height:0">
     <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
       <a href="{{ $src.RelPermalink }}">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
