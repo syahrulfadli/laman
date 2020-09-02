@@ -4,9 +4,9 @@ date: 2020-06-28T22:18:42+08:00
 excerpt:
 draft: false
 bio: |
-  Buwung ape tu man?
+  Ditulis oleh saya. Topik blog tentang elektronika, komputer dan blogging.
 avatar: ["/upload/kucing-kontrakan.jpg"]
-featured: false
+featured: true
 robotsdisallow: true
 social:
   - title: github
