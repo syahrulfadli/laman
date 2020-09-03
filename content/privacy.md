@@ -33,7 +33,7 @@ Pada blog ini terdapat pelacakan dari Google Adsense dan Plausible Analytics.
 
 Secara umum untuk pelacakan dari Google Adsense, mereka mengambil informasi terkait URL perujuk, lokasi geografis, jumlah klik anda terhadap iklan, unit iklan yang anda klik, jenis perangkat, dan kemungkinan informasi pengunjung lainnya. Ada kemungkinan pihak Google untuk menjual data anda terkait informasi yang diambil.
 
-Sedangkan untuk layanan analisis kami (Plausible Analytics), mereka mengambil informasi terkait URL perujuk, lokasi geografis, jenis perangkat, jenis sistem operasi dan browser apa yang anda gunakan. Untuk Plausible Analytics, tidak ada laporan masalah terkait penjualan data.
+Sedangkan untuk layanan analisis kami (Plausible Analytics), mereka mengambil informasi terkait URL perujuk, lokasi geografis, jenis perangkat, jenis sistem operasi dan browser apa yang anda gunakan. Untuk Plausible Analytics, tidak ada laporan terkait penjualan data kepada perusahaan/individu lain.
 
 Untuk menonaktifkan pelacakan dan iklan dari blog ini. Anda dapat menggunakan *extension* semacam pelindung privacy pada browser anda, seperti **DuckDuckGo** atau menggunakan browser yang sudah *built-in* dengan *extension* semacam itu, seperti **Brave Browser**. 
 
