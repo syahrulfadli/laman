@@ -8,7 +8,7 @@ Forked dari [Novela](https://github.com/forestryio/hugo-theme-novela)
 
 ## SSG
 
-Di-*build* dengan SSG [Hugo](//gohugo.io) versi 0.73.0 dan di-*deploy* dengan [Netlify](//netlify.com).
+Di-*build* dengan SSG [Hugo](//gohugo.io) versi 0.68.0 dan di-*deploy* dengan [Netlify](//netlify.com).
 
 ## .Js Tambahan
 
