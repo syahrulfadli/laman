@@ -2,6 +2,7 @@ baseURL = "https://www.syahrulfadli.com"
 languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
+timeout = 60000
 
 # google analytics
 # googleAnalytics = "UA-86900381-1"
