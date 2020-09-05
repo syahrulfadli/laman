@@ -56,7 +56,7 @@ Alternatif saat ini yang "*Disqus-like*" *commenting system* adalah Hyvor Talk. 
 ### Kekurangan
 
 * ***No Free Plan***, tidak ada Free Plan tersedia, namun kamu tetap bisa melakukan uji coba selama 14 hari.
-* ***Reaction* Fitur**, Reaction fitur tidak dapat merekam data tanpa akun. Jadi agar *reaction* kamu terekam, kamu harus login dulu.
+* ***Reaction* fitur**, *reaction* fitur tidak dapat merekam data tanpa akun. Jadi agar *reaction* kamu terekam, kamu harus login dulu.
 
 ## Cara Pasang Hyvor di Situs Kamu
 
