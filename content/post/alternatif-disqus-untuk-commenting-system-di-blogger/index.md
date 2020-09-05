@@ -1,5 +1,5 @@
 ---
-title: "Hyvor Talk Alternatif Disqus untuk Commenting System Blogger"
+title: "Hyvor Talk, Alternatif Disqus untuk Commenting System Blogger"
 date: 2020-09-05T06:34:41+08:00
 hero: ["/upload/comments.jpg"]
 excerpt: Alternatif untuk Disqus commenting-sytem.
