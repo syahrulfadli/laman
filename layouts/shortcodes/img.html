@@ -4,7 +4,7 @@
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
-{{ $tinyw := default "450x q90" }}
+{{ $tinyw := default "600x q90" }}
 {{ $smallw := default "650x" }}
 {{ $mediumw := default "750x q100" }}
 {{ $largew := default "944x" }}
@@ -27,14 +27,18 @@
   <figure style="text-align: center;color:var(--articleText)" class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
     <div class="img-container">
     <p style="text-align: center;line-height:0">
-    <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};">
+    <span class="lazyload" style="width:100%;max-width:{{ .Get "width" }};
+    {{ if .Get "min-height" }}
+    min-height: {{ .Get "min-height" }}
+    {{ end }}
+    ">
       <a href="{{ $src.RelPermalink }}">
     <img loading="lazy" style="width: 100%;max-width:{{ .Get "width" }};height:auto"
   srcset='
-  {{ if ge $src.Width "450" }}
+  {{ if ge $src.Width "680" }}
     {{ with $tiny.RelPermalink }}{{.}} 480w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "650" }}
+  {{ if ge $src.Width "680" }}
     {{ with $small.RelPermalink }}, {{.}} 680w{{ end }}
   {{ end }}
   {{ if ge $src.Width "750" }}

@@ -27,7 +27,7 @@ Beberapa teori yang menjelaskan tentang model-model atom adalah sebagai berikut 
 
 ### Teori Model Atom John Dalton
 
-{{< img alt="Teori Model Atom John Dalton" src="Atom-dalton.jpg" width="300" height="300" >}}
+{{< img alt="Teori Model Atom John Dalton" src="Atom-dalton.jpg" width="300px" height="300px" >}}
 
 John Dalton ilmuwan asal Inggris pada 1808 mengemukakan bahwa atom merupakan suatu zat inti yang tidak bisa dibagi lagi. Berdasarkan hasil penelitiannya Ia mengemukakan bahwa: 
 1. Suatu materi yang terdiri dari atom yang tidak bisa lagi,
