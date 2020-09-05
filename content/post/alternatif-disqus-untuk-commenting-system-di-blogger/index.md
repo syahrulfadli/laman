@@ -48,14 +48,15 @@ Alternatif saat ini yang "*Disqus-like*" *commenting system* adalah Hyvor Talk. 
   
 * **Lebih cepat**, beban *loading* situs lebih kecil dibandingkan dengan Disqus. Kamu masih bisa mengecilkan lagi beban loading Hyvor Talk dengan mengaktifkan fitur *lazy-load*-nya.
   
-Berikut hasil skor dari analisis menggunakan GTMetrix dan Google Pagespeed Insight (tanpa mengaktifkan fitur *lazy-load*).
-  
+  Berikut hasil skor dari analisis menggunakan GTMetrix dan Google Pagespeed Insight (tanpa mengaktifkan fitur *lazy-load*).
+
 {{< img alt="Skor Google Pagespeed Insight dengan Hyvor Talk" src="pagespeed-dengan-hyvor.jpg" min-height="175px" caption="Skor Google Pagespeed Insight dengan Hyvor Talk" >}}
   {{< img alt="Skor GTmetrix dengan Hyvor Talk" src="gtmetrix-dengan-hyvor.jpg" min-height="230px" caption="Skor GTmetrix dengan Hyvor Talk" >}}
 
 ### Kekurangan
 
 * ***No Free Plan***, tidak ada Free Plan tersedia, namun kamu tetap bisa melakukan uji coba selama 14 hari.
+* ***Reaction* Fitur**, Reaction fitur tidak dapat merekam data tanpa akun. Jadi agar *reaction* kamu terekam, kamu harus login dulu.
 
 ## Cara Pasang Hyvor di Situs Kamu
 
