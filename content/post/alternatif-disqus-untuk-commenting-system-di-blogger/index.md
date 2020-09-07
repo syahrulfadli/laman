@@ -24,7 +24,7 @@ Tentu Disqus bukannya tanpa kekurangan, setidaknya ada tiga alasan yang akan say
    
 2. **Iklan**, ada alasan kenapa Disqus gratis. Untuk menghilangkan iklan ini tentu kamu harus *upgrade* akun. Biaya langganan termurah Disqus adalah 9 dollar per bulan.
 
-3. **Privasi**, pada akhir 2017 Disqus menjadi bagian dari perusahaan Zeta Global[^1]. Perusahaan yang bergerak dibidang marketing. Ada kekhawatiran dari banyak pengguna soal data pengguna Disqus yang akan jadi produk dari Zeta Global.
+3. **Privasi**, pada akhir 2017 Disqus menjadi bagian dari perusahaan Zeta Global[^1]. Perusahaan ini yang bergerak dibidang marketing. Ada kekhawatiran dari banyak pengguna soal data pengguna Disqus yang akan jadi produk dari Zeta Global.
    
 Meski Disqus di blognya menegaskan mereka tidak akan mengubah fundamental mereka terhadap produknya. Tetap ada kekhawatian terhadap posisi Zeta Global sebagai bagian dari Disqus saat ini.
 
