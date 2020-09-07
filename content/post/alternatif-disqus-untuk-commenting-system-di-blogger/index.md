@@ -16,21 +16,17 @@ Disqus memberi layanan gratis yang kaya akan fitur seperti *reaction*, *emoticon
 
 Tentu Disqus bukannya tanpa kekurangan, setidaknya ada tiga alasan yang akan saya berikan untuk meninggalkan Disqus saat ini.
 
-1. Memberatkan *loading* situs
-   Jika kamu mengecek kecepatan loading blog kamu menggunakan Google Pagespeed Insight atau GTmetrix, perbedaan skor antara menggunakan Disqus dan tanpa Disqus sangat signifikan.
+1. **Memberatkan *loading* situs**, jika kamu mengecek kecepatan loading blog kamu menggunakan Google Pagespeed Insight atau GTmetrix, perbedaan skor antara menggunakan Disqus dan tanpa Disqus sangat signifikan.
    {{< img alt="Skor Google Pagespeed Insight tanpa Disqus" src="pagespeed-tanpa-disqus.jpg"  caption="Skor Google Pagespeed Insight tanpa Disqus" min-height="178px" >}}
    {{< img alt="Skor Google Pagespeed Insight dengan Disqus" src="pagespeed-dengan-disqus.jpg" caption="Skor Google Pagespeed Insight dengan Disqus" min-height="175px" >}}
    {{< img alt="Skor GTmetrix tanpa Disqus" src="gtmetrix-tanpa-disqus.jpg" caption="Skor GTmetrix tanpa Disqus" min-height="230px" >}}
    {{< img alt="Skor GTmetrix dengan Disqus" src="gtmetrix-dengan-disqus.jpg" caption="Skor GTmetrix dengan Disqus" min-height="232px" >}}
+   
+2. **Iklan**, ada alasan kenapa Disqus gratis. Untuk menghilangkan iklan ini tentu kamu harus *upgrade* akun. Biaya langganan termurah Disqus adalah 9 dollar per bulan.
 
-2. Iklan
-
-   Ada alasan kenapa Disqus gratis. Untuk menghilangkan iklan ini tentu kamu harus *upgrade* akun. Biaya langganan termurah Disqus adalah 9 dollar per bulan.
-
-3. Privasi
-   Pada akhir 2017 Disqus menjadi bagian dari perusahaan Zeta Global[^1]. Perusahaan yang bergerak dibidang marketing. Ada kekhawatiran dari banyak pengguna soal data pengguna Disqus yang akan jadi produk dari Zeta Global.
-
-   Meski Disqus di blognya menegaskan mereka tidak akan mengubah fundamental mereka terhadap produknya. Tetap ada kekhawatian terhadap posisi Zeta Global sebagai bagian dari Disqus saat ini.
+3. **Privasi**, pada akhir 2017 Disqus menjadi bagian dari perusahaan Zeta Global[^1]. Perusahaan yang bergerak dibidang marketing. Ada kekhawatiran dari banyak pengguna soal data pengguna Disqus yang akan jadi produk dari Zeta Global.
+   
+Meski Disqus di blognya menegaskan mereka tidak akan mengubah fundamental mereka terhadap produknya. Tetap ada kekhawatian terhadap posisi Zeta Global sebagai bagian dari Disqus saat ini.
 
 [^1]:Disqus and Zeta - [blog.disqus.com](https://blog.disqus.com/disqus-and-zeta)
 
