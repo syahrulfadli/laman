@@ -725,6 +725,34 @@ h1, h2, h3, h4, h5, h6{
     }
   }
 
+  .post-content a::after,.post-content a[href^="https://localhost"]::after,.post-content a[href^="https://localhost"]::after{
+    background:none;
+    width:0;
+    height:0;
+    margin-left:0;
+  }
+  .post-content a[href^="http://"]::after, .post-content a[href^="https://"]::after {
+    content: '';
+    background:var(--accent);
+    mask:url(/images/box-arrow-up-right.svg);
+    mask-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: -3px;
+  }
+  .post-content h2 a[href^="http://"]::after, .post-content h2 a[href^="https://"]::after{
+    mask:url(/images/box-arrow-up-right-32.svg);
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+  }
+  .footnotes a[href^="http://"]::after, .footnotes a[href^="https://"]::after{
+    width: 0;
+    height: 0;
+    margin-left:0;
+  }
 /*media screen*/
 
   @media screen and (max-width:880px){
