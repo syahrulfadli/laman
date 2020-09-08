@@ -17,11 +17,17 @@ Privasi Anda sebagai pengunjung Blog Syahrul Fadli adalah hal yang sangat pentin
 Seperti kebanyakan situs lain, saya mengumpulkan dan menggunakan data yang terdapat pada file log. Informasi yang terdapat pada file log termasuk alamat IP (Internet Protocol) Anda, ISP (Internet Service Provider), browser yang Anda gunakan, waktu pada saat Anda berkunjung dan halaman mana saja yang Anda buka selama berkunjung di Blog Syahrul Fadli.
 
 ### Tentang Cookies
-Situs saya menggunakan cookies untuk menaruh informasi, seperti informasi preferensi pribadi Anda pada saat mengunjungi situs saya. Ini termasuk saat anda menggunakan *dark mode* di situs saya.
+Situs saya menggunakan cookies untuk menaruh informasi, seperti informasi preferensi pribadi Anda pada saat mengunjungi situs saya.
 
 Blog Syahrul Fadli juga menggunakan iklan dari pihak ketiga untuk mendukung situs saya. Beberapa penayang iklan ini mungkin menggunakan cookies ketika menampilkan iklan di situs saya, yang juga mengirimkan kepada pemasang iklan (seperti Google melalui program Adsense) informasi seperti alamat IP (Internet Protocol) Anda, ISP (Internet ServideProvider), browser internet yang Anda gunakan dan sebagainya.
 
 Hal ini biasanya digunakan untuk tujuan penargetan iklan berdasarkan lokasi (seperti menampilkan iklan properti di Jakarta, misalnya) atau menampilkan iklan yang sesuai berdasarkan situs-situs yang telah Anda kunjungi (seperti menampilkan iklan gadget bagi Anda yang kerap mengunjungi situs-situs gadget, misalnya).
+
+#### *Cookies* pada Commenting System
+
+Blog Syahrul Fadli menggunakan Hyvor Talk sebagai commenting system. Hyvor Talk mengumpulkan *cookie* untuk menyimpan data kondisi login pengguna, tombol *reaction* dan komentar tamu[^2].
+
+[^2]:Privacy Policy fot Hyvor Talk - [talk.hyvor.com/docs/privacy/](https://talk.hyvor.com/docs/privacy#cookiesusage)
 
 Anda dapat memilih untuk men-*disable* cookies melalui setelan pada browser Anda, atau melalui setting pada program semacam Norton Internet Security atau yang lainnya. Namun demikian, hal ini dapat mempengaruhi pengalaman Anda dalam berinteraksi dengan situs saya sebagaimana juga dengan situs lainnya. Termasuk Anda tidak bisa masuk ke layanan saya, seperti log in ke forum atau ke akun yang Anda miliki.
 
@@ -33,9 +39,11 @@ Pada blog ini terdapat pelacakan dari Google Adsense dan Plausible Analytics.
 
 Secara umum untuk pelacakan dari Google Adsense, mereka mengambil informasi terkait URL perujuk, lokasi geografis, jumlah klik anda terhadap iklan, unit iklan yang anda klik, jenis perangkat, dan kemungkinan informasi pengunjung lainnya. Ada kemungkinan pihak Google untuk menjual data anda terkait informasi yang diambil.
 
-Sedangkan untuk layanan analisis kami (Plausible Analytics), mereka mengambil informasi terkait URL perujuk, lokasi geografis, jenis perangkat, jenis sistem operasi dan browser apa yang anda gunakan. Untuk Plausible Analytics, tidak ada laporan terkait penjualan data kepada perusahaan/individu lain.
+Sedangkan untuk layanan analisis kami (Plausible Analytics), mereka mengambil informasi terkait URL perujuk, lokasi geografis, jenis perangkat, jenis sistem operasi dan browser apa yang anda gunakan. Untuk Plausible Analytics, tidak ada pengambilan data *cookies* dari pengunjung[^1].
+
+[^1]:Plausible: GDPR, CCPA and cookie law compliant site analytics - [plausible.io](https://plausible.io/data-policy)
 
 Untuk menonaktifkan pelacakan dan iklan dari blog ini. Anda dapat menggunakan *extension* semacam pelindung privacy pada browser anda, seperti **DuckDuckGo** atau menggunakan browser yang sudah *built-in* dengan *extension* semacam itu, seperti **Brave Browser**. 
 
 
-Terakhir diperbarui pada Selasa, 3 September 2020
+Terakhir diperbarui pada Selasa, 8 September 2020
