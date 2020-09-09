@@ -275,9 +275,11 @@ kbd > kbd {
   position:absolute;
   content:"";
   mask:url(/images/download.svg);
+  -webkit-mask: url(/images/download.svg);
   height:24px;
   width:24px;
   mask-size: cover;
+  -webkit-mask-size: cover;
   margin-left:-45px;
   background-color:var(--accent);
   margin-top: 2px;
@@ -735,15 +737,18 @@ h1, h2, h3, h4, h5, h6{
     content: '';
     background:var(--accent);
     mask:url(/images/box-arrow-up-right.svg);
+    -webkit-mask:url(/images/box-arrow-up-right.svg);
     mask-size: cover;
+    -webkit-mask-size: cover;
     width: 20px;
     height: 20px;
     display: inline-block;
     margin-left: 2px;
-    vertical-align: -3px;
+    vertical-align: -4px;
   }
   .post-content h2 a[href^="http://"]::after, .post-content h2 a[href^="https://"]::after{
     mask:url(/images/box-arrow-up-right-32.svg);
+    -webkit-mask:url(/images/box-arrow-up-right-32.svg);
     width: 32px;
     height: 32px;
     margin-left: 5px;
