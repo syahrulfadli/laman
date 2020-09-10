@@ -13,8 +13,9 @@
   <li itemprop="itemListElement" itemscope
   itemtype="https://schema.org/ListItem">
   {{ if eq .p1 .p2 }}
+  {{ $scratch.Add "posisi" 1 }}
     <span itemprop="name">{{ .p1.Title }}</span>
-        <meta itemprop="position" content="{{ $scratch.Add "posisi" 1 }}{{ $scratch.Get "posisi" }}" />
+        <meta itemprop="position" content="{{ $scratch.Get "posisi" }}" />
 {{ else if eq (1) ($scratch.Get "posisi") }}
 <a itemprop="item" href="{{ .p1.Permalink }}"><span itemprop="name">Beranda</span> 
   <meta itemprop="position" content="{{ $scratch.Get "posisi" }}" />    
