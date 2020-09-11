@@ -4,7 +4,9 @@ html, body {
 }
 .breadcrumb{
   color:var(--grey);
-  font-size: 15px;
+  font-size: 1px;
+  list-style:none;
+  padding:0;
   visibility: hidden;
   a{
     color:var(--grey);
@@ -350,7 +352,6 @@ kbd > kbd {
 .lazyload{
   background: #eee url(/images/logo_bw.svg) no-repeat center;
   background-size: 35%;
-  min-height: 240px;
   display: inline-block;
   overflow: hidden;
 }
@@ -815,8 +816,7 @@ h1, h2, h3, h4, h5, h6{
       margin-top:3px;
     }
     .lazyload{
-     background-size: 20%;      
-      min-height: 0px !important;
+     background-size: 20%; 
     }
     blockquote{
       margin:0 30px 30px;
