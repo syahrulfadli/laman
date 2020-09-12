@@ -32,7 +32,7 @@ Tapi kalo saya sendiri (saat artikel ini dibuat) menggunakan breadcrumb berdasar
 
 ## Breadcrumb Berdasarkan Taxonomy Tag
 
-```html
+```go-html-template
  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       {{ $.Scratch.Set "posisi" 1 }}
     <li itemprop="itemListElement" itemscope
@@ -76,7 +76,7 @@ Breadcrumb ini harus dibuat secara partial.
 
 2. Copy kode di bawah ini lalu paste ke `breadcrumb.html`,
 
-   ```html
+   ```go-html-template
    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
        {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
      </ol>
@@ -110,7 +110,7 @@ Breadcrumb ini harus dibuat secara partial.
 
 3. Panggil kode partial breadcrumb dengan kode dibawah ini.
 
-   ```html
+   ```go-html-template
    {{ partial "breadcrumb.html" . }}
    ```
 
