@@ -26,6 +26,13 @@ html, body {
     font-size:13px;
   }
 }
+.responsiveads{
+  height: 90px;
+  max-width: 680px;
+  @media screen and (max-width:600px){
+    height: auto;
+  }
+}
 .breadcrumb{
   color:var(--grey);
   font-size: 1px;

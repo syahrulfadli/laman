@@ -1,7 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-hero: /images/hero-3.jpg
+hero: ["/upload/default.jpg"]
 excerpt:
+authors: ["Syahrul Fadli"]
+tags: [""]
 draft: true
+robotsdisallow: false
+imgattr: 
+imgattrlink: 
 ---
