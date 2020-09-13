@@ -181,12 +181,13 @@ ul li::before {
   margin:0 auto 20px;
 }
 #search-hide{
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
   position: absolute;
-  width: 100px;
+  width: 100%;
   visibility: hidden;
   top:55px;
   z-index: 3;
+  transform: scale(0.1);
 }
 .search input:focus{
   border-color: var(--accent);
@@ -259,15 +260,16 @@ ol li ul li ul li::before {
   }
   .img-container{
     margin:35px 0;
+    .lazyload{
+      box-shadow: 0 6px 19px -5px rgba(0,0,0,.14);
+    }
   }
   .img-container figcaption {
     margin: 0 auto;
     width: 100%;
-    background: var(--accent);
     max-width: 680px;
-    font-weight: bold;
-    padding: 14px 0 10px;
-    color: var(--background);
+    color: var(--grey);
+    font-size: 15px;
 }
   .article-hero-image {
     position: relative;
@@ -327,7 +329,7 @@ kbd > kbd {
   z-index: 1;
   transition: var(--color-mode-transition);
 }
-.download:before{
+.download::before{
   position:absolute;
   content:"";
   mask:url(/images/download.svg);
@@ -340,6 +342,9 @@ kbd > kbd {
   background-color:var(--accent);
   margin-top: 2px;
   transition: all .2s ease-in-out;
+}
+.download::after{
+  display: none !important;
 }
 .separator::before{
   position: absolute;
@@ -527,10 +532,12 @@ button:focus{
 .article-title,.article-hero-heading {
   word-wrap: break-word;
 }
+.post-content{
+  padding-bottom: 0px;
+}
 .iklan{
   margin:0 auto;
   max-width:728px;
-  margin-bottom: 40px;
   .iklanresponsive{
     margin:0 auto;
     width:300px;
