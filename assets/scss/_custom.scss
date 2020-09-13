@@ -530,12 +530,9 @@ button:focus{
   margin:0 auto;
   max-width: 680px;
   margin-bottom: 40px;
-  height: 90px;
+  height: 90px !important;
   @media screen and (max-width:600px){
-    height: auto;
-  }
-  .iklanresponsive{
-    height: 90px;
+    height: auto !important;
   }
 }
 .footer-next-heading::after{
