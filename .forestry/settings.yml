@@ -39,11 +39,11 @@ sections:
   label: Arsip
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/images
+public_path: "/upload"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: 'post/:filename:'
 build:
   preview_env:
   - HUGO_ENV=staging
