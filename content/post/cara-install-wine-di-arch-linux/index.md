@@ -10,6 +10,7 @@ aliases = [
     "/cara-install-wine-di-arch-linux/",
     "/2020/04/cara-install-wine-di-arch-linux.html"
 ]
+robotsdisallow = false
 +++
 
 Nama Wine diambil dari akronim "*Wine Is Not an Emulator*". Ya! ini bukan emulator yang **menjalankan OS Windows di Linux** melainkan sebuah program yang mempunyai kompatibilitas untuk menjalankan **program Windows di Linux**.

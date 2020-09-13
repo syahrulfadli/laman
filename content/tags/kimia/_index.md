@@ -1,4 +1,0 @@
----
-title: "Kimia"
-robotsdisallow: true
----

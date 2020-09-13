@@ -10,6 +10,7 @@ aliases = [
     "/cara-downgrade-bios-asus-dengan-winflash/",
     "/2018/11/cara-downgrade-bios-asus-dengan-winflash.html"
 ]
+robotsdisallow = false
 +++
 
 Kenapa *Downgrade* BIOS? Banyak alasan yang mendasari kenapa seorang pengguna melakukan *Downgrade* setelah sebelumnya pengguna melakukan *Upgrade*. Dari isu komsumsi baterai, fitur-fitur pada Operasi sistem tidak berjalan semestinya setelah melakukan *Upgrade* dan masalah-masalah Hardware lainnya yang muncul setelah melakukan *Upgrade* BIOS.

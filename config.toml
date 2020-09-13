@@ -25,6 +25,8 @@ home = ["HTML", "RSS"]
 [markup.goldmark.renderer]
 unsafe= true
 
+robotsdisallow = true
+
 [params]
   description = "Blog pribadi yang membahas topik seputar elektronika, komputer dan internet."
   images = ["images/favicon.svg"]
@@ -34,6 +36,12 @@ unsafe= true
 tag = "tags"
 author = "authors"
 series = "series" 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 
 [menu]
   [[menu.main]]

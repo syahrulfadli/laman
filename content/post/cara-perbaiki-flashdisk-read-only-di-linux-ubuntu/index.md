@@ -10,6 +10,7 @@ aliases = [
     "/cara-upload-program-ke-arduino-pro-mini-dengan-usb-to-ttl-pl2303/",
     "/2017/05/upload-program-ke-arduino-pro-mini.html/"
 ]
+robotsdisallow = false
 +++
 
 [Tutorial](/tags/Tutorial) memperbaiki Flashdisk/USB Drive read-only ini dapat digunakan di Ubuntu, elementaryOS, Arch, Debian dan distribusi/distro [Linux](/tags/Linux) lainnya.

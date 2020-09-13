@@ -9,6 +9,7 @@ authors: ["Syahrul Fadli"]
 tags: ["Hugo","Tutorial"]
 imgattr: "Background photo created by bedneyimages - www.freepik.com"
 imgattrlink: https://www.freepik.com/photos/background
+robotsdisallow: false
 ---
 
 Ada dua Javascript untuk mengolah formula matematika yang populer, MathJax dan KaTeX. Kedua modul ini juga ditulis dengan cara/format yang sama, yaitu **Tex Mathematical Expression**.

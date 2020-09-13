@@ -6,6 +6,7 @@ excerpt:
 draft: false
 authors: ["Syahrul Fadli"]
 tags: [Hugo, Tutorial, Pemograman]
+robotsdisallow: false
 ---
 
 *Shortcode* adalah fitur *content management* paling *powerfull* yang dimiliki oleh Hugo. Dan kali saya akan share *shortcode* untuk membuat gambar agar ukuran responsive dan resolusi gambar menyesuaikan dengan ukuran layar.

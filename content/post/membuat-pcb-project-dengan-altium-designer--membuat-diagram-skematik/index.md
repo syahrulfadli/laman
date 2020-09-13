@@ -11,6 +11,7 @@ aliases = [
     "/membuat-pcb-project-dengan-altium-designer--membuat-diagram-skematik/",
     "/2018/12/membuat-diagram-skematik.html/"
 ]
+robotsdisallow = false
 +++
 
  Versi dari *software* **Altium Desginer** yang penulis gunakan **16.0.5**. Pada artikel kali ini Penulis akan menganggap pembaca adalah seorang yang sudah mengerti dasar-dasar elektronika, dan penggunaan sistem operasi Windows. 

@@ -10,6 +10,7 @@ aliases = [
     "/robot-line-follower-analog-2-sensor/",
     "/2017/12/robot-line-follower-tracer-analog.html/"
 ]
+robotsdisallow = false
 +++
 
 Robot Line Follower atau kita bisa sebut juga Robot Line Tracer yang sesuai namanya, bertugas untuk mengikuti garis. Ada 2(dua) jenis Robot Line Tracer yaitu Analog dan berbasis Mikrokontroller. Kali ini saya akan membuat Robot Line Follower yang berbasis Analog dengan menggunakan 2(dua) photodioda. Berikut daftar komponen dari robot line follower. 

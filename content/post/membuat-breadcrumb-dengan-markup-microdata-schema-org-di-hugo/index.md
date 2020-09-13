@@ -8,6 +8,7 @@ authors: ["Syahrul Fadli"]
 tags: ["Tutorial","Hugo"]
 imgattr: "Photo by Pierre Bamin on Unsplash"
 imgattrlink: https://unsplash.com/@bamin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+robotsdisallow: false
 ---
 
 Breadcrumb berguna untuk membantu pengguna memahami posisi halaman dari hierarki situs. Tidak hanya pengguna juga mesin pencari, jika menerapkan breadcrumb dengan markup schema.org maka hasil pencarian akan seperti berikut.

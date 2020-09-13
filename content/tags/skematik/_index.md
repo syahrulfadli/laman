@@ -1,4 +1,0 @@
----
-title: "Skematik"
-robotsdisallow: true
----

@@ -9,6 +9,7 @@ Series: ["Jurnal"]
 draft: false
 imgattr: "Photo by Markus Spiske on Unsplash"
 imgattrlink: https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
+robotsdisallow: false
 ---
 
 Warga negara indonesia sudah sangat akrab dengan kegiatan bajak-membajak. Mungkin karena kita negara agraris? (ehe)

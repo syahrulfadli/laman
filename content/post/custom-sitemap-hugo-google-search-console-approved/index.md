@@ -6,6 +6,7 @@ excerpt: "Tutorial gimana cara sukses submit sitemap ke Google Search Console."
 draft: false
 authors: ["Syahrul Fadli"]
 tags: ["Hugo","Tutorial"]
+robotsdisallow: false
 ---
 
 ## Intro
@@ -72,29 +73,34 @@ Tutorial ini saya dapatkan dari thread di forum Hugo[^2].
    </urlset>
    ```
 
-2. Tambahkan *parameter* `robotsdisallow: true` (untuk TOML disesuaikan saja) pada archetypes halaman yang kita inginkan untuk tidak muncul di sitemap.xml.
+2. Letakan kode meta berikut dalam tag `<head>`,
+
+   ```go-html-template
+   {{ with .Params.robotsdisallow }}
+   <meta name="robots" content="noindex, nofollow, noarchive">
+   {{ end }}
+   ```
+
+3. Tambahkan *parameter* `robotsdisallow: true` (untuk TOML disesuaikan saja) pada **archetypes** halaman yang kita inginkan untuk tidak muncul di sitemap.xml.
    Contoh, saya tidak ingin menampilkan halaman taxonomy "tags" dan segala URL turunannya. Caranya sebagai berikut,
 
    * Buat halaman `content/tags/_index.md`,
+
    * Tambahkan `robotsdisallow: true` pada archetypes file `_index.md` seperti berikut,
      {{< img src="tags-index.jpg" width="450px" alt="contoh langkah 2.1" >}}
+     
    * Buat juga file `_index.md` untuk url turunan dari taxonomy "tags", contohnya saya punya tag dengan nama "Hugo", maka dalam di dalam folder "tags" saya akan membuat file di dalam folder `content/tags/hugo/_index.md` lalu tambahkan lagi `robotsdisallow: true`, contohnya seperti berikut.
      {{< img src="tags-hugo-index.jpg" width="450px" alt="contoh langkah kedua 2.3" >}}
-     Atau bisa juga diterapkan ke seluruh situs secara default dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML, JSON) situs; lalu pada file `archetypes/_default.md` dan direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`.
+     
+     Atau bisa juga diterapkan ke seluruh situs secara *default* dengan memberikan `robotsdisallow: true` pada config file (TOML, YAML, JSON) situs; lalu pada file ***archetypes*** direktori konten lainnya (yang ingin ditampilkan di sitemap) bisa menambahkan `robotsdisallow: false`. Dengan catatan kamu harus mengubah sedikit pada kode kondisional di`sitemap.xml` seperti berikut dan *tag* meta.
+     * Ubah kode `{{ if not .Params.robotsdisallow }}` (lihat pada langkah pertama) menjadi `{{ if eq .Params.robotsdisallow false }}`,
+     * Ubah kode `{{ with .Params.robotsdisallow }}` (lihat pada langkah kedua)  menjadi `{{ if ne .Params.robotsdisallow false }}`.
 
-3. Tambahkan juga tag meta berikut agar robot mesin pencari tidak meng-*crawl* halaman yang diberi `robotsdisallow: true`.
-
-```html
-{{ with .Params.robotsdisallow }}
-<meta name="robots" content="noindex, nofollow, noarchive">
-{{ end }}
-```
-
-Letakan kode tersebut di dalam tag `<head>`.
+4. Simpan dan *submit* ke Google.
 
 ## Submit ke Google Search Console
 
-Agar sitemap sukses saat di-*submit* ke Google Search Console, Saya sendiri memberi parameter tersebut di semua halaman taxonomy dan halaman-halaman tertentu lainnya (seperti halaman "Tentang", "Kontak", dll). Sehingga URL yang muncul pada file sitemap.xml hanya URL halaman artikel dan beranda saja.
+Agar sitemap sukses saat di-*submit* ke Google Search Console, Saya sendiri memberi parameter tersebut di semua halaman taxonomy dan halaman-halaman tertentu lainnya (seperti halaman Tentang, Kontak, dan Arsip ). Sehingga URL yang muncul pada file sitemap.xml hanya URL halaman artikel dan beranda saja.
 
 Langkah terakhir tinggal *submit* sitemap Google Search Console.
 

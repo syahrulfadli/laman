@@ -11,6 +11,7 @@ aliases = [
     "/cara-menambahkaninstall-library-di-alitum-designer",
     "/2018/12/cara-menambahkan-library-di-altium.html"
 ]
+robotsdisallow = false
 +++
 
 Format file library yang dapat di-<i>install</i> langsung adalah <b>.INTLIB</b>, <b>.SCHLIB</b>, <b>.DBLIB</b>, <b>.PCBLIB</b>, <b>.SVNDBLIB</b>, <b>.PCB3DLIB</b>. Selain dari format ekstensi tersebut harap melakukan proses <i>Import </i>terlebih dahulu.

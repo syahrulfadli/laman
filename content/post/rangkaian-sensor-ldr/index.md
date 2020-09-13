@@ -10,6 +10,7 @@ aliases = [
     "/rangkaian-sensor-ldr/",
     "/2016/11/sensor-cahaya-ldr.html/"
 ]
+robotsdisallow = false
 +++
 
 Sensor cahaya ini pada dasarnya tugas Kelompok dari guru saya dan skema rangkaian ini juga berasal dari guru Saya di SMK Negeri 3 Mataram, dan sudah saya coba praktikan lewat Simulasi maupun <i>real</i>-nya dan <i>It's Work</i>. Berikut ini adalah rangkaian skematik dari sensor cahaya menggunakan LDR.

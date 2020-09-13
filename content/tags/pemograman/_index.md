@@ -1,4 +1,0 @@
----
-title: "Pemograman"
-robotsdisallow: true
----

@@ -10,7 +10,7 @@ aliases = [
     "/teori-atom/",
     "/2019/11/atom.html/"
 ]
-
+robotsdisallow = false
 excerpt = "Pengertian Atom, 5  Teori lengkap Atom menurut para ahli, kelemahan dan kelebihan masing-masing teori."
 
 +++

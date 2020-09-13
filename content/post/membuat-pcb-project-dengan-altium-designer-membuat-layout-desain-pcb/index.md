@@ -11,6 +11,7 @@ aliases = [
     "/membuat-pcb-project-dengan-altium-designer-membuat-layout-desain-pcb/",
     "/2019/01/membuat-layout-pcb-di-altium.html/"
 ]
+robotsdisallow = false
 +++
 
 Artikel ini merupakan lanjutan dari artikel dengan judul "Membuat Project PCB dengan Altium Designer: Membuat Diagram Skematik". Jadi sebelum melakukan tutorial di bawah ini diharapakan Anda untuk membaca artikel tersebut.

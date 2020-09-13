@@ -10,6 +10,7 @@ aliases = [
     "/rangkaian-dan-sketch-program-ardutester-komponen-tester-berbasis-arduino/",
     "/2017/12/rangkaian-dan-program-ardutester.html/"
 ]
+robotsdisallow = false
 +++
 
 Saya akan membagikan 2 Skema rangkaian untuk Ardutester, yaitu menggunakan Board Arduino langsung dan menggunakan IC ATmega328(IC yang tertanam pada Board Arduino UNO) yang sudah diisi bootloader Arduino Uno. Jika IC yang akan digunakan baru dan belum di isi bootloader atau belum tau cara isi bootloader Arduino ke IC ATmega328 silahkan klik link dibawah ini. Rangkaian Ardutester ini tidak mempunyai fitur untuk menghitung nilai ESR(ESR Meter) kapasitor. 

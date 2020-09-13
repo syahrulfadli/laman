@@ -6,6 +6,7 @@ excerpt: Alternatif untuk Disqus commenting-sytem.
 draft: false
 authors: ["Syahrul Fadli"]
 tags: ["Alternatif","Tutorial"]
+robotsdisallow: false
 ---
 
 Semenjak diluncurkan pada 2007, Disqus mulai populer di kalangan blogger karena saat itu kompetisi pasar untuk Disqus masih sangat rendah.

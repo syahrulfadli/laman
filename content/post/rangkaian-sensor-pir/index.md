@@ -10,6 +10,7 @@ aliases = [
     "/rangkaian-sensor-pir/",
     "/2017/12/rangkaian-sensor-gerak-pir.html/"
 ]
+robotsdisallow = false
 +++
 
 ## Sensor PIR

@@ -11,6 +11,7 @@ aliases = [
     "/cara-membaca-input-tegangan-analog-dengan-arduino/",
     "/2019/01/membaca-nilai-analog-dengan-arduino.html"
 ]
+robotsdisallow = false
 +++
 
 Fungsi membaca tegangan analog dapat dilakukan dengan menggunakan pin `A0`, `A1`, `A2`, `A3`, `A4`, `A5` pada arduino. Input yang masuk pada pin analog arduino akan dikonversi menjadi data digital dengan panjang 10 bit sehingga nilai input tegangan 0 volt sampai 5 volt(tegangan maksimal input Arduino) pada pin analog arduino mempunyai 1024 (di dapat dari 2<sup>10</sup>) keadaan dengan rentang 0 sampai 1023.

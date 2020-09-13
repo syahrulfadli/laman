@@ -10,6 +10,8 @@ aliases = [
     "/cara-burn-bootloader-ke-ic-atmega-dengan-arduino/",
     "/2017/05/burn-bootloader-ke-ic-atmega8168328.html/"
 ]
+
+robotsdisallow = false
 +++
 
 Buat yang baru membeli sebuah IC ATmega8/168/328  pastinya IC tersebut tidak dapat langsung diisi program, kenapa? karena IC tersebut harus memiliki sebuah program pengendali yang mengatur proses input dan output dari IC itu sendiri program ini akan bekerja dibawah program pada utama. Oke disini saya akan memberikan tutorial cara Burn Bootloader ke IC ATmega8/168/328 dengan menggunakan board Arduino sebagai AVR ISP.  ## Alat dan Bahan
