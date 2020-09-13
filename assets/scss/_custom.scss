@@ -528,9 +528,10 @@ button:focus{
 }
 .iklan{
   margin:0 auto;
-  max-width:680px;
+  max-width:728px;
   margin-bottom: 40px;
   .iklanresponsive{
+    margin:0 auto;
     width:300px;
     height: 100px;
   @media (min-width:500px){
