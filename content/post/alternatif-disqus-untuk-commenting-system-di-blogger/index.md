@@ -37,7 +37,7 @@ Alternatif saat ini yang "*Disqus-like*" *commenting system* adalah Hyvor Talk. 
 
 ### Kelebihan
 
-* ***Privacy-focused***, mereka meng-klaim tidak menjual data pengguna kepada pihak ketiga ataupun dan *tracking* pengunjung.
+* ***Privacy-focused***, mereka meng-klaim tidak menjual data pengguna kepada pihak ketiga ataupun dan *tracking* pengunjung. Hyvor Talk transparan dalam penggunaan *cookie*, penggunaan data *cookie* bisa dilihat di halaman privasi mereka.
   
 * **Terjangkau**, biaya langganan lebih murah dibanding Disqus. Biaya langganan mulai dari 5 dollar lebih murah dibanding "bussiness plan" mlik Disqus.
   
@@ -52,8 +52,7 @@ Alternatif saat ini yang "*Disqus-like*" *commenting system* adalah Hyvor Talk. 
 
 ### Kekurangan
 
-* ***No Free Plan***, tidak ada Free Plan tersedia, namun kamu tetap bisa melakukan uji coba selama 14 hari.
-* ***Reaction* fitur**, *reaction* fitur tidak dapat merekam data tanpa akun. Jadi agar *reaction* kamu terekam, kamu harus login dulu.
+* ***No Free Plan***, tidak ada *Free Plan* tersedia, namun kamu tetap bisa melakukan uji coba selama 14 hari.
 
 ## Cara Pasang Hyvor di Situs Kamu
 
