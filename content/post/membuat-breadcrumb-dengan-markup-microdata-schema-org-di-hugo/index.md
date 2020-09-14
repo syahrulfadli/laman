@@ -63,11 +63,11 @@ Tapi kalo saya sendiri (saat artikel ini dibuat) menggunakan breadcrumb berdasar
     </ol>
 ```
 
-Sesuaikan `/tags/` dengan taxonomy tag kamu, atau kamu bisa menggunakan taxonomy yang lain.
+Sesuaikan `/tags/` dan  `.Params.tags` dengan taxonomy tag kamu, atau kamu bisa menggunakan taxonomy yang lain.
 
-Untuk demo silahkan buka [link ini](https://hugobyexample.netlify.app/for-seven-post-goal/).
+Untuk demo silahkan buka [link ini](https://hugobyexample.netlify.app/post/for-seven-post-goal/).
 
-Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=Je33ZH3N7HO5k27lTze2Xw).
+Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=L5Yp7fyc7noV4iLWGc7Nww).
 
 ## Breadcrumb Berdasarkan Struktur URL
 
@@ -115,13 +115,13 @@ Breadcrumb ini harus dibuat secara partial.
    {{ partial "breadcrumb.html" . }}
    ```
 
-Kode diatas modifikasi dari halaman dokumentasi resmi Hugo[^2]. Untuk lebih lengkap terkait kode diatas silahkan kunjungi halaman dokumentasinya [disini](https://gohugo.io/content-management/sections/#example-breadcrumb-navigation).
+Kode di atas modifikasi dari halaman dokumentasi resmi Hugo[^2]. Untuk lebih lengkap terkait kode di atas silahkan kunjungi halaman dokumentasinya [disini](https://gohugo.io/content-management/sections/#example-breadcrumb-navigation).
 
 [^2]: Example: Breadcrumb Navigation - [gohugo.io](https://gohugo.io/content-management/sections/#example-breadcrumb-navigation)
 
-Untuk demo silahkan klik link [berikut](https://hugobyexample.netlify.app/post-with-quite-long-title-for-testing-the-cards/).
+Untuk demo silahkan klik link [berikut](https://hugobyexample.netlify.app/post/post-with-quite-long-title-for-testing-the-cards/).
 
-Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=W_AaCGlAs9MnRZekJegsxw).
+Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=c_EuVRN3vj5FnfV2CtBRkw).
 
 ## Pake Telor
 
