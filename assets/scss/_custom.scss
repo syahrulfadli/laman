@@ -643,6 +643,13 @@ h1, h2, h3, h4, h5, h6{
 }
 .icon-wrapper{
   z-index: 5;
+  text-align: center;
+  span{
+    position: absolute;
+    bottom: -30px;
+    left:7px;
+    visibility: hidden;
+  }
 }
 
 /* error page */

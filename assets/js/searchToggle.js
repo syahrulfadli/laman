@@ -9,7 +9,7 @@ function searchToggle() {
     z.style.transform = "scale(0.1)";
     z.style.visibility = "hidden";
     a.style.visibility = "visible";
-    a.style.transform = "scale(1.4)";
+    a.style.transform = "scale(1)";
 
   } else {
     x.style.opacity = "0";
@@ -37,6 +37,6 @@ if (x.style.opacity === "1"){
     x.style.transform = "scale(1)";
     z.style.visibility = "hidden";
     a.style.visibility = "visible";
-    a.style.transform = "scale(1.4)";
+    a.style.transform = "scale(1)";
 }
 }
