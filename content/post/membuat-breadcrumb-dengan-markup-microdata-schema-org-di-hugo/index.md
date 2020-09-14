@@ -121,7 +121,7 @@ Kode di atas modifikasi dari halaman dokumentasi resmi Hugo[^2]. Untuk lebih len
 
 Untuk demo silahkan klik link [berikut](https://hugobyexample.netlify.app/post/post-with-quite-long-title-for-testing-the-cards/).
 
-Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=c_EuVRN3vj5FnfV2CtBRkw).
+Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=c_EuVRN3vj5FnfV2CtBRkw "Hasil Google Rich Result Test").
 
 ## Pake Telor
 
