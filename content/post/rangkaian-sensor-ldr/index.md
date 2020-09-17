@@ -46,7 +46,7 @@ Perhatikan dua gambar berikut (1=vcc, 0=ground).
 **Jadi cara kerjanya** adalah ketika LDR dalam kondisi terkena cahaya (**Terang**) maka resistan LDR akan mengecil jadi arus akan melewati LDR tidak melewati **R2** dan tidak mengaktifkan transistor Q(2), relay tidak mendapat ground jadi relay tidak aktif. Ketika LDR dalam kondisi cahaya redup (**Gelap**), maka resistan LDR akan meningkat, arus tidak melewati LDR melainkan melewati **R2** lalu mengaktifkan transistor relay menjadi aktif karena mendapat ground dan menyaklar Lampu AC.  
 
 ## Download file Skematik - Eagle
-</br>
-{{< download title="Download Skema (.sch)" src="https://www.dropbox.com/s/hp849z08znc3h4w/sensor%20cahaya.sch?dl=0" >}}
+<br/>
+{{< download title="Download Skema (.sch)" href="https://www.dropbox.com/s/hp849z08znc3h4w/sensor%20cahaya.sch?dl=0" >}}
 
 Sekian, Jika ada kesalahan dalam artikel ini, silahkan langsung di koreksi lewat Kolom Komentar atau kontak penulis melalui email.
