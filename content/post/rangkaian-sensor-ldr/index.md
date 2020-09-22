@@ -50,9 +50,9 @@ Potensio (variabel resistor) berfungsi sebagai pengatur "sensitivitas" dari LDR.
 
 **Jadi cara kerjanya** adalah ketika LDR dalam kondisi terkena cahaya (**Terang**) maka resistan LDR akan mengecil jadi arus akan melewati LDR,  tidak melewati **R2** karena arus akan lebih banyak mengalir pada resistansi terendah.
 
-Arus yang melewati LDR akan mengaktifkan transistor npn **Q1**, sehingga basis transistor **Q2** mendapat ground dari kolektor **Q1**, menyebabkan **Q2** tidak mengalirkan ground dari emitor ke kolektor sehingga relay tidak mendapat ground jadi relay tidak aktif.
+Arus yang melewati LDR akan mengaktifkan transistor npn **Q1**, sehingga basis transistor **Q2** mendapat bias ground dari kolektor **Q1**, menyebabkan **Q2** tidak memberikan bias ground dari emitor ke kolektor sehingga relay tidak mendapat ground jadi relay tidak aktif.
 
-Ketika LDR dalam kondisi cahaya redup (**Gelap**), maka resistan LDR akan meningkat, arus tidak melewati LDR melainkan melewati **R2** sehingga **Q1** tidak aktif maka transistor **Q2** basisnya mendapat tegangan dan arus dari **R2** sehingga relay menjadi aktif karena mendapat ground dari kolektor **Q2** dan menyaklar Lampu AC.  
+Ketika LDR dalam kondisi cahaya redup (**Gelap**), maka resistan LDR akan meningkat, arus tidak melewati LDR melainkan melewati **R2** sehingga **Q1** tidak aktif maka transistor **Q2** basisnya mendapat tegangan dan arus dari **R2** sehingga relay menjadi aktif karena mendapat ground dari bias kolektor **Q2** dan menyaklar Lampu AC.  
 
 ## Download file Skematik - Eagle
 <br/>
