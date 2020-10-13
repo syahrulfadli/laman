@@ -33,8 +33,9 @@ Anda dapat memilih untuk men-*disable* cookies melalui setelan pada browser Anda
 
 ### Pelacakan
 
-<!--Blog ini menggunakan program Adsense yang secara otomatis memuat pelacakan data pengunjung dari blog ini. Juga, blog Syahrul Fadli menggunakan Heap Analytics untuk pelacakan aktifitas pengunjung di blog ini. Seperti, dari mana asal link mengarahkan pengguna ke blog ini, apa platform (Sistem Operasi) pengunjung gunakan untuk mengakses blog ini, browser apa yang pengunjung gunakan untuk mengakses blog ini, tipe perangkat (desktop atau mobile) pengguna untuk mengakses blog ini, IP pengguna yang digunakan untuk mengakses blog ini, perkiraan lokasi pengguna saat mengakses blog ini, dan kapan (tanggal) pengguna mengakses blog ini.-->
+Blog ini menggunakan program Adsense yang secara otomatis memuat pelacakan data pengunjung dari blog ini. Juga, blog Syahrul Fadli menggunakan Google Analytics untuk pelacakan aktifitas pengunjung di blog ini. Seperti, dari mana asal link mengarahkan pengguna ke blog ini, apa platform (Sistem Operasi) pengunjung gunakan untuk mengakses blog ini, browser apa yang pengunjung gunakan untuk mengakses blog ini, tipe perangkat (desktop atau mobile) pengguna untuk mengakses blog ini, IP pengguna yang digunakan untuk mengakses blog ini, perkiraan lokasi pengguna saat mengakses blog ini, dan kapan (tanggal) pengguna mengakses blog ini.
 
+<!--
 Pada blog ini terdapat pelacakan dari Google Adsense dan Plausible Analytics.
 
 Secara umum untuk pelacakan dari Google Adsense, mereka mengambil informasi terkait URL perujuk, lokasi geografis, jumlah klik anda terhadap iklan, unit iklan yang anda klik, jenis perangkat, dan kemungkinan informasi pengunjung lainnya. Ada kemungkinan pihak Google untuk menjual data anda terkait informasi yang diambil.
@@ -42,8 +43,8 @@ Secara umum untuk pelacakan dari Google Adsense, mereka mengambil informasi terk
 Sedangkan untuk layanan analisis kami (Plausible Analytics), mereka mengambil informasi terkait URL perujuk, lokasi geografis, jenis perangkat, jenis sistem operasi dan browser apa yang anda gunakan. Untuk Plausible Analytics, tidak ada pengambilan data *cookies* dari pengunjung[^1].
 
 [^1]:Plausible: GDPR, CCPA and cookie law compliant site analytics - [plausible.io](https://plausible.io/data-policy)
-
+-->
 Untuk menonaktifkan pelacakan dan iklan dari blog ini. Anda dapat menggunakan *extension* semacam pelindung privacy pada browser anda, seperti **DuckDuckGo** atau menggunakan browser yang sudah *built-in* dengan *extension* semacam itu, seperti **Brave Browser**. 
 
 
-Terakhir diperbarui pada Selasa, 8 September 2020
+Terakhir diperbarui pada Rabu, 14 Oktober 2020

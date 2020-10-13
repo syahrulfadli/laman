@@ -5,7 +5,7 @@ theme = "hugo-theme-novela"
 timeout = 60000
 
 # google analytics
-# googleAnalytics = "UA-86900381-1"
+googleAnalytics = "UA-86900381-1"
 
 pygmentsstyle = "dracula"
 
