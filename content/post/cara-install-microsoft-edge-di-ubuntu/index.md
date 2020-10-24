@@ -2,7 +2,7 @@
 title: "Cara Install Microsoft Edge di Ubuntu"
 date: 2020-10-24T13:25:10+08:00
 hero: ["/upload/Ms-edge.jpg"]
-excerpt: Tutorial cara install Microsoft Edge Dev di Ubuntu 20.04
+excerpt: Yang baru selalu bikin penasaran.
 authors: ["Syahrul Fadli"]
 tags: ["Linux", "Ubuntu", "Tutorial"]
 draft: false
