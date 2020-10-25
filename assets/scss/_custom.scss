@@ -34,7 +34,7 @@ html, body {
   float: right;
   margin:5px 0 0;
 }
-.active::after{
+.opened::after{
   content: "";
   mask:url(/images/chevron-up.svg);
   -webkit-mask:url(/images/chevron-up.svg);
@@ -53,7 +53,7 @@ html, body {
 .collapsible:hover.collapsible span{
   background:var(--articleText);
 }
-.active{
+.opened{
   color: var(--articleText);
   border:none;
 }
