@@ -17,6 +17,24 @@
   {{ end }}
 </ul>
 </div>
-{{ partial "articles/articles.html" . }}
 
+<!-- Groups content by month according to the "date" field in front matter -->
+<h2>Berdasarkan Tanggal</h2>
+{{ $posts := partialCached "func/GetArticles" . "articles" }}
+{{ range $posts.GroupByDate "2006" }}
+<h3 class="collapsible">{{ .Key }}</h3>
+<div id="collapsible-items">
+<ul>
+    {{ range .Pages }}
+    <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a> &mdash;
+    <div class="meta">{{ .Date.Format "2 January" }}</div>
+    </li>
+    {{ end }}
+</ul>
+</div>
 {{ end }}
+{{ $script := resources.Get "js/collapse.js" }}
+<script inline async src="{{ $script.RelPermalink }}"></script>
+{{ end }}
+

@@ -2,6 +2,60 @@ html, body {
   padding:0;
   margin:0;
 }
+
+.collapsible {
+  color: var(--grey);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-bottom: 2px solid var(--grey);
+}
+.collapsible::after{
+  content: "";
+  mask:url(/images/chevron-down.svg);
+  -webkit-mask:url(/images/chevron-down.svg);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 24px;
+  height: 24px;
+  background-color: var(--grey);
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin:5px 0 0;
+}
+.active::after{
+  content: "";
+  mask:url(/images/chevron-up.svg);
+  -webkit-mask:url(/images/chevron-up.svg);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 24px;
+  height: 24px;
+  background-color: var(--articleText);
+  display: inline-block;
+  vertical-align: middle
+}
+.collapsible:hover {
+  color: var(--articleText);
+  border-color: var(--accent);
+}
+.active{
+  color: var(--articleText);
+  border:none;
+}
+
+#collapsible-items {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border-bottom: 2px solid var(--accent);
+  max-width: 680px;
+  margin:0 auto;
+}
+
 .TOC {
   position: sticky;
   right: 0;
