@@ -11,6 +11,14 @@ html, body {
   text-align: left;
   outline: none;
   border-bottom: 2px solid var(--grey);
+  span{
+    background:var(--grey);
+    color: var(--background-color);
+    padding:3px 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
 }
 .collapsible::after{
   content: "";
@@ -38,9 +46,12 @@ html, body {
   display: inline-block;
   vertical-align: middle
 }
-.collapsible:hover {
+.collapsible:hover{
   color: var(--articleText);
   border-color: var(--accent);
+}
+.collapsible:hover.collapsible span{
+  background:var(--articleText);
 }
 .active{
   color: var(--articleText);

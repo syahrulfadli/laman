@@ -17,12 +17,13 @@
   {{ end }}
 </ul>
 </div>
-
 <!-- Groups content by month according to the "date" field in front matter -->
 <h2>Berdasarkan Tanggal</h2>
 {{ $posts := partialCached "func/GetArticles" . "articles" }}
-{{ range $posts.GroupByDate "2006" }}
-<h3 class="collapsible">{{ .Key }}</h3>
+{{ $byYear := $posts.GroupByDate "2006"}}
+{{ range $byYear }}
+{{ $countPosts := len .Pages }}
+<h3 class="collapsible">{{ .Key }} <span>{{ $countPosts }}</span></h3>
 <div id="collapsible-items">
 <ul>
     {{ range .Pages }}
