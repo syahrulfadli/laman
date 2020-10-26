@@ -3,6 +3,12 @@ publish = "public"
 command = "hugo --gc --minify"
 functions = "net_functions"
 
+[dev]
+framework = "#static"
+publish = "public"
+port = 64939
+functions = "net_functions"
+
 [context.production.environment]
 HUGO_VERSION = "0.73.0"
 HUGO_ENV = "production"
