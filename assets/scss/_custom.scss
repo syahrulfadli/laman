@@ -217,10 +217,11 @@ html, body {
 }
 ol li::before {
     margin-left: -3rem;
-    left:0rem;
+    left:-5px;
     width: 2.8rem;
     top: -1px;
     position: relative;
+    text-align: right;
 }
 ul li::before {
   border-radius: 3px;
