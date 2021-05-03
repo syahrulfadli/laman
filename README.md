@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3eb5c4a3-3538-4f32-b06c-49fe6f65abc5/deploy-status)](https://app.netlify.com/sites/syahrulfadli/deploys)`
 # Tentang
-Laman publik [Syahrul Fadli](//syahrulfadli.com)
+Laman publik [Syahrul Fadli](//syahrulfadli.netlify.app)
 
 ## Tema
 
