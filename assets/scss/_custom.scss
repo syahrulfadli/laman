@@ -24,7 +24,7 @@ html, body {
   content: "";
   mask:url(/images/chevron-down.svg);
   -webkit-mask:url(/images/chevron-down.svg);
-  mask-size: cover !important;
+  -webkit-mask-size: cover !important;
   -webkit-mask-size: cover;
   width: 24px;
   height: 24px;
