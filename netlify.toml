@@ -4,13 +4,15 @@ command = "hugo --gc --minify"
 functions = "net_functions"
 
 [dev]
-framework = "#static"
+framework = "#custom"
 publish = "public"
+targetPort = 1313
 port = 64939
+command = "hugo server"
 functions = "net_functions"
 
 [context.production.environment]
-HUGO_VERSION = "0.73.0"
+HUGO_VERSION = "0.83.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -31,7 +33,7 @@ HUGO_VERSION = "0.73.0"
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.73.0"
+HUGO_VERSION = "0.83.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
