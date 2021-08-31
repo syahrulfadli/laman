@@ -11,6 +11,8 @@ robotsdisallow: true
 social:
   - title: github
     url: https://github.com/syahrulfadli
+  - title: linkedin
+    url: https://www.linkedin.com/in/m-syahrul-f/
   - title: paypal
     url: https://paypal.me/potus51
 ---
