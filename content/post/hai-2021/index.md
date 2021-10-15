@@ -6,7 +6,7 @@ excerpt: "Masih setia dengan Ubuntu 20.04 :)"
 authors: ["Syahrul Fadli"]
 tags: ["Jurnal"]
 Series: ["Jurnal"]
-draft: false
+draft: true
 robotsdisallow: false
 imgattr: 
 imgattrlink: 
