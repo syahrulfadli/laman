@@ -469,7 +469,7 @@ kbd > kbd {
 blockquote {
   margin: 0 auto 60px;
   width: 100%;
-  max-width: 580px;
+  max-width: 680px;
   padding: 20px;
   border-left: 2px solid var(--grey);
 }
@@ -1065,11 +1065,9 @@ ol li ul li ul li ul li::before {
   }
 blockquote{
   margin: 0 auto 35px;
-  max-width: 680px;
   background: #CAE9FB;
   padding: 20px;
   border-radius: 10px;
-  color: #000;
 }
   .download{
     border:none;
