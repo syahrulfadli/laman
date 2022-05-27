@@ -1,4 +1,4 @@
-baseURL = "https://fadlii.com"
+baseURL = "https://blog.fadlii.com"
 languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
