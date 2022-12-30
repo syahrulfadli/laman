@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: "Takkan kalah dari hujan yang deras."
+  heading: "Menelusuri Mimpi."
   maxWidthPX: 652
 seo:
   image: /images/favicon.svg

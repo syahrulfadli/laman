@@ -490,13 +490,16 @@ pre code{
 }
 
 .highlight pre {
-  padding: 25px;
-  overflow: auto;
+  padding: 10px 20px;
+  overflow-y: auto;
   width: 100%;
   max-width: 790px;
   margin: 10px auto 40px;
   border-radius: 5px;
   font-size: 12px;
+  @media screen and (max-width:$phablet) {
+    padding:0px 10px;
+  }
 }
 pre code span {
   background: transparent !important;
@@ -934,9 +937,6 @@ h1, h2, h3, h4, h5, h6{
       width: 24px;
       height: 24px;
     }
-.article-title,.article-hero-heading {
-  font-size:25px
-}
     .separator::before{
       height: 20px;
     }
@@ -973,9 +973,6 @@ h1, h2, h3, h4, h5, h6{
     .iklan{
       height: inherit;
     }
-    .highlight pre {
-      padding: 25px;
-  }
   h1, h2, h3, h4, h5, h6{
     margin:0 auto 25px;
   }
@@ -1010,7 +1007,6 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 30px;
   }
   .narrow p{
-    padding:0 0;
     font-size:15px;
   }
   ol li,ul li, ol li::before,.footnotes,.footnotes ol li::before{
