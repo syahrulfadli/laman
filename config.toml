@@ -22,7 +22,7 @@ summarylength = 2
 enableRobotsTXT = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "TXT"]
+home = ["HTML", "RSS", "JSON", "ROBOTS"]
 
 [markup.goldmark.renderer]
 unsafe= true
