@@ -19,7 +19,7 @@ summarylength = 2
 [permalinks]
   post = "/:filename/"
 
-enableRobotsTXT = "true"
+enableRobotsTXT = true
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
