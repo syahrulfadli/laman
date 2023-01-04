@@ -1,8 +1,10 @@
-baseURL = "https://fadlii.netlify.app"
+baseURL = "/"
 languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
 timeout = 60000
+
+enableRobotsTXT = true
 
 # google analytics
 googleAnalytics = "UA-180573498-1"
@@ -11,23 +13,20 @@ pygmentsstyle = "dracula"
 
 # post pagination
 paginate = "6"
-# disqus short name
-disqusShortname = "jurusanakelektro"
 
 summarylength = 2
 
 [permalinks]
   post = "/:filename/"
 
-enableRobotsTXT = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "ROBOTS"]
+home = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe= true
 
-robotsdisallow = true
+robotsdisallow = false
 
 [params]
   description = "Blog pribadi yang membahas topik seputar elektronika, komputer dan internet."
