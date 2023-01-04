@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "//fadlii.netlify.app/"
 languageCode = "id_ID"
 title = "Syahrul Fadli"
 theme = "hugo-theme-novela"
