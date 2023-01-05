@@ -3,7 +3,8 @@ module.exports = {
   content: [
     "./layouts/**/*.{html,js,svg}",
     "./assets/**/*.{js,css}",
-    "./themes/**/*.{js,css,html,svg}"
+    "./themes/hugo-theme-novela/assets/**/*.{js,css,html,svg}",
+    "./themes/hugo-theme-novela/layouts/**/*.{js,css,html,svg}"
   ],
   darkMode: "class",
   theme: {
