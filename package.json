@@ -10,5 +10,22 @@
     "postcss": "^8.4.20",
     "postcss-import": "^15.1.0",
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "name": "laman",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3eb5c4a3-3538-4f32-b06c-49fe6f65abc5/deploy-status)](https://app.netlify.com/sites/syahrulfadli/deploys)` # Tentang Laman publik [Syahrul Fadli](//fadlii.netlify.app)",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syahrulfadli/laman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syahrulfadli/laman/issues"
+  },
+  "homepage": "https://github.com/syahrulfadli/laman#readme"
 }
