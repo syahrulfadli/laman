@@ -11,6 +11,7 @@ aliases = [
     "/2017/12/rangkaian-sensor-gerak-pir.html/"
 ]
 robotsdisallow = false
+TOC = true
 +++
 
 ## Sensor PIR

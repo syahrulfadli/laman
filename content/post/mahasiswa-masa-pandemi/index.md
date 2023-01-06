@@ -4,11 +4,13 @@ date: 2020-11-20T08:56:57+07:00
 hero: ["/upload/backpack.jpeg"]
 excerpt: Nomer 5 bikin terkedjoet.
 authors: ["Syahrul Fadli"]
-tags: ["Jurnal"]
+tags: ["Jurnal", "Tutorial"]
+series: ['Jurnal']
 draft: false
 robotsdisallow: false
 imgattr: "ini ceritanya ransel"
 imgattrlink: 
+TOC: true
 ---
 
 Kuliah online! Bukan cuma mahasiswa saja sebenarnya, seluruh siswa dari Taman Kanak - kanak, sampai Sekolah Menengah Atas pun melakukan kegiatan belajar online. Tapi di sini karena saya mahasiswa jadi saya akan memberi dari sudut pandang mahasiswa. 

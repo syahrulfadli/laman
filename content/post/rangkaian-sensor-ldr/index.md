@@ -11,6 +11,7 @@ aliases = [
     "/2016/11/sensor-cahaya-ldr.html/"
 ]
 robotsdisallow = false
+TOC = true
 +++
 
 Sensor cahaya ini pada dasarnya tugas Kelompok dari guru saya dan skema rangkaian ini juga berasal dari guru Saya di SMK Negeri 3 Mataram, dan sudah saya coba praktikan lewat Simulasi maupun <i>real</i>-nya dan <i>It's Work</i>. Berikut ini adalah rangkaian skematik dari sensor cahaya menggunakan LDR.
@@ -38,13 +39,13 @@ Perhatikan dua gambar berikut (1=vcc, 0=ground).
 	
 	{{< img src="SimulasiLDRkondisiGelap.PNG" alt="Simulasi LDR pada kondisi gelap" caption="Simulasi LDR pada kondisi gelap" >}}
 
-### Hal yang Mungkin Penting
+### Prinsip Kerja
 
 #### Prinsip Kerja LDR
 
 Kita pahami dulu prinsip kerja dari LDR (light dependent resistance. Dasarnya LDR ini adalah sebuah resistor namun nilai tahanannya dapat berubah tergantung dengan kondisi cahaya. Ketika LDR terkena cahaya maka resistansi/tahanan pada LDR akan mengecil dan sebaliknya ketika keadaan gelap resistansi akan meningkat.
 
-#### Prinsip Kerja Rangkaian LDR
+#### Prinsip Kerja Rangkaian
 
 Potensio (variabel resistor) berfungsi sebagai pengatur "sensitivitas" dari LDR. Karena potensio dan LDR pada rangkaian ini mempunyai prinsip pembagi tegangan ke transistor Q1, yang dapat mempengaruhi tegangan yang mengalir ke transistor Q1.
 

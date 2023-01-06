@@ -9,8 +9,6 @@ enableRobotsTXT = true
 # google analytics
 googleAnalytics = "UA-180573498-1"
 
-pygmentsstyle = "dracula"
-
 # post pagination
 paginate = "6"
 
@@ -40,9 +38,24 @@ series = "series"
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 4
     ordered = false
     startLevel = 2
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'github-dark'
+    tabWidth = 4
 
 [menu]
   [[menu.main]]

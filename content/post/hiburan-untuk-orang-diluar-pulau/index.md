@@ -5,6 +5,7 @@ hero: ["/upload/default.jpg"]
 excerpt:
 authors: ["Syahrul Fadli"]
 tags: ["Video"]
+disableThumbnail: true
 draft: false
 robotsdisallow: false
 imgattr: 

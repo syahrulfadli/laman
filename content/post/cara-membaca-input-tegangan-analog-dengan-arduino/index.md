@@ -42,8 +42,8 @@ Baca juga: <a href='/post/upload-program-ke-arduino-pro-mini.html' target='_blan
 	{{< img alt="Skema hubungan potensio dengan arduino" src="1.jpg" >}}
 
 2. Upload sketch program di bawah ini ke arduino.
-	
-	{{< highlight arduino >}}
+
+	{{< highlight  arduino >}}
 	int sensorPin = A0;    // pin A0 diinisialisasi sebagai variable "sensorPin"
 	int ledPin = 13;      // pin 13 dinisialisasi sebagai variable "ledPin"
 	int dataInput = 0;   // variable untuk menyimpan data dari pembacaan nilai analog
