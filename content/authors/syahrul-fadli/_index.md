@@ -4,7 +4,7 @@ date: 2020-06-28T22:18:42+08:00
 excerpt:
 draft: false
 bio: |
-  Ditulis oleh saya. Topik blog tentang elektronika, komputer dan blogging.
+  Ditulis oleh Syahrul Fadli. Topik tentang elektronika, komputer, dan web developer.
 avatar: ["/upload/kucing-kontrakan.jpg"]
 featured: true
 robotsdisallow: true
