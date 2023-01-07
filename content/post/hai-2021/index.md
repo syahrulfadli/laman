@@ -28,8 +28,8 @@ Alhamdulillah di akhir bulan September 2021 kasus covid di Indonesia sudah mulai
 
 Saya mulai magang untuk memenuhi syarat akademis perkuliahan. Magang sebagai *Operational Infrastructure* di [Jagoan Hosting Indonesia](https://jagoanhosting.com).
 
-> Banyak sekali pengalaman berharga yang saya dapatkan selama saya magang disana.</br>
-> <cite>Michael Cliche Tokotok</cite>
+> "Banyak sekali pengalaman berharga yang saya dapatkan selama saya magang disana."
+> <br/><cite>Michael Cliche Tokotok</cite>
 
 Walau klise tapi memang begitu adanya. Pasti selalu ada hal baru yang akan kita dapatkan ketika berada di lingkungan baru (baik atau buruk) &mdash; Selalu ada hikmahnya.
 
