@@ -110,16 +110,16 @@ Devi, K. Poppy dkk. 2009. Kimia 1 untuk SMA/MA Kelas X. Jakarta: Pusat Perbukuan
 
 Permana, Ivan. 2009. Memahami Kimia Kelas X SMA dan MA, Semester 1 dan 2. Jakarta: Pusat Perbukuan, Departemen Pendidikan Nasional.
 
-“√5 Teori Atom : Dalton , Thomson , Rutherford , Bohr dan Mekanika Kuantum”. dosenpintar.co.id. 9 November 2019. 10 November 2019. <a href='https://dosenpintar.co.id/5-teori-atom-menurut-para-ahli' rel='nofollow' target='_blank' title='√5 Teori Atom : Dalton , Thomson , Rutherford , Bohr dan Mekanika Kuantum'>https://dosenpintar.co.id/5-teori-atom-menurut-para-ahli</a>
+<a href='https://dosenpintar.co.id/5-teori-atom-menurut-para-ahli' rel='nofollow' target='_blank' title='√5 Teori Atom : Dalton , Thomson , Rutherford , Bohr dan Mekanika Kuantum'>“√5 Teori Atom : Dalton , Thomson , Rutherford , Bohr dan Mekanika Kuantum”</a>. dosenpintar.co.id. 9 November 2019. 10 November 2019.
 
-“Kelebihan dan Kelemahan Teori Atom Dalton Thomson Rutherford Bohr dan Mekanika Kuantum”. Pelajar Belajar. September 2019. 10 November 2019. <a href='https://pbelajar.blogspot.com/2018/09/penjelasan-teori-atom.html' rel='nofollow' target='_blank' title='Kelebihan dan Kelemahan Teori Atom Dalton Thomson Rutherford Bohr dan Mekanika Kuantum'>https://pbelajar.blogspot.com/2018/09/penjelasan-teori-atom.html</a>
+<a href='https://pbelajar.blogspot.com/2018/09/penjelasan-teori-atom.html' rel='nofollow' target='_blank' title='Kelebihan dan Kelemahan Teori Atom Dalton Thomson Rutherford Bohr dan Mekanika Kuantum'>“Kelebihan dan Kelemahan Teori Atom Dalton Thomson Rutherford Bohr dan Mekanika Kuantum”</a>. Pelajar Belajar. September 2019. 10 November 2019.
 
-“Teori Atom JJ THOMSON”. Slideshare. 31 Januari 2016. 10 November 2019. <a href='https://www.slideshare.net/MahesaDoank/teori-atom-jj-thomson-57696156' rel='nofollow' target='_blank' title='Teori Atom JJ THOMSON'>https://www.slideshare.net/MahesaDoank/teori-atom-jj-thomson-57696156</a>
+<a href='https://www.slideshare.net/MahesaDoank/teori-atom-jj-thomson-57696156' rel='nofollow' target='_blank' title='Teori Atom JJ THOMSON'>“Teori Atom JJ THOMSON”</a>. Slideshare. 31 Januari 2016. 10 November 2019.
 
-“Teori Atom Rutherford”. Ilmu Kimia. Agustus 2013. 10 November 2019. <a href='https://www.ilmukimia.org/2013/08/teori-atom-rutherford.html' rel='nofollow' target='_blank' title='Teori Atom Rutherford'>https://www.ilmukimia.org/2013/08/teori-atom-rutherford.html</a>
+<a href='https://www.ilmukimia.org/2013/08/teori-atom-rutherford.html' rel='nofollow' target='_blank' title='Teori Atom Rutherford'>“Teori Atom Rutherford”</a>. Ilmu Kimia. Agustus 2013. 10 November 2019.
 
-“Teori Atom Bohr”. Ilmu Kimia. Januari 2013. 10 November 2019. <a href='https://www.ilmukimia.org/2013/01/teori-atom-bohr.html' rel='nofollow' target='_blank' title='Teori Atom Bohr'>https://www.ilmukimia.org/2013/01/teori-atom-bohr.html</a>
+<a href='https://www.ilmukimia.org/2013/01/teori-atom-bohr.html' rel='nofollow' target='_blank' title='Teori Atom Bohr'>“Teori Atom Bohr”</a>. Ilmu Kimia. Januari 2013. 10 November 2019.
 
-“Kelebihan dan Kekurangan Teori Model Atom Bohr”. EDUTAFSI.COM. 11 September 2017. 10 November 2019. <a href='https://www.edutafsi.com/2017/09/kelebihan-dan-kekurangan-teori-model-atom-Niels-Bohr.html' rel='nofollow' target='_blank' title='Kelebihan dan Kekurangan Teori Model Atom Bohr'>https://www.edutafsi.com/2017/09/kelebihan-dan-kekurangan-teori-model-atom-Niels-Bohr.html</a>
+<a href='https://www.edutafsi.com/2017/09/kelebihan-dan-kekurangan-teori-model-atom-Niels-Bohr.html' rel='nofollow' target='_blank' title='Kelebihan dan Kekurangan Teori Model Atom Bohr'>“Kelebihan dan Kekurangan Teori Model Atom Bohr”</a>. EDUTAFSI.COM. 11 September 2017. 10 November 2019.
 
-“Teori Atom Bohr (Tata Surya)”. Tentorku. 25 Agustus 2015. 10 November 2019. <a href='https://www.tentorku.com/teori-atom-bohr-tata-surya/' rel='nofollow' target='_blank' title='Teori Atom Bohr (Tata Surya)'>https://www.tentorku.com/teori-atom-bohr-tata-surya/</a>
+<a href='https://www.tentorku.com/teori-atom-bohr-tata-surya/' rel='nofollow' target='_blank' title='Teori Atom Bohr (Tata Surya)'>“Teori Atom Bohr (Tata Surya)”</a>. Tentorku. 25 Agustus 2015. 10 November 2019.
