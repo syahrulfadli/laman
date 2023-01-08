@@ -26,6 +26,11 @@ unsafe= true
 
 robotsdisallow = false
 
+[module]
+  [[module.mounts]]
+    source = "./node_modules/bootstrap-icons/font/"
+    target = "assets/css"
+
 [params]
   description = "Blog pribadi yang membahas topik seputar elektronika, komputer dan internet."
   images = ["images/favicon.svg"]
