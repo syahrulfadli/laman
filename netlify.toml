@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo"
+command = "hugo --gc --minify"
 
 [dev]
 framework = "#custom"
