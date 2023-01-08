@@ -5,4 +5,5 @@ hero:
 seo:
   image: /images/favicon.svg
 robotsdisallow: false
+owner: Syahrul Fadli
 ---
