@@ -23,7 +23,7 @@ Katanya Google, sebaiknya kita membuat breadcrumb yang merepresentasikan jalur p
 
 Jalur pengguna awam yang dimaksud (menurut pemahaman saya) adalah hierarki berdasarkan kategori atau tag dari halaman yang dituju sehingga memudahkan pengguna memahami dibagian mana ia dapat menemukan artikel serupa dari posisinya saat ini. Misal, Untuk artikel dengan judul "Film Avengers" maka terdapat pada tag "sci-fi", "action". Maka pada breadcrumb akan terlihat seperti berikut:
 
-Beranda ![chevron-right](/images/chevron-right.svg) sci-fi ![chevron-right](/images/chevron-right.svg) action ![chevron-right](/images/chevron-right.svg) Film Avengers
+Beranda <i class="bi bi-chevron-right"></i> sci-fi <i class="bi bi-chevron-right"></i> action <i class="bi bi-chevron-right"></i> Film Avengers
 
 Dari breadcrumb di atas pengguna mengetahui di halaman mana ia bisa menemukan Film Avengers, atau film serupa dengannya.
 
@@ -67,7 +67,7 @@ Sesuaikan `/tags/` dan  `.Params.tags` dengan taxonomy tag kamu, atau kamu bisa 
 
 Untuk demo silahkan buka [link ini](https://hugobyexample.netlify.app/post/for-seven-post-goal/).
 
-Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=L5Yp7fyc7noV4iLWGc7Nww).
+Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results/result?id=rwB8R6JYvri9y34W6lDJNA).
 
 ## Breadcrumb Berdasarkan Struktur URL
 
@@ -121,9 +121,9 @@ Kode di atas modifikasi dari halaman dokumentasi resmi Hugo[^2]. Untuk lebih len
 
 Untuk demo silahkan klik link [berikut](https://hugobyexample.netlify.app/post/post-with-quite-long-title-for-testing-the-cards/).
 
-Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results?id=c_EuVRN3vj5FnfV2CtBRkw "Hasil Google Rich Result Test").
+Untuk hasil tes dengan Google Rich Result Test silahkan klik link [ini](https://search.google.com/test/rich-results/result?id=BJTwj3DDSngJ0ACW2BVbfA "Hasil Google Rich Result Test").
 
-## Pake Telor
+## CSS
 
 Ini CSS untuk styling html diatas.
 
@@ -159,6 +159,6 @@ Ini CSS untuk styling html diatas.
 }
 ```
 
-Simpan juga file SVG "![chevron-right](/images/chevron-right.svg)" ini lalu simpan di dalam folder `/static/images/`. Gambar *chevron* ini berfungsi sebagai separator antar hierarki breadcrumb.
+Simpan juga file SVG "<i class="bi bi-chevron-right"></i>" ini lalu simpan di dalam folder `/static/images/`. Gambar *chevron* ini berfungsi sebagai separator antar hierarki breadcrumb.
 
 Sekian, semoga bermanfaat.
