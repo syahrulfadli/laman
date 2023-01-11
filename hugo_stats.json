@@ -276,6 +276,8 @@
       "md:block",
       "md:col-span-2",
       "md:col-span-3",
+      "md:duration-75",
+      "md:ease-linear",
       "md:flex",
       "md:flex-row",
       "md:float-left",
