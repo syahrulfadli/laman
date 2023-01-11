@@ -14,7 +14,7 @@ robotsdisallow: false
 
 Ada dua Javascript untuk mengolah formula matematika yang populer, MathJax dan KaTeX. Kedua modul ini juga ditulis dengan cara/format yang sama, yaitu **Tex Mathematical Expression**.
 
-Khusus untuk Hugo, cara terbaik menurut penulis untuk implementasi *Math Typesetting* dengan menggunakan MathJax. Kenapa? Karena untuk saat ini (saat artikel dibuat), KaTeX hanya dapat dijalankan di *markup* **Blackfriday** di Hugo dengan *content format* `.mmark` atau dengan *set* `mmark = true` pada *archetypes*.
+Khusus untuk Hugo, cara terbaik menurut penulis untuk implementasi *Math Typesetting* dengan menggunakan MathJax. Kenapa? Karena untuk saat ini (saat artikel dibuat), KaTeX hanya dapat dijalankan di *markup* **Blackfriday** di Hugo dengan *content format* `.mmark` atau dengan *set* `mmark = true` pada *Front Matter*.
 
 Sedangkan dari versi Hugo 0.60.0 ke atas `markup` *default* dari Hugo sudah menjadi **Goldmark** dan pengembang Hugo mengatakan bahwa `mmark`  fitur udah *depreciated*[^1] dan akan dihapus pada versi Hugo selanjutnya[^2].
 
@@ -42,7 +42,7 @@ Sehingga seperti berikut.
 {{ end }}
 ```
 
-Lalu jika halaman membutuhkan MathJax, tinggal beri parameter `math: true`(yaml) pada archetypes.
+Lalu jika halaman membutuhkan MathJax, tinggal beri parameter `math: true`(yaml) pada Front Matter.
 
 Contoh cara penulisan seperti berikut.
 
