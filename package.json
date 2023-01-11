@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/syahrulfadli/laman/issues"
   },
-  "homepage": "https://github.com/syahrulfadli/laman#readme"
+  "homepage": "https://github.com/syahrulfadli/laman#readme",
+  "devDependencies": {
+    "netlify-plugin-inline-source": "^1.0.4"
+  }
 }
