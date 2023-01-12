@@ -19,7 +19,7 @@ excerpt = "Pengertian Atom, 5  Teori lengkap Atom menurut para ahli, kelemahan d
 ## Pengertian Atom
 Atom adalah suatu partikel terkecil dari suatu materi yang terdiri dari inti atom dimana inti atom terdiri dari proton dan neutron kecuali pada atom hidrogen-1 karena atom hidrogen tidak memiliki neutron, inti atom tersebut dikelilingi oleh awan elektron yang bermuatan negatif.
 ## Teori Atom
-Kata atom berasal dari bahasa Yunani yaitu ”atomos” yang berarti ”tidak dapat dibagi”. Konsep dasar atom pertama kali dikemukakan oleh Democritus (orang Yunani)pada awal abad ke-4 Sebelum Masehi.
+Kata atom berasal dari bahasa Yunani yaitu ”atomos” yang berarti ”tidak dapat dibagi”. Konsep dasar atom pertama kali dikemukakan oleh Democritus (orang Yunani) pada awal abad ke-4 Sebelum Masehi.
 
 Menurut teori yang dikemukakannya, suatu benda dapat dibagi menjadi bagian-bagian yang sangat kecil yang akhirnya tidak dapat dibagi lagi yang disebut atom.Menurut Democritus atom sepenuhnya padat, tidak memiliki struktur internal, serta ada ruang kosong antar atom untuk memberikan ruang untuk pergerakannya (seperti pergerakan dalam air dan udara, atau fleksibilitas benda padat).
 
@@ -31,7 +31,7 @@ Beberapa teori yang menjelaskan tentang model-model atom adalah sebagai berikut 
 {{< img alt="Teori Model Atom John Dalton" src="Atom-dalton.jpg" width="300px" height="300px" >}}
 
 John Dalton ilmuwan asal Inggris pada 1808 mengemukakan bahwa atom merupakan suatu zat inti yang tidak bisa dibagi lagi. Berdasarkan hasil penelitiannya Ia mengemukakan bahwa: 
-1. Suatu materi yang terdiri dari atom yang tidak bisa lagi,
+1. Suatu materi yang terdiri dari atom yang tidak bisa dibagi lagi,
 2. Bentuk inti atom digambarkan sebagai sebuah bola pejal,
 3. Unsur kimia berbeda maka jenis atomnya berbeda,
 3. Atom pada unsur yang sama maka massa dan sifatnya sama,
