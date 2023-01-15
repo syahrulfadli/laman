@@ -33,7 +33,7 @@ Tapi kalo saya sendiri (saat artikel ini dibuat) menggunakan breadcrumb berdasar
 
 ## Breadcrumb Berdasarkan Taxonomy Tag
 
-```go-html-template
+```go-html-template {path="layouts/partials/head.html"}
  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       {{ $.Scratch.Set "posisi" 1 }}
     <li itemprop="itemListElement" itemscope

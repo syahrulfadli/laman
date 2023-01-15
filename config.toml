@@ -52,7 +52,7 @@ series = "series"
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
-    guessSyntax = true
+    guessSyntax = false
     hl_Lines = ''
     hl_inline = false
     lineAnchors = ''
