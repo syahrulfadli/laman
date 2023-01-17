@@ -13,6 +13,20 @@ module.exports = {
       'serif': ['Playfair Display', 'ui-serif', 'Georgia, Cambria', "Times New Roman", 'Times', 'serif']
     },
     extend: {
+      colors: {
+        github: {
+          50: '#546681',
+          100: '#4C5D75',
+          200: '#445369',
+          300: '#3C4A5E',
+          400: '#344052',
+          500: '#2D3746',
+          600: '#252D3A',
+          700: '#1D242F',
+          800: '#151A23',
+          900: '#0D1117',
+        }
+      },
       animation: {
         'blur_onload': 'blur .8s ease-in-out',
       },
